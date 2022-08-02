@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="sect-Release_Notes-Requirements">
+    <title>System Requirements</title>
+
+    <section id="sect-Release_Notes-CPU_Requirements">
+        <title>Processor (CPU)</title>
+        <para>
+            You may want to install the 64-bit version of Pardus &PRODVER; if your system is
+            equipped with one of the processors listed in the sections below.
+        </para>
+
+        <section id="sect-Release_Notes-x86_64_Intel_Requirements">
+            <title>Intel processors which support 64-bit architecture</title>
+            <itemizedlist>
+                <listitem><para>Newer versions of Pentium 4, Celeron D, Xeon and Pentium Dual-Core</para></listitem>
+                <listitem><para>Atom D5xx, N4xx and N5xx</para></listitem>
+                <listitem><para>All versions of Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 and Core i3 processors</para></listitem>
+                <listitem><para>Probably newer processors manufactured after the time this document was originally written.</para></listitem>
+            </itemizedlist>
+        </section>
+
+        <section id="sect-Release_Notes-x86_64_AMD_Requirements">
+            <title>AMD processors which support 64-bit architecture</title>
+            <itemizedlist>
+                <listitem><para>AMD Athlon 64, 64 X2, 64 FX</para></listitem>
+                <listitem><para>AMD Athlon II</para></listitem>
+                <listitem><para>AMD Opteron</para></listitem>
+                <listitem><para>AMD Turion 64</para></listitem>
+                <listitem><para>AMD Turion 64 X2</para></listitem>
+                <listitem><para>AMD Sempron</para></listitem>
+                <listitem><para>AMD Phenom</para></listitem>
+                <listitem><para>AMD Phenom II</para></listitem>
+                <listitem><para>Probably newer processors manufactured after the time this document was originally written.</para></listitem>
+            </itemizedlist>
+        </section>
+    </section>
+
+    <section id="sect-Release_Notes-Memory_Requirements">
+        <title>System memory (RAM)</title>
+        <para>
+            System memory (RAM) requirements of Pardus &PRODVER; depends heavily on your daily workflow
+            so it is very hard to define upper and lower bounds, but we recommend at least &MINMEM; of memory
+            for a smooth desktop experience.
+        </para>
+    </section>
+
+    <section id="sect-Release_Notes-Harddisk_Requirements">
+        <title>Hard disk space requirements</title>
+        <section id="sect-Release_Notes-Harddisk_Minimum_Requirements">
+            <title>Minimum requirements</title>
+            <para>
+                Pardus &PRODVER; requires at least &MINREQSPACE; of free hard disk space for a successful installation.
+                As we don't offer custom package selection during the installation, this minimum
+                size constraint applies to all installations.
+            </para>
+        </section>
+        <section id="sect-Release_Notes-Harddisk_Recommended_Requirements">
+            <title>Recommended requirements</title>
+            <para>
+                In order to effectively use Pardus &PRODVER; on your system without running low on disk space
+                during your daily workflow, we recommend at least &RECOMMSPACE; of free hard disk space.
+            </para>
+        </section>
+        <section id="sect-Release_Notes-Harddisk_Swap_Requirements">
+            <title>Note on Swap space</title>
+            <para>
+                Swap space is used whenever your operating system runs out of physical memory. If you think that
+                your physical memory is big enough for your daily usage, you may skip creating a swap space
+                during installation.
+            </para>
+            <para>
+                <emphasis>Note that</emphasis> a disk partition reserved for swap space is <emphasis>required</emphasis>
+                if you want to hibernate (Suspend to disk) Pardus. Otherwise the functionality will be disabled.
+            </para>
+        </section>
+    </section>
+</section>

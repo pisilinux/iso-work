@@ -1,0 +1,270 @@
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: What_is_new\n"
+"POT-Creation-Date: 2011-09-19T11:46:58\n"
+"PO-Revision-Date: 2011-06-14 01:57+0100\n"
+"Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
+"Language-Team: Croatian <ikoli@yahoo.com>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Croatian\n"
+"X-Poedit-Country: CROATIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Tag: title
+#, fuzzy, no-c-format
+msgid "What is new?"
+msgstr "Što je novo?"
+
+#. Tag: para
+#, no-c-format
+msgid "You can find some changes on core components of Pardus &PRODVER;, for other addtional changes please see <ulink url=\"stats.html\">here</ulink>."
+msgstr ""
+
+#. Tag: title
+#, no-c-format
+msgid "Updates in Core Components"
+msgstr "Dopune u komponentama jezgre"
+
+#. Tag: para
+#, no-c-format
+msgid "<application>NetworkManager</application>"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "NetworkManager is updated to &NMVER;."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Problems about adding VPN connections have been fixed."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Handle WLAN security passwords gracefully while upgrading distribution."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "<application>ModemManager</application>"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "ModemManager is updated to &MMVER;."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Improvements for Samsung modems"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Support access technology reporting for Qualcomm Gobi modems"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fix communication with Nokia N900 devices"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Support multiple CDMA Rm protocols"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fix handling of Option access technology reporting"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fix handling of CDMA EVDO registration states"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fix problems reconnecting Ericsson F5521gw modems"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Better handling of some Android handset modem"
+msgstr ""
+
+#. Tag: para
+#, fuzzy, no-c-format
+msgid "<application>cups</application> - cups is updated to &CUPSVER;."
+msgstr "<application>Python</application> - Python je dopunjen na &PYTHONVER;."
+
+#. Tag: para
+#, no-c-format
+msgid "<application>LibreOffice</application>"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "LibreOffice is updated to &LIBREVER;"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fixed crash closing document with footnotes"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Allow multi-range copy from VBA (Calc)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fix for crash with hidden column in Data-&gt;Form (Calc)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Prevent crash at column row boundaries (Calc)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Enable l10n of presenter screen (Presenter Screen Extension)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Correctly detect documents with xlk extension as Excel binary"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Missing icon in Styles and Formatting dialog (Impress)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Set correct mimetype for draw documents on xml export (Draw)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "You can check out LibreOffice web page for more information."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "<application>MPlayer/libass</application>: Fixed crash playing subtitled videos which was triggered by freetype 2.4.6 security update."
+msgstr ""
+
+#~ msgid "Updates in Pardus Technologies"
+#~ msgstr "Dopune u Pardus tehnologiji"
+
+#~ msgid "YALI"
+#~ msgstr "YALI"
+
+#, fuzzy
+#~ msgid "<emphasis>YALI</emphasis>, the installer of Pardus, gained system rescue menu that provides easy bootloader and password recovery."
+#~ msgstr "<emphasis>YALI</emphasis>, Pardus instalacijaki program,dobio je LVM/RAID i UUID podršku."
+
+#~ msgid "Pisi"
+#~ msgstr "Pisi"
+
+#, fuzzy
+#~ msgid "<application>Kernel</application> - The Linux kernel shipped with Pardus &PRODVER; is &KERNELVER;."
+#~ msgstr "<application>Perl</application> - Perl je dopunjen na &PERLVER;."
+
+#, fuzzy
+#~ msgid "<application>X.org</application> - xorg-server is updated to &XORGVER;."
+#~ msgstr "<application>Perl</application> - Perl je dopunjen na &PERLVER;."
+
+#, fuzzy
+#~ msgid "<application>TeX Live</application> - TeX Live documentation stack is updated to latest &TEXLIVEVER; version."
+#~ msgstr "<application>Perl</application> - Perl je dopunjen na &PERLVER;."
+
+#~ msgid "Desktop Experience"
+#~ msgstr "Iskustvo radne površine"
+
+#~ msgid "Changes in KDE Desktop Environment"
+#~ msgstr "Promjene u KDE radnom okruženju"
+
+#~ msgid "Default Applications"
+#~ msgstr "Zadani programi"
+
+#~ msgid "Mozilla Firefox"
+#~ msgstr "Mozilla Firefox"
+
+#~ msgid "Clementine"
+#~ msgstr "Clementine"
+
+#~ msgid "SMPlayer"
+#~ msgstr "SMPlayer"
+
+#~ msgid "KsCD"
+#~ msgstr "KsCD"
+
+#~ msgid "Web Browsers"
+#~ msgstr "Web preglednici"
+
+#~ msgid "Although not included in the installation images, a wide range of web browsers including Chromium browser, rekonq, Arora and Opera are available for installation through the package manager."
+#~ msgstr "Iako nisu uključeni u insatalacijske slike,širok raspon web preglednika uključujući Chromium preglednik,Arora i Opera dostupni su za instalaciju kroz upravitelja paketa."
+
+#~ msgid "System Settings"
+#~ msgstr "Postavke sustava"
+
+#~ msgid "The user interface is completely redesigned to improve the usability."
+#~ msgstr "Grafičko sučelje je potpuno redizajnirano zbog poboljšanja upotrebljivosti."
+
+#~ msgid "Users are now able to select between Open Source and proprietary drivers for their NVIDIA video adapters."
+#~ msgstr "Korisnici sada mogu odabrati između upravljačkih programa otvorenog koda te vlasničkih upravljačkih programa za svoje NVIDIAgrafičke kartice."
+
+#~ msgid "First Boot"
+#~ msgstr "Prvo podizanje"
+
+#~ msgid "Some of the settings which were asked during the installation in Pardus &PREVVER; are now moved into a different application which shows up once during the first boot after the installation."
+#~ msgstr "Neke od postavki za koje se pitalo tijekom instalacije u Pardusu &PREVVER; sada su premještene u drugi program koji se pokazuje jednom tijekom prvog podizanja nakon instalacije."
+
+#~ msgid "Kaptan"
+#~ msgstr "Kaptan"
+
+#~ msgid "<emphasis>Kaptan</emphasis>, the desktop customization tool of Pardus, now optionally captures your picture and sets it as your avatar in KDE."
+#~ msgstr "<emphasis>Kaptan</emphasis>, Pardus alat za prilagodbu radne površine, sada može dodati vaši fotografiju i postaviti je kaop avatar u KDE."
+
+#~ msgid "Users are now able to select their preferred icon theme which will be used in their KDE desktop environment."
+#~ msgstr "Korisnici sada mogu odabrati željene teme ikona koje će biti korištene u njihovom KDE radnom okruženju."
+
+#~ msgid "<emphasis>Pisi</emphasis> now internally uses XZ as the default compression algorithm."
+#~ msgstr "<emphasis>Pisi</emphasis> sada iznutra korisiti XZ kao zadani algoritam kompresije."
+
+#~ msgid "Binary package names now reflects the architecture and the distribution release for which the package is built."
+#~ msgstr "Imena binarnih pakete sada odražavaju arhitekturu i izdanje distribucije za koju je paket napravljen."
+
+#~ msgid "Various speed enhancements has been done in the core components for a better package management experience."
+#~ msgstr "Učinjena su razna poboljšanja brzine u komponentama jezgre z bolje iskutvo upravljanja paketima."
+
+#~ msgid "Package Manager"
+#~ msgstr "Upravitelj paketa"
+
+#~ msgid "Visual Enhancements"
+#~ msgstr "Vizualna poboljšanja"
+
+#~ msgid "Network Management"
+#~ msgstr "Upravljanje mrežom"
+
+#~ msgid "The default language used throughout the whole system can now be changed through the locale settings section."
+#~ msgstr "Zadani jezik koji se koristi u cijelom sustavu sada se može promijeniti kroz sekciju postavki jezika."
+
+#~ msgid "Games"
+#~ msgstr "Igre"
+
+#~ msgid "Other Changes"
+#~ msgstr "Ostale promjene"

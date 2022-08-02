@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Release Notes</title><link rel="stylesheet" type="text/css" href="Common_Content/css/default.css" /><link rel="stylesheet" media="print" href="Common_Content/css/print.css" type="text/css" /><meta name="generator" content="publican 2.5" /><meta name="package" content="Pardus-Release_Notes-2011.2-en-US-1-0" /></head><body><div xml:lang="en-US" class="article" id="id450579" lang="en-US"><div class="titlepage"><div><div><h1 id="id450579" class="title">Release Notes</h1></div></div><hr /></div><div xml:lang="en-US" class="section" id="sect-Release_Notes-Welcome_to_Pardus" lang="en-US"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Welcome_to_Pardus">1. Welcome to Pardus 2011.2 Cervus elaphus</h2></div></div></div><div class="para">
+		Welcome to Pardus 2011.2 Cervus elaphus, the latest maintenance release of Pardus, a powerful, KDE-focused Linux distribution.
+	</div><div class="section" id="sect-Release_Notes-What_is_Pardus"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-What_is_Pardus">1.1. What is Pardus?</h3></div></div></div><div class="para">
+			Pardus is an open-source, freely distributable, GPL (General Public License) licensed user-friendly GNU/Linux distribution with many usability, hardware compatibility, stability and security enhancements.
+		</div><div class="para">
+			The Pardus project is sponsored by the <span class="emphasis"><em>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</em></span>, an affiliate of the <span class="emphasis"><em>Scientific and Technological Research Council of Turkey (TUBITAK)</em></span>.
+		</div><div class="para">
+			The aim of the Pardus distribution is to offer people a stable, reliable, easy-to-use and feature-rich computer experience by providing modern and popular open-source software. The developers are also putting an additional effort to make Pardus run on a wide range of hardware.
+		</div><div class="para">
+			The project is named after the latin (and scientific) name for the Anatolian leopard, <span class="emphasis"><em>Panthera pardus tulliana</em></span>.
+		</div></div><div class="section" id="sect-Release_Notes-How_Can_I_Try_Pardus"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-How_Can_I_Try_Pardus">1.2. How Can I Try Pardus?</h3></div></div></div><div class="para">
+			You can try Pardus either by installing it on your computer or running the Live version without touching your hard disk. You can boot Pardus from an optical drive as well as from USB mass storage devices like external hard drives and USB flash drives.
+		</div><div class="para">
+			Both the installation and live version images exceeds the size of a regular CD so if you are willing to use an optical drive for booting Pardus, you currently have to use DVD media to burn the images.
+		</div><div class="para">
+			Note that the boot order in your system's BIOS software should be set with the optical drive or USB mass storage device as the first device in order to boot from the installation or the live medium. On newer systems, the boot order can also be changed by pressing a key (generally F8 on desktop systems) while booting.
+		</div></div><div class="section" id="sect-Release_Notes-More_Information"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-More_Information">1.3. More Information</h3></div></div></div><div class="para">
+			Visit the official web site <a href="http://www.pardus.org.tr/eng">http://www.pardus.org.tr/eng</a> for more information.
+		</div></div><div class="section" id="sect-Release_Notes-Feedback"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Feedback">1.4. Feedback</h3></div></div></div><div class="para">
+			Visit <a href="http://bugs.pardus.org.tr">http://bugs.pardus.org.tr</a> to report a bug, send a bug fix or suggest improvements about Pardus.We would like to thank all of our users and community members for their valuable contributions which help improving Pardus, Linux and free software worldwide.
+		</div></div></div><div xml:lang="en-US" class="section" id="sect-Release_Notes-Overview" lang="en-US"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Overview">2. Overview</h2></div></div></div><div class="para">
+		Pardus 2011.2 contains security, critical fixes and some translation and other improvements over the previous Pardus release 2011.1.
+	</div></div><div xml:lang="en-US" class="section" id="sect-Release_Notes-What_is_New" lang="en-US"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-What_is_New">3. What is new?</h2></div></div></div><div class="para">
+		You can find some changes on core components of Pardus 2011.2, for other addtional changes please see <a href="stats.html">here</a>.
+	</div><div class="section" id="sect-Release_Notes-Updates_in_Core_Components"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Updates_in_Core_Components">3.1. Updates in Core Components</h3></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+					<span class="application"><strong>NetworkManager</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								NetworkManager is updated to 0.8.5.91.
+							</div></li><li class="listitem"><div class="para">
+								Problems about adding VPN connections have been fixed.
+							</div></li><li class="listitem"><div class="para">
+								Handle WLAN security passwords gracefully while upgrading distribution.
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>ModemManager</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								ModemManager is updated to 0.5.
+							</div></li><li class="listitem"><div class="para">
+								Improvements for Samsung modems
+							</div></li><li class="listitem"><div class="para">
+								Support access technology reporting for Qualcomm Gobi modems
+							</div></li><li class="listitem"><div class="para">
+								Fix communication with Nokia N900 devices
+							</div></li><li class="listitem"><div class="para">
+								Support multiple CDMA Rm protocols
+							</div></li><li class="listitem"><div class="para">
+								Fix handling of Option access technology reporting
+							</div></li><li class="listitem"><div class="para">
+								Fix handling of CDMA EVDO registration states
+							</div></li><li class="listitem"><div class="para">
+								Fix problems reconnecting Ericsson F5521gw modems
+							</div></li><li class="listitem"><div class="para">
+								Better handling of some Android handset modem
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>cups</strong></span> - cups is updated to 1.4.8.
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>LibreOffice</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								LibreOffice is updated to 3.4.3
+							</div></li><li class="listitem"><div class="para">
+								Fixed crash closing document with footnotes
+							</div></li><li class="listitem"><div class="para">
+								Allow multi-range copy from VBA (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Fix for crash with hidden column in Data-&gt;Form (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Prevent crash at column row boundaries (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Enable l10n of presenter screen (Presenter Screen Extension)
+							</div></li><li class="listitem"><div class="para">
+								Correctly detect documents with xlk extension as Excel binary
+							</div></li><li class="listitem"><div class="para">
+								Missing icon in Styles and Formatting dialog (Impress)
+							</div></li><li class="listitem"><div class="para">
+								Set correct mimetype for draw documents on xml export (Draw)
+							</div></li><li class="listitem"><div class="para">
+								You can check out LibreOffice web page for more information.
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>MPlayer/libass</strong></span>: Fixed crash playing subtitled videos which was triggered by freetype 2.4.6 security update.
+				</div></li></ul></div></div></div><div xml:lang="en-US" class="section" id="sect-Release_Notes-Requirements" lang="en-US"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Requirements">4. System Requirements</h2></div></div></div><div class="section" id="sect-Release_Notes-CPU_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-CPU_Requirements">4.1. Processor (CPU)</h3></div></div></div><div class="para">
+			You may want to install the 64-bit version of Pardus 2011.2 if your system is equipped with one of the processors listed in the sections below.
+		</div><div class="section" id="sect-Release_Notes-x86_64_Intel_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-x86_64_Intel_Requirements">4.1.1. Intel processors which support 64-bit architecture</h4></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+						Newer versions of Pentium 4, Celeron D, Xeon and Pentium Dual-Core
+					</div></li><li class="listitem"><div class="para">
+						Atom D5xx, N4xx and N5xx
+					</div></li><li class="listitem"><div class="para">
+						All versions of Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 and Core i3 processors
+					</div></li><li class="listitem"><div class="para">
+						Probably newer processors manufactured after the time this document was originally written.
+					</div></li></ul></div></div><div class="section" id="sect-Release_Notes-x86_64_AMD_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-x86_64_AMD_Requirements">4.1.2. AMD processors which support 64-bit architecture</h4></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+						AMD Athlon 64, 64 X2, 64 FX
+					</div></li><li class="listitem"><div class="para">
+						AMD Athlon II
+					</div></li><li class="listitem"><div class="para">
+						AMD Opteron
+					</div></li><li class="listitem"><div class="para">
+						AMD Turion 64
+					</div></li><li class="listitem"><div class="para">
+						AMD Turion 64 X2
+					</div></li><li class="listitem"><div class="para">
+						AMD Sempron
+					</div></li><li class="listitem"><div class="para">
+						AMD Phenom
+					</div></li><li class="listitem"><div class="para">
+						AMD Phenom II
+					</div></li><li class="listitem"><div class="para">
+						Probably newer processors manufactured after the time this document was originally written.
+					</div></li></ul></div></div></div><div class="section" id="sect-Release_Notes-Memory_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Memory_Requirements">4.2. System memory (RAM)</h3></div></div></div><div class="para">
+			System memory (RAM) requirements of Pardus 2011.2 depends heavily on your daily workflow so it is very hard to define upper and lower bounds, but we recommend at least 1GB of memory for a smooth desktop experience.
+		</div></div><div class="section" id="sect-Release_Notes-Harddisk_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Harddisk_Requirements">4.3. Hard disk space requirements</h3></div></div></div><div class="section" id="sect-Release_Notes-Harddisk_Minimum_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Minimum_Requirements">4.3.1. Minimum requirements</h4></div></div></div><div class="para">
+				Pardus 2011.2 requires at least 4GB of free hard disk space for a successful installation. As we don't offer custom package selection during the installation, this minimum size constraint applies to all installations.
+			</div></div><div class="section" id="sect-Release_Notes-Harddisk_Recommended_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Recommended_Requirements">4.3.2. Recommended requirements</h4></div></div></div><div class="para">
+				In order to effectively use Pardus 2011.2 on your system without running low on disk space during your daily workflow, we recommend at least 10GB of free hard disk space.
+			</div></div><div class="section" id="sect-Release_Notes-Harddisk_Swap_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Swap_Requirements">4.3.3. Note on Swap space</h4></div></div></div><div class="para">
+				Swap space is used whenever your operating system runs out of physical memory. If you think that your physical memory is big enough for your daily usage, you may skip creating a swap space during installation.
+			</div><div class="para">
+				<span class="emphasis"><em>Note that</em></span> a disk partition reserved for swap space is <span class="emphasis"><em>required</em></span> if you want to hibernate (Suspend to disk) Pardus. Otherwise the functionality will be disabled.
+			</div></div></div></div></div></body></html>
+

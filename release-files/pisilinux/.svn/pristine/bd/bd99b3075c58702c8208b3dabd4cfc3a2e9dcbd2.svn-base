@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Kiadási megjegyzések</title><link rel="stylesheet" type="text/css" href="Common_Content/css/default.css" /><link rel="stylesheet" media="print" href="Common_Content/css/print.css" type="text/css" /><meta name="generator" content="publican 2.5" /><meta name="package" content="Pardus-Release_Notes-2011.2-hu-HU-1-0" /></head><body><div xml:lang="hu-HU" class="article" id="id452528" lang="hu-HU"><div class="titlepage"><div><div><h1 id="id452528" class="title">Kiadási megjegyzések</h1></div></div><hr /></div><div xml:lang="hu-HU" class="section" id="sect-Release_Notes-Welcome_to_Pardus" lang="hu-HU"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Welcome_to_Pardus">1. Welcome to Pardus 2011.2 Cervus elaphus</h2></div></div></div><div class="para">
+		Welcome to Pardus 2011.2 Cervus elaphus, the latest maintenance release of Pardus, a powerful, KDE-focused Linux distribution.
+	</div><div class="section" id="sect-Release_Notes-What_is_Pardus"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-What_is_Pardus">1.1. Mi a Pardus?</h3></div></div></div><div class="para">
+			A Pardus egy nyílt forrású, ingyenesen terjeszthető, GPL licenszelésű barátságod GNU/Linux disztribúció számos hardver kompatibilitási, stabilitási, biztonsági és felhasználhatósági fejlesztéssel.
+		</div><div class="para">
+			A Pardus project támogatója a törökországi <span class="emphasis"><em>Informatikai Technológia Fejlesztési és Információs Biztonságtechnikai Kutatóközpont (BILGEM)</em></span>, a <span class="emphasis"><em>Törökországi Tudományos és Technológiai Kutatótanács (TÜBİTAK)</em></span> tagja.
+		</div><div class="para">
+			A Pardus célja, hogy az emberek számára egy stabil, megbízható, könnyen használható és funkciógazdag számítógép felhasználási élményt nyújtson nyílt forrású szoftverek segítségével. A fejlesztők jelentős erőfeszítést tesznek azért, hogy a Pardus a lehető legtöbb hardveren tudjon működni.
+		</div><div class="para">
+			A prodzsekt nevét az Anatóliai leopárd latin nevéről kapta, <span class="emphasis"><em>Panthera pardus tulliana</em></span>.
+		</div></div><div class="section" id="sect-Release_Notes-How_Can_I_Try_Pardus"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-How_Can_I_Try_Pardus">1.2. Hogyan próbálhatom ki a Pardus-t?</h3></div></div></div><div class="para">
+			Kipróbálhatja a Pardust a számítógépére telepítve, de telepítés nélkül is lehetősége van rá a Live verzió használatával. Bootolhat optikai meghajtóról, vagy USB tárolóról mint a külső merevlemez vagy pendrive.
+		</div><div class="para">
+			A telepíthető és live verziók mindegyike meghaladja egy hagyományos CD méretét, így optikai meghajtó választása esetén DVD lemezt kell használnia.
+		</div><div class="para">
+			Figyeljen arra hogy a rendszere BIOS-ában a boot sorrend megfelelő legyen, az optikai meghajtó vagy az USB tároló legyen az első helyen. Újabb rendszereken a bootolási sorrend induláskor módosítható egy gomb lenyomásával (általában F8 az asztali rendszereken).
+		</div></div><div class="section" id="sect-Release_Notes-More_Information"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-More_Information">1.3. További információ</h3></div></div></div><div class="para">
+			További információkért látogassa meg a <a href="http://www.pardus.org.tr/eng">http://www.pardus.org.tr/eng</a> webhelyet.
+		</div></div><div class="section" id="sect-Release_Notes-Feedback"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Feedback">1.4. Visszajelzés</h3></div></div></div><div class="para">
+			Hibákat, vagy fejlesztési javaslatokat a <a href="http://bugs.pardus.org.tr">http://bugs.pardus.org.tr</a> tud tenni. Köszönjük minden felhasználónknak és közösségi tagunknak értékes részvételét, amivel világszerte segítenek jobbá tenni a Pardust, a Linuxot és a szabad szoftvereket.
+		</div></div></div><div xml:lang="hu-HU" class="section" id="sect-Release_Notes-Overview" lang="hu-HU"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Overview">2. Áttekintés</h2></div></div></div><div class="para">
+		Pardus 2011.2 contains security, critical fixes and some translation and other improvements over the previous Pardus release 2011.1.
+	</div></div><div xml:lang="hu-HU" class="section" id="sect-Release_Notes-What_is_New" lang="hu-HU"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-What_is_New">3. What is new?</h2></div></div></div><div class="para">
+		You can find some changes on core components of Pardus 2011.2, for other addtional changes please see <a href="stats.html">here</a>.
+	</div><div class="section" id="sect-Release_Notes-Updates_in_Core_Components"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Updates_in_Core_Components">3.1. Fejlesztések, frissítések az alap komponensekben</h3></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+					<span class="application"><strong>NetworkManager</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								NetworkManager is updated to 0.8.5.91.
+							</div></li><li class="listitem"><div class="para">
+								Problems about adding VPN connections have been fixed.
+							</div></li><li class="listitem"><div class="para">
+								Handle WLAN security passwords gracefully while upgrading distribution.
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>ModemManager</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								ModemManager is updated to 0.5.
+							</div></li><li class="listitem"><div class="para">
+								Improvements for Samsung modems
+							</div></li><li class="listitem"><div class="para">
+								Support access technology reporting for Qualcomm Gobi modems
+							</div></li><li class="listitem"><div class="para">
+								Fix communication with Nokia N900 devices
+							</div></li><li class="listitem"><div class="para">
+								Support multiple CDMA Rm protocols
+							</div></li><li class="listitem"><div class="para">
+								Fix handling of Option access technology reporting
+							</div></li><li class="listitem"><div class="para">
+								Fix handling of CDMA EVDO registration states
+							</div></li><li class="listitem"><div class="para">
+								Fix problems reconnecting Ericsson F5521gw modems
+							</div></li><li class="listitem"><div class="para">
+								Better handling of some Android handset modem
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>cups</strong></span> - cups is updated to 1.4.8.
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>LibreOffice</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								LibreOffice is updated to 3.4.3
+							</div></li><li class="listitem"><div class="para">
+								Fixed crash closing document with footnotes
+							</div></li><li class="listitem"><div class="para">
+								Allow multi-range copy from VBA (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Fix for crash with hidden column in Data-&gt;Form (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Prevent crash at column row boundaries (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Enable l10n of presenter screen (Presenter Screen Extension)
+							</div></li><li class="listitem"><div class="para">
+								Correctly detect documents with xlk extension as Excel binary
+							</div></li><li class="listitem"><div class="para">
+								Missing icon in Styles and Formatting dialog (Impress)
+							</div></li><li class="listitem"><div class="para">
+								Set correct mimetype for draw documents on xml export (Draw)
+							</div></li><li class="listitem"><div class="para">
+								You can check out LibreOffice web page for more information.
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>MPlayer/libass</strong></span>: Fixed crash playing subtitled videos which was triggered by freetype 2.4.6 security update.
+				</div></li></ul></div></div></div><div xml:lang="hu-HU" class="section" id="sect-Release_Notes-Requirements" lang="hu-HU"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Requirements">4. Rendszerkövetelmények</h2></div></div></div><div class="section" id="sect-Release_Notes-CPU_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-CPU_Requirements">4.1. Processzor (CPU)</h3></div></div></div><div class="para">
+			A Pardus 2011.2 64 bites változatát érdemes telepítenie, ha a rendszerének processzora szerepel a következő listán.
+		</div><div class="section" id="sect-Release_Notes-x86_64_Intel_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-x86_64_Intel_Requirements">4.1.1. Intel processzor 64 bites támogatással</h4></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+						Újabb típusú Pentium 4, Celeron D, Xeon, Pentium Dual-Core
+					</div></li><li class="listitem"><div class="para">
+						Atom D5xx, N4xx és N5xx
+					</div></li><li class="listitem"><div class="para">
+						Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 és Core i3 minden típusa
+					</div></li><li class="listitem"><div class="para">
+						Valószínűleg minden más, e dokumentum készítési időpontjához viszonyítva újabb processzor.
+					</div></li></ul></div></div><div class="section" id="sect-Release_Notes-x86_64_AMD_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-x86_64_AMD_Requirements">4.1.2. AMD processzorok 64 bites támogatással</h4></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+						AMD Athlon 64, 64 X2, 64 FX
+					</div></li><li class="listitem"><div class="para">
+						AMD Athlon II
+					</div></li><li class="listitem"><div class="para">
+						AMD Opteron
+					</div></li><li class="listitem"><div class="para">
+						AMD Turion 64
+					</div></li><li class="listitem"><div class="para">
+						AMD Turion 64 X2
+					</div></li><li class="listitem"><div class="para">
+						AMD Sempron
+					</div></li><li class="listitem"><div class="para">
+						AMD Phenom
+					</div></li><li class="listitem"><div class="para">
+						AMD Phenom II
+					</div></li><li class="listitem"><div class="para">
+						Valószínűleg minden más, e dokumentum készítési időpontjához viszonyítva újabb processzor.
+					</div></li></ul></div></div></div><div class="section" id="sect-Release_Notes-Memory_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Memory_Requirements">4.2. Rendszermemória (RAM)</h3></div></div></div><div class="para">
+			A Pardus 2011.2 memóriaigényét erősen befolyásolja a felhasználó számítógépkezelési szokásai, ezért nehéz alsó és felső határértéket mondani. Mi mindenesetre, a zökkenőmentes használathoz minimum 1GB memóriát ajánlunk.
+		</div></div><div class="section" id="sect-Release_Notes-Harddisk_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Harddisk_Requirements">4.3. Merevlemez követelmények</h3></div></div></div><div class="section" id="sect-Release_Notes-Harddisk_Minimum_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Minimum_Requirements">4.3.1. Minimum követelmények</h4></div></div></div><div class="para">
+				A Pardus 2011.2 sikeres telepítéshez legalább 4GB szabad merevlemez kapacitás szükséges. Mivel a telepítendő csomagok kiválasztása nem opció, ezért ez a minimum követelmény minden telepítésre vonatkozik.
+			</div></div><div class="section" id="sect-Release_Notes-Harddisk_Recommended_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Recommended_Requirements">4.3.2. Ajánlott rendszerkövetelmények</h4></div></div></div><div class="para">
+				A Pardus 2011.2 hatékony használatához mi legalább 10GB szabad merevlemez területet javaslunk.
+			</div></div><div class="section" id="sect-Release_Notes-Harddisk_Swap_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Swap_Requirements">4.3.3. Megjegyzés a lapozó területhez</h4></div></div></div><div class="para">
+				A lapozóterületet akkor használja az operációs rendszer, ha kifogy a fizikai memóriából. Ha Ön szerint a fizikai memória elegendő a mindennapi használati szokásaira, akkor a telepítés alatt kihagyhatja a lapozóterület létrehozását.
+			</div><div class="para">
+				<span class="emphasis"><em>Megjegyzés:</em></span> egy megfelelő méretű lapozóterület <span class="emphasis"><em>szükséges</em></span> ha használni kívánja a Pardus hibernálási funkcióját. Ellenkező esetben ez a funkció tiltva lesz.
+			</div></div></div></div></div></body></html>
+

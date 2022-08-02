@@ -1,0 +1,25 @@
+[General]
+#ColorScheme=BreezeLight
+#Name=Breeze
+shadeSortColumn=true
+
+[Icons]
+Theme=maia
+
+[KDE]
+ChangeCursor=true
+LookAndFeelPackage=org.kde.pisidefault.desktop
+contrast=4
+widgetStyle=Breeze
+SingleClick=true
+
+#[KShortcutsDialog Settings]
+#Dialog Size=600,480
+
+#[WM]
+#activeBackground=71,80,87
+#activeBlend=252,252,252
+#activeForeground=252,252,252
+#inactiveBackground=239,240,241
+#inactiveBlend=75,71,67
+#inactiveForeground=189,195,199

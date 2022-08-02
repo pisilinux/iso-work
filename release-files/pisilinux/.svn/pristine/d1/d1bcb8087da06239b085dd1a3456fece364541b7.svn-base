@@ -1,0 +1,152 @@
+#
+# Ivica Kolić <ikoli@yahoo.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Requirements\n"
+"POT-Creation-Date: 2011-07-11T21:41:06\n"
+"PO-Revision-Date: 2011-06-13 19:27+0100\n"
+"Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
+"Language-Team: Croatian <ikoli@yahoo.com>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Croatian\n"
+"X-Poedit-Country: CROATIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Tag: title
+#, no-c-format
+msgid "System Requirements"
+msgstr "Zahtjevi sustava"
+
+#. Tag: title
+#, no-c-format
+msgid "Processor (CPU)"
+msgstr "Procesor (CPU)"
+
+#. Tag: para
+#, no-c-format
+msgid "You may want to install the 64-bit version of Pardus &PRODVER; if your system is equipped with one of the processors listed in the sections below."
+msgstr "Možda želite instalirati 34-bit verziju Pardusa &PRODVER; ako vaš sustav sadrži jedan od procesora izlistanih u donjoj sekciji."
+
+#. Tag: title
+#, no-c-format
+msgid "Intel processors which support 64-bit architecture"
+msgstr "Intel procesori koji podržavaju 64-bit arhitekturu"
+
+#. Tag: para
+#, no-c-format
+msgid "Newer versions of Pentium 4, Celeron D, Xeon and Pentium Dual-Core"
+msgstr "Novie verzije  Pentium 4, Celeron D, Xeon and Pentium Dual-Core"
+
+#. Tag: para
+#, no-c-format
+msgid "Atom D5xx, N4xx and N5xx"
+msgstr "Atom D5xx, N4xx i N5xx"
+
+#. Tag: para
+#, no-c-format
+msgid "All versions of Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 and Core i3 processors"
+msgstr "Sve verzije Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 i Core i3 procesora"
+
+#. Tag: para
+#, no-c-format
+msgid "Probably newer processors manufactured after the time this document was originally written."
+msgstr "Vjerovatno novije procesore napravljene nakon što je ovaj dokument izvorno napisan."
+
+#. Tag: title
+#, no-c-format
+msgid "AMD processors which support 64-bit architecture"
+msgstr "AMD procesori koji podržavaju 64-bit arhitekturu"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Athlon 64, 64 X2, 64 FX"
+msgstr "AMD Athlon 64, 64 X2, 64 FX"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Athlon II"
+msgstr "AMD Athlon II"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Opteron"
+msgstr "AMD Opteron"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Turion 64"
+msgstr "AMD Turion 64"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Turion 64 X2"
+msgstr "AMD Turion 64 X2"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Sempron"
+msgstr "AMD Sempron"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Phenom"
+msgstr "AMD Phenom"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Phenom II"
+msgstr "AMD Phenom II"
+
+#. Tag: title
+#, no-c-format
+msgid "System memory (RAM)"
+msgstr "Memorija sustava (RAM)"
+
+#. Tag: para
+#, no-c-format
+msgid "System memory (RAM) requirements of Pardus &PRODVER; depends heavily on your daily workflow so it is very hard to define upper and lower bounds, but we recommend at least &MINMEM; of memory for a smooth desktop experience."
+msgstr "Zahtjevi memorije sustava (RAM) za Pardus &PRODVER; ovise o vašem dnevnom radu pa je teško odrediti gornju i donju granicu,ali mi preporučujemo najmanje &MINMEM; memorije za ugodno iskustvo radne površine."
+
+#. Tag: title
+#, no-c-format
+msgid "Hard disk space requirements"
+msgstr "Zahtjevi prostora tvrdoga diska"
+
+#. Tag: title
+#, no-c-format
+msgid "Minimum requirements"
+msgstr "Minimalni zahtjevi"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus &PRODVER; requires at least &MINREQSPACE; of free hard disk space for a successful installation. As we don't offer custom package selection during the installation, this minimum size constraint applies to all installations."
+msgstr "Pardus &PRODVER; zahtjeva najmanje &MINREQSPACE; slobodnog prostora tvrdog diska za uspješnu instalaciju.Zato jer ne nudimo prolagođeni odabir paketa tijekom instalacije,ova minimalna veličina sa primjenjuje na sve instalacije."
+
+#. Tag: title
+#, no-c-format
+msgid "Recommended requirements"
+msgstr "Preporučeni zahtjevi"
+
+#. Tag: para
+#, no-c-format
+msgid "In order to effectively use Pardus &PRODVER; on your system without running low on disk space during your daily workflow, we recommend at least &RECOMMSPACE; of free hard disk space."
+msgstr "Da biste učinkovito koristili Pardus &PRODVER; da vam ne ponestane prostora na disku tijekom vašeg dnevnog rada,preporučujemo najmanje &RECOMMSPACE; slobodnog prostora tvrdog diska."
+
+#. Tag: title
+#, no-c-format
+msgid "Note on Swap space"
+msgstr "Bilješka o swap prostoru"
+
+#. Tag: para
+#, no-c-format
+msgid "Swap space is used whenever your operating system runs out of physical memory. If you think that your physical memory is big enough for your daily usage, you may skip creating a swap space during installation."
+msgstr "swap prostor se koristi uvijek kada vašem operativnom sustavu ponestane fizičke memorije.Ako mislite da je vaša fizička memorija dovoljno velikaza vašu dnevnu uporabu možete preskočiti stvaranje swap prostora tijekom instalacije."
+
+#. Tag: para
+#, no-c-format
+msgid "<emphasis>Note that</emphasis> a disk partition reserved for swap space is <emphasis>required</emphasis> if you want to hibernate (Suspend to disk) Pardus. Otherwise the functionality will be disabled."
+msgstr "<emphasis>Napominjemo</emphasis> particija diska rezervirana za swap prostor je <emphasis>potrebna</emphasis> ako želite hibernirati (Suspend to disk) Pardus.U suprotnom ta će finkcija biti onemogućena."

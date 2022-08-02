@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Bilješke o izadanju</title><link rel="stylesheet" type="text/css" href="Common_Content/css/default.css" /><link rel="stylesheet" media="print" href="Common_Content/css/print.css" type="text/css" /><meta name="generator" content="publican 2.5" /><meta name="package" content="Pardus-Release_Notes-2011.2-hr-HR-1-0" /></head><body><div xml:lang="hr-HR" class="article" id="id781595" lang="hr-HR"><div class="titlepage"><div><div><h1 id="id781595" class="title">Bilješke o izadanju</h1></div></div><hr /></div><div xml:lang="hr-HR" class="section" id="sect-Release_Notes-Welcome_to_Pardus" lang="hr-HR"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Welcome_to_Pardus">1. Welcome to Pardus 2011.2 Cervus elaphus</h2></div></div></div><div class="para">
+		Welcome to Pardus 2011.2 Cervus elaphus, the latest maintenance release of Pardus, a powerful, KDE-focused Linux distribution.
+	</div><div class="section" id="sect-Release_Notes-What_is_Pardus"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-What_is_Pardus">1.1. Što je Pardus?</h3></div></div></div><div class="para">
+			Pardus is an open-source, freely distributable, GPL (General Public License) licensed user-friendly GNU/Linux distribution with many usability, hardware compatibility, stability and security enhancements.
+		</div><div class="para">
+			Pardus projekt sponzorira <span class="emphasis"><em>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</em></span>, kojeg je ustanovio <span class="emphasis"><em>Scientific and Technological Research Council of Turkey (TUBITAK)</em></span>.
+		</div><div class="para">
+			Cilj Pardus distribucije je ponuditi ljudima stabilano,pouzdano,lagano za korištenje i osobinama bogato računalno iskustvo donoseći moderan i popularan software otvorenog koda.Razvijatelji su uložili dodatni napor da bi se Pardus pokretaqo na širokom spektru hardware-a.
+		</div><div class="para">
+			Projakt je nazvan po latinskom (i znanstvenom) nazivu za Anatolijskog leoparda, <span class="emphasis"><em>Panthera pardus tulliana</em></span>.
+		</div></div><div class="section" id="sect-Release_Notes-How_Can_I_Try_Pardus"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-How_Can_I_Try_Pardus">1.2. Kako mogu isprobati Pardus?</h3></div></div></div><div class="para">
+			You can try Pardus either by installing it on your computer or running the Live version without touching your hard disk. You can boot Pardus from an optical drive as well as from USB mass storage devices like external hard drives and USB flash drives.
+		</div><div class="para">
+			Instalacijaka i Live verzija premašuju veličinu običnog CD-a,pa ako želite koristiti optički pogon zas podizanje Pardus,trenutno morate koristiti DVDF medij da biste snimili slike.
+		</div><div class="para">
+			Note that the boot order in your system's BIOS software should be set with the optical drive or USB mass storage device as the first device in order to boot from the installation or the live medium. On newer systems, the boot order can also be changed by pressing a key (generally F8 on desktop systems) while booting.
+		</div></div><div class="section" id="sect-Release_Notes-More_Information"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-More_Information">1.3. Više informacija</h3></div></div></div><div class="para">
+			Posjetite službenu web stranicu <a href="http://www.pardus.org.tr/eng">http://www.pardus.org.tr/eng</a> za više informacija.
+		</div></div><div class="section" id="sect-Release_Notes-Feedback"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Feedback">1.4. Feedback</h3></div></div></div><div class="para">
+			Posjetite <a href="http://bugs.pardus.org.tr">http://bugs.pardus.org.tr</a> da biste prijavili problem,poslali rješenje problema ili sugerirali poboljšanja Pardusa.želimo zahvaliti svim korisnicima i članovima zajednice na njihovom vrijednom doprinosu koji pomaže poboljšati Pardus,Linux i slobodni software diljem svijeta.
+		</div></div></div><div xml:lang="hr-HR" class="section" id="sect-Release_Notes-Overview" lang="hr-HR"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Overview">2. Pregled</h2></div></div></div><div class="para">
+		Pardus 2011.2 contains security, critical fixes and some translation and other improvements over the previous Pardus release 2011.1.
+	</div></div><div xml:lang="hr-HR" class="section" id="sect-Release_Notes-What_is_New" lang="hr-HR"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-What_is_New">3. What is new?</h2></div></div></div><div class="para">
+		You can find some changes on core components of Pardus 2011.2, for other addtional changes please see <a href="stats.html">here</a>.
+	</div><div class="section" id="sect-Release_Notes-Updates_in_Core_Components"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Updates_in_Core_Components">3.1. Dopune u komponentama jezgre</h3></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+					<span class="application"><strong>NetworkManager</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								NetworkManager is updated to 0.8.5.91.
+							</div></li><li class="listitem"><div class="para">
+								Problems about adding VPN connections have been fixed.
+							</div></li><li class="listitem"><div class="para">
+								Handle WLAN security passwords gracefully while upgrading distribution.
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>ModemManager</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								ModemManager is updated to 0.5.
+							</div></li><li class="listitem"><div class="para">
+								Improvements for Samsung modems
+							</div></li><li class="listitem"><div class="para">
+								Support access technology reporting for Qualcomm Gobi modems
+							</div></li><li class="listitem"><div class="para">
+								Fix communication with Nokia N900 devices
+							</div></li><li class="listitem"><div class="para">
+								Support multiple CDMA Rm protocols
+							</div></li><li class="listitem"><div class="para">
+								Fix handling of Option access technology reporting
+							</div></li><li class="listitem"><div class="para">
+								Fix handling of CDMA EVDO registration states
+							</div></li><li class="listitem"><div class="para">
+								Fix problems reconnecting Ericsson F5521gw modems
+							</div></li><li class="listitem"><div class="para">
+								Better handling of some Android handset modem
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>cups</strong></span> - cups is updated to 1.4.8.
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>LibreOffice</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								LibreOffice is updated to 3.4.3
+							</div></li><li class="listitem"><div class="para">
+								Fixed crash closing document with footnotes
+							</div></li><li class="listitem"><div class="para">
+								Allow multi-range copy from VBA (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Fix for crash with hidden column in Data-&gt;Form (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Prevent crash at column row boundaries (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Enable l10n of presenter screen (Presenter Screen Extension)
+							</div></li><li class="listitem"><div class="para">
+								Correctly detect documents with xlk extension as Excel binary
+							</div></li><li class="listitem"><div class="para">
+								Missing icon in Styles and Formatting dialog (Impress)
+							</div></li><li class="listitem"><div class="para">
+								Set correct mimetype for draw documents on xml export (Draw)
+							</div></li><li class="listitem"><div class="para">
+								You can check out LibreOffice web page for more information.
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>MPlayer/libass</strong></span>: Fixed crash playing subtitled videos which was triggered by freetype 2.4.6 security update.
+				</div></li></ul></div></div></div><div xml:lang="hr-HR" class="section" id="sect-Release_Notes-Requirements" lang="hr-HR"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Requirements">4. Zahtjevi sustava</h2></div></div></div><div class="section" id="sect-Release_Notes-CPU_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-CPU_Requirements">4.1. Procesor (CPU)</h3></div></div></div><div class="para">
+			Možda želite instalirati 34-bit verziju Pardusa 2011.2 ako vaš sustav sadrži jedan od procesora izlistanih u donjoj sekciji.
+		</div><div class="section" id="sect-Release_Notes-x86_64_Intel_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-x86_64_Intel_Requirements">4.1.1. Intel procesori koji podržavaju 64-bit arhitekturu</h4></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+						Novie verzije Pentium 4, Celeron D, Xeon and Pentium Dual-Core
+					</div></li><li class="listitem"><div class="para">
+						Atom D5xx, N4xx i N5xx
+					</div></li><li class="listitem"><div class="para">
+						Sve verzije Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 i Core i3 procesora
+					</div></li><li class="listitem"><div class="para">
+						Vjerovatno novije procesore napravljene nakon što je ovaj dokument izvorno napisan.
+					</div></li></ul></div></div><div class="section" id="sect-Release_Notes-x86_64_AMD_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-x86_64_AMD_Requirements">4.1.2. AMD procesori koji podržavaju 64-bit arhitekturu</h4></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+						AMD Athlon 64, 64 X2, 64 FX
+					</div></li><li class="listitem"><div class="para">
+						AMD Athlon II
+					</div></li><li class="listitem"><div class="para">
+						AMD Opteron
+					</div></li><li class="listitem"><div class="para">
+						AMD Turion 64
+					</div></li><li class="listitem"><div class="para">
+						AMD Turion 64 X2
+					</div></li><li class="listitem"><div class="para">
+						AMD Sempron
+					</div></li><li class="listitem"><div class="para">
+						AMD Phenom
+					</div></li><li class="listitem"><div class="para">
+						AMD Phenom II
+					</div></li><li class="listitem"><div class="para">
+						Vjerovatno novije procesore napravljene nakon što je ovaj dokument izvorno napisan.
+					</div></li></ul></div></div></div><div class="section" id="sect-Release_Notes-Memory_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Memory_Requirements">4.2. Memorija sustava (RAM)</h3></div></div></div><div class="para">
+			Zahtjevi memorije sustava (RAM) za Pardus 2011.2 ovise o vašem dnevnom radu pa je teško odrediti gornju i donju granicu,ali mi preporučujemo najmanje 1GB memorije za ugodno iskustvo radne površine.
+		</div></div><div class="section" id="sect-Release_Notes-Harddisk_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Harddisk_Requirements">4.3. Zahtjevi prostora tvrdoga diska</h3></div></div></div><div class="section" id="sect-Release_Notes-Harddisk_Minimum_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Minimum_Requirements">4.3.1. Minimalni zahtjevi</h4></div></div></div><div class="para">
+				Pardus 2011.2 zahtjeva najmanje 4GB slobodnog prostora tvrdog diska za uspješnu instalaciju.Zato jer ne nudimo prolagođeni odabir paketa tijekom instalacije,ova minimalna veličina sa primjenjuje na sve instalacije.
+			</div></div><div class="section" id="sect-Release_Notes-Harddisk_Recommended_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Recommended_Requirements">4.3.2. Preporučeni zahtjevi</h4></div></div></div><div class="para">
+				Da biste učinkovito koristili Pardus 2011.2 da vam ne ponestane prostora na disku tijekom vašeg dnevnog rada,preporučujemo najmanje 10GB slobodnog prostora tvrdog diska.
+			</div></div><div class="section" id="sect-Release_Notes-Harddisk_Swap_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Swap_Requirements">4.3.3. Bilješka o swap prostoru</h4></div></div></div><div class="para">
+				swap prostor se koristi uvijek kada vašem operativnom sustavu ponestane fizičke memorije.Ako mislite da je vaša fizička memorija dovoljno velikaza vašu dnevnu uporabu možete preskočiti stvaranje swap prostora tijekom instalacije.
+			</div><div class="para">
+				<span class="emphasis"><em>Napominjemo</em></span> particija diska rezervirana za swap prostor je <span class="emphasis"><em>potrebna</em></span> ako želite hibernirati (Suspend to disk) Pardus.U suprotnom ta će finkcija biti onemogućena.
+			</div></div></div></div></div></body></html>
+

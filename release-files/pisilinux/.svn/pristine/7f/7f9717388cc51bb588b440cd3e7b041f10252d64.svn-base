@@ -1,0 +1,88 @@
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-07-11T21:41:06\n"
+"PO-Revision-Date: 2011-01-20 11:06+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;"
+msgstr "Pardus &PRODVER; &PRODNAME; Sürümüne Hoş Geldiniz"
+
+#. Tag: para
+#, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;, the latest maintenance release of Pardus, a powerful, KDE-focused Linux distribution."
+msgstr "KDE öncelikli, güçlü bir Linux dağıtımı olan Pardus'un en güncel ürünü olan Pardus &PRODVER; &PRODNAME; sürümüne hoş geldiniz."
+
+#. Tag: title
+#, no-c-format
+msgid "What is Pardus?"
+msgstr "Pardus Nedir?"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus is an open-source, freely distributable, GPL (General Public License) licensed user-friendly GNU/Linux distribution with many usability, hardware compatibility, stability and security enhancements."
+msgstr "Pardus açık kaynak kodlu, özgürce dağıtılan, GPL (Genel Kamu Lisansı) ile lisanslanmış; kullanışlılık, donanım uyumluluğu, kararlılık ve güvenlik konularında geniş olanaklar sunan bir GNU/Linux dağıtımıdır."
+
+#. Tag: para
+#, no-c-format
+msgid "The Pardus project is sponsored by the <emphasis>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</emphasis>, an affiliate of the <emphasis>Scientific and Technological Research Council of Turkey (TUBITAK)</emphasis>."
+msgstr "Pardus projesi, <emphasis>Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK)</emphasis>'na bağlı <emphasis>Bilişim ve Bilgi Güvenliği İleri Teknolojiler Araştırmalar Merkezi (BİLGEM)</emphasis> bünyesinde geliştirilmektedir."
+
+#. Tag: para
+#, no-c-format
+msgid "The aim of the Pardus distribution is to offer people a stable, reliable, easy-to-use and feature-rich computer experience by providing modern and popular open-source software. The developers are also putting an additional effort to make Pardus run on a wide range of hardware."
+msgstr "Pardus, kullanıcılarına tanınmış özgür yazılım ürünleri kullanarak kararlı, güvenilir, kolay kullanılır ve bol özellik içeren bir bilgisayar deneyimi sunmayı hedefler. Bunun yanında, geliştirici ekip bu olanakların geniş bir donanım yelpazesinde çalışması için çalışmalar yürütmektedir."
+
+#. Tag: para
+#, no-c-format
+msgid "The project is named after the latin (and scientific) name for the Anatolian leopard, <emphasis>Panthera pardus tulliana</emphasis>."
+msgstr "Projenin ismi Anadolu parsının latince (bilimsel) isminden, <emphasis>Panthera pardus tulliana</emphasis>'dan gelmektedir."
+
+#. Tag: title
+#, no-c-format
+msgid "How Can I Try Pardus?"
+msgstr "Pardus'u Nasıl Deneyebilirim?"
+
+#. Tag: para
+#, no-c-format
+msgid "You can try Pardus either by installing it on your computer or running the Live version without touching your hard disk. You can boot Pardus from an optical drive as well as from USB mass storage devices like external hard drives and USB flash drives."
+msgstr "Pardus'u bilgisayarınıza kurarak ya da Çalışan sürümüyle sabit diskinize hiç dokunmadan deneyebilirsiniz. Pardus hem optik diskler üzerinde hem de USB bellek ve disklerde çalışabilir."
+
+#. Tag: para
+#, no-c-format
+msgid "Both the installation and live version images exceeds the size of a regular CD so if you are willing to use an optical drive for booting Pardus, you currently have to use DVD media to burn the images."
+msgstr "Hem kurulan hem de çalışan sürümler standart CD'lere sığamayacak kadar büyük olduğu için optik sürücü ile kullanmak istediğiniz takdirde DVD kullanmanız gerekli."
+
+#. Tag: para
+#, no-c-format
+msgid "Note that the boot order in your system's BIOS software should be set with the optical drive or USB mass storage device as the first device in order to boot from the installation or the live medium. On newer systems, the boot order can also be changed by pressing a key (generally F8 on desktop systems) while booting."
+msgstr "Sisteminizin BIOS yazılımında belirlenen açılış sırasını Pardus kullanacağınız optik sürücü ya da USB bağlantısı önce olacak şekilde ayarlamanız gereklidir. Yeni bilgisayarların çoğu açılış sırasında bir tuşla (bir çok masaüstü bilgisayarda F8 bu işi görür) bu sırayı değiştirebilmenizi sağlar."
+
+#. Tag: title
+#, no-c-format
+msgid "More Information"
+msgstr "Daha Fazla Bilgi"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit the official web site <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> for more information."
+msgstr "Daha çok bilgi için lütfen <ulink url=\"http://www.pardus.org.tr\">http://www.pardus.org.tr</ulink> adresinden resmi web sitemizi ziyaret edin."
+
+#. Tag: title
+#, no-c-format
+msgid "Feedback"
+msgstr "Geri bildirim"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink> to report a bug, send a bug fix or suggest improvements about Pardus.We would like to thank all of our users and community members for their valuable contributions which help improving Pardus, Linux and free software worldwide."
+msgstr "Karşılaştığınız hataları bildirmek, yeni bir özellik ya da entegre edilmesini istediğiniz bir uygulamayı önermek için lütfen <ulink url=\"http://hata.pardus.org.tr\">http://hata.pardus.org.tr</ulink> adresini ziyaret edin. Pardus, özgür yazılım ve Linux topluluklarının tüm üyelerine ve kullanıcılarına değerli katkıları için teşekkür ederiz."

@@ -1,0 +1,164 @@
+# 
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-09-19T11:46:58\n"
+"PO-Revision-Date: 2011-09-19T11:46:58\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: None\n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#, no-c-format
+msgid "What is new?"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "You can find some changes on core components of Pardus &PRODVER;, for other addtional changes please see <ulink url=\"stats.html\">here</ulink>."
+msgstr ""
+
+#. Tag: title
+#, no-c-format
+msgid "Updates in Core Components"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "<application>NetworkManager</application>"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "NetworkManager is updated to &NMVER;."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Problems about adding VPN connections have been fixed."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Handle WLAN security passwords gracefully while upgrading distribution."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "<application>ModemManager</application>"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "ModemManager is updated to &MMVER;."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Improvements for Samsung modems"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Support access technology reporting for Qualcomm Gobi modems"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fix communication with Nokia N900 devices"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Support multiple CDMA Rm protocols"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fix handling of Option access technology reporting"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fix handling of CDMA EVDO registration states"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fix problems reconnecting Ericsson F5521gw modems"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Better handling of some Android handset modem"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "<application>cups</application> - cups is updated to &CUPSVER;."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "<application>LibreOffice</application>"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "LibreOffice is updated to &LIBREVER;"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fixed crash closing document with footnotes"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Allow multi-range copy from VBA (Calc)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Fix for crash with hidden column in Data-&gt;Form (Calc)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Prevent crash at column row boundaries (Calc)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Enable l10n of presenter screen (Presenter Screen Extension)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Correctly detect documents with xlk extension as Excel binary"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Missing icon in Styles and Formatting dialog (Impress)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "Set correct mimetype for draw documents on xml export (Draw)"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "You can check out LibreOffice web page for more information."
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "<application>MPlayer/libass</application>: Fixed crash playing subtitled videos which was triggered by freetype 2.4.6 security update."
+msgstr ""
+

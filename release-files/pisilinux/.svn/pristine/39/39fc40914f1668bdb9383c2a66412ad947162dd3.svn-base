@@ -1,0 +1,92 @@
+#
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Alexey Ivanov <alexey.ivanes@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-07-11T21:41:06\n"
+"PO-Revision-Date: 2011-01-20 19:22+0300\n"
+"Last-Translator: Alexey Ivanov <alexey.ivanes@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Tag: title
+#, fuzzy, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;"
+msgstr "Добро пожаловать в Pardus &PRODVER;"
+
+#. Tag: para
+#, fuzzy, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;, the latest maintenance release of Pardus, a powerful, KDE-focused Linux distribution."
+msgstr "Добро пожаловать в Pardus &PRODVER;, последнюю версию мощного дистрибутива Linux, сфокусированного на использование рабочей среды KDE."
+
+#. Tag: title
+#, no-c-format
+msgid "What is Pardus?"
+msgstr "Что такое Pardus?"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus is an open-source, freely distributable, GPL (General Public License) licensed user-friendly GNU/Linux distribution with many usability, hardware compatibility, stability and security enhancements."
+msgstr "Pardus - это полностью открытый, свободно распространяемый, GPL (General Public License) лицензированный, простой в использовании GNU/Linux дистрибутив с множеством усовершенствований в плане удобства использования, совместимости с аппаратным обеспечением, стабильности и безопасности."
+
+#. Tag: para
+#, no-c-format
+msgid "The Pardus project is sponsored by the <emphasis>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</emphasis>, an affiliate of the <emphasis>Scientific and Technological Research Council of Turkey (TUBITAK)</emphasis>."
+msgstr "Проект Pardus спонсируется <emphasis>Центром исследования новых технологий информатики и информационной безопасности (BILGEM)</emphasis>, филиалом <emphasis>Научно-технологического исследовательского совета Турции (TUBITAK)</emphasis>."
+
+#. Tag: para
+#, no-c-format
+msgid "The aim of the Pardus distribution is to offer people a stable, reliable, easy-to-use and feature-rich computer experience by providing modern and popular open-source software. The developers are also putting an additional effort to make Pardus run on a wide range of hardware."
+msgstr "Цель дистрибутива Pardus в том, чтобы предоставить людям стабильную, надежную, легкую в использовании и многофункциональную систему для работы с компьютером, представленную современным и популярным открытым программным обеспечением. В дополнение ко всему,  разработчики прикладывают большие усилия, чтобы Pardus поддерживал широкий спектр оборудования."
+
+#. Tag: para
+#, no-c-format
+msgid "The project is named after the latin (and scientific) name for the Anatolian leopard, <emphasis>Panthera pardus tulliana</emphasis>."
+msgstr "Проект назван в честь латинского (и научного) имени Анатолийского леопарда, <emphasis>Panthera pardus tulliana</emphasis>."
+
+#. Tag: title
+#, no-c-format
+msgid "How Can I Try Pardus?"
+msgstr "Как я могу попробовать Pardus?"
+
+#. Tag: para
+#, no-c-format
+msgid "You can try Pardus either by installing it on your computer or running the Live version without touching your hard disk. You can boot Pardus from an optical drive as well as from USB mass storage devices like external hard drives and USB flash drives."
+msgstr "Вы можете попробовать Pardus либо путем установки его на свой компьютер, любо запустив Live-версию, не внося изменения на свой жесткий диск. Вы можете загрузить Pardus с оптического привода, а также с USB-устройств хранения данных, таких как внешние жесткие диски и USB флэш-диски."
+
+#. Tag: para
+#, no-c-format
+msgid "Both the installation and live version images exceeds the size of a regular CD so if you are willing to use an optical drive for booting Pardus, you currently have to use DVD media to burn the images."
+msgstr "В любом случае, установочный и live-образ дистрибутива превышают размер обычного CD-диска, поэтому если вы хотите использовать оптический привод для загрузки Pardus, вы должны использовать для записи образа более емкий DVD-диск."
+
+#. Tag: para
+#, no-c-format
+msgid "Note that the boot order in your system's BIOS software should be set with the optical drive or USB mass storage device as the first device in order to boot from the installation or the live medium. On newer systems, the boot order can also be changed by pressing a key (generally F8 on desktop systems) while booting."
+msgstr "Обратите внимание, что порядок загрузки в вашей системе (BIOS) должен быть установлен с оптическим приводом или USB-устройством, как первым устройством для загрузки. В новых системах, порядок загрузки можно также изменить, нажав специальную клавишу (как правило, это  F8 на настольных системах) во время загрузки."
+
+#. Tag: title
+#, no-c-format
+msgid "More Information"
+msgstr "Дополнительная информация"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit the official web site <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> for more information."
+msgstr "Посетите официальный сайт <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> для получения дополнительной информации."
+
+#. Tag: title
+#, no-c-format
+msgid "Feedback"
+msgstr "Обратная связь"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink> to report a bug, send a bug fix or suggest improvements about Pardus.We would like to thank all of our users and community members for their valuable contributions which help improving Pardus, Linux and free software worldwide."
+msgstr "Посетите <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink>, если нужно сообщить об ошибке, отправить исправление ошибки или предложить меры для улучшения Pardus.Мы хотели бы поблагодарить всех наших пользователей и членов сообщества за их ценный вклад, которые помогали улучшить Pardus, Linux и свободное программное обеспечение во всем мире."

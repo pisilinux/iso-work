@@ -1,0 +1,205 @@
+#
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Alexey Ivanov <alexey.ivanes@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-01-19T10:14:10\n"
+"PO-Revision-Date: 2011-01-20 02:26+0300\n"
+"Last-Translator: Alexey Ivanov <alexey.ivanes@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Tag: title
+#, no-c-format
+msgid "System Requirements"
+msgstr "Системные требования"
+
+#. Tag: title
+#, no-c-format
+msgid "Processor (CPU)"
+msgstr "Процессор (CPU)"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"You may want to install the 64-bit version of Pardus &PRODVER; if your system "
+"is equipped with one of the processors listed in the sections below."
+msgstr ""
+"Вы можете установить 64-битную версию Pardus &PRODVER; Если ваша система "
+"оснащена одним из процессоров, перечисленных в разделах ниже."
+
+#. Tag: title
+#, no-c-format
+msgid "Intel processors which support 64-bit architecture"
+msgstr "Intel процессоры, поддерживающие 64-битную архитектуру"
+
+#. Tag: para
+#, no-c-format
+msgid "Newer versions of Pentium 4, Celeron D, Xeon and Pentium Dual-Core"
+msgstr "Новейшие версии Pentium 4, Celeron D, Xeon и Pentium Dual-Core"
+
+#. Tag: para
+#, no-c-format
+msgid "Atom D5xx, N4xx and N5xx"
+msgstr "Atom D5xx, N4xx and N5xx"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"All versions of Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 "
+"and Core i3 processors"
+msgstr ""
+"Все версии Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 и "
+"Core i3 процессоры"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Probably newer processors manufactured after the time this document was "
+"originally written."
+msgstr ""
+"Вероятно, все новейшие процессоры, выпущенные после даты написания этого "
+"документа."
+
+#. Tag: title
+#, no-c-format
+msgid "AMD processors which support 64-bit architecture"
+msgstr "AMD процессоры, поддерживающие 64-битную архитектуру"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Athlon 64, 64 X2, 64 FX"
+msgstr "AMD Athlon 64, 64 X2, 64 FX"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Athlon II"
+msgstr "AMD Athlon II"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Opteron"
+msgstr "AMD Opteron"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Turion 64"
+msgstr "AMD Turion 64"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Turion 64 X2"
+msgstr "AMD Turion 64 X2"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Sempron"
+msgstr "AMD Sempron"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Phenom"
+msgstr "AMD Phenom"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Phenom II"
+msgstr "AMD Phenom II"
+
+#. Tag: title
+#, no-c-format
+msgid "System memory (RAM)"
+msgstr "Оперативная память (RAM)"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"System memory (RAM) requirements of Pardus &PRODVER; depends heavily on your "
+"daily workflow so it is very hard to define upper and lower bounds, but we "
+"recommend at least &MINMEM; of memory for a smooth desktop experience."
+msgstr ""
+"Требуемый объем оперативной памяти (RAM) для Pardus &PRODVER; сильно зависит "
+"от вашей ежедневной нагруженности системы, поэтому очень трудно определить "
+"нижнюю и верхнюю границу значений, но мы рекомендуем по крайней мере &MINMEM; "
+"оперативной памяти для хорошей работы системы и рабочего стола.Требуемый "
+"объем оперативной памяти (RAM) для Pardus &PRODVER; сильно зависит от вашей "
+"ежедневной нагруженности системы, поэтому очень трудно определить нижнюю и "
+"верхнюю границу значений, но мы рекомендуем по крайней мере &MINMEM; "
+"оперативной памяти для хорошей работы системы и рабочего стола."
+
+#. Tag: title
+#, no-c-format
+msgid "Hard disk space requirements"
+msgstr "Требования к дисковому пространству"
+
+#. Tag: title
+#, no-c-format
+msgid "Minimum requirements"
+msgstr "Минимальные системные требования"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Pardus &PRODVER; requires at least &MINREQSPACE; of free hard disk space for "
+"a successful installation. As we don't offer custom package selection during "
+"the installation, this minimum size constraint applies to all installations."
+msgstr ""
+"Pardus &PRODVER; требует, по крайней мере &MINREQSPACE; свободного дискового "
+"пространства для успешной установки. Так как мы не предлагаем выбор "
+"устанавливаемых пакетов в процессе инсталляции, то это ограничение актуально "
+"для всех установок."
+
+#. Tag: title
+#, no-c-format
+msgid "Recommended requirements"
+msgstr "Рекомендуемые системные требования"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"In order to effectively use Pardus &PRODVER; on your system without running "
+"low on disk space during your daily workflow, we recommend at least "
+"&RECOMMSPACE; of free hard disk space."
+msgstr ""
+"С целью эффективного использования Pardus &PRODVER; на вашей системе без "
+"нехватки свободного дискового пространства, во время вашей ежедневной работы "
+"за компьютером, мы рекомендуем как минимум &RECOMMSPACE; свободного места на "
+"жестком диске."
+
+#. Tag: title
+#, no-c-format
+msgid "Note on Swap space"
+msgstr "О разделе подкачки (swap)"
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"Swap space is used whenever your operating system runs out of physical memory."
+" If you think that your physical memory is big enough for your daily usage, "
+"you may skip creating a swap space during installation."
+msgstr ""
+"Раздел подкачки используется всякий раз, когда вашей операционной системе не "
+"хватает физической памяти. Если вы считаете, что размер физической памяти на "
+"вашем компьютере достаточно велик для ежедневной работы, то можете пропустить "
+"шаг создания раздела подкачки во время установки."
+
+#. Tag: para
+#, no-c-format
+msgid ""
+"<emphasis>Note that</emphasis> a disk partition reserved for swap space is <"
+"emphasis>required</emphasis> if you want to hibernate (Suspend to disk) "
+"Pardus. Otherwise the functionality will be disabled."
+msgstr ""
+"<emphasis>Обратите внимание</emphasis>, что раздел диска, отведенный под "
+"раздел подкачки <emphasis>необходим</emphasis>,если вы хотите использовать "
+"спящий режим в Pardus. В противном случае, данная функция будет отключена."
+
+

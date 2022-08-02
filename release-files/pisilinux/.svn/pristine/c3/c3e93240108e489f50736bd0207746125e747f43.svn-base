@@ -1,0 +1,25 @@
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-01-13T09:41:09\n"
+"PO-Revision-Date: 2011-01-20 13:17-0400\n"
+"Last-Translator: Klemens Häckel <click3d [at] linuxmail <dot> org>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#, no-c-format
+msgid "Release Notes"
+msgstr "Notas de Lanzamiento"
+
+#. Tag: productname
+#, no-c-format
+msgid "Pardus"
+msgstr "Pardus"
+

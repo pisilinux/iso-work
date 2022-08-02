@@ -1,0 +1,148 @@
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-01-20T08:05:34\n"
+"PO-Revision-Date: 2011-01-20 13:28+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#, no-c-format
+msgid "System Requirements"
+msgstr "Sistem Gereksinimleri"
+
+#. Tag: title
+#, no-c-format
+msgid "Processor (CPU)"
+msgstr "İşlemci (CPU)"
+
+#. Tag: para
+#, no-c-format
+msgid "You may want to install the 64-bit version of Pardus &PRODVER; if your system is equipped with one of the processors listed in the sections below."
+msgstr "Eğer sisteminiz aşağıda listelenen işlemcilerden birine sahipse, Pardus &PRODVER; 64-bit sürümünü kurmak isteyebilirsiniz."
+
+#. Tag: title
+#, no-c-format
+msgid "Intel processors which support 64-bit architecture"
+msgstr "64-bit mimarisini destekleyen Intel işlemciler"
+
+#. Tag: para
+#, no-c-format
+msgid "Newer versions of Pentium 4, Celeron D, Xeon and Pentium Dual-Core"
+msgstr "Pentium 4, Celeron D, Xeon ve Pentium Dual-Core işlemcilerinin yeni sürümleri"
+
+#. Tag: para
+#, no-c-format
+msgid "Atom D5xx, N4xx and N5xx"
+msgstr "Atom D5xx, N4xx ve N5xx"
+
+#. Tag: para
+#, no-c-format
+msgid "All versions of Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 and Core i3 processors"
+msgstr "Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 ve Core i3 ailelerinin hepsi"
+
+#. Tag: para
+#, no-c-format
+msgid "Probably newer processors manufactured after the time this document was originally written."
+msgstr "Bu belge yazıldıktan sonra üretilen yeni işlemcilerin büyük bir kısmı."
+
+#. Tag: title
+#, no-c-format
+msgid "AMD processors which support 64-bit architecture"
+msgstr "64-bit mimarisini destekleyen AMD işlemciler"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Athlon 64, 64 X2, 64 FX"
+msgstr "AMD Athlon 64, 64 X2, 64 FX"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Athlon II"
+msgstr "AMD Athlon II"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Opteron"
+msgstr "AMD Opteron"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Turion 64"
+msgstr "AMD Turion 64"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Turion 64 X2"
+msgstr "AMD Turion 64 X2"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Sempron"
+msgstr "AMD Sempron"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Phenom"
+msgstr "AMD Phenom"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Phenom II"
+msgstr "AMD Phenom II"
+
+#. Tag: title
+#, no-c-format
+msgid "System memory (RAM)"
+msgstr "Sistem Belleği (RAM)"
+
+#. Tag: para
+#, no-c-format
+msgid "System memory (RAM) requirements of Pardus &PRODVER; depends heavily on your daily workflow so it is very hard to define upper and lower bounds, but we recommend at least &MINMEM; of memory for a smooth desktop experience."
+msgstr "Pardus &PRODVER; sistem belleği (RAM) gereksinimi günlük kullanıma bağlı olarak değişebileceği için asgari ya da yeterli miktarı belirlemek zor. Yine de rahat bir masaüstü deneyimi için &MINMEM; değerinin altına inilmemesini öneriyoruz."
+
+#. Tag: title
+#, no-c-format
+msgid "Hard disk space requirements"
+msgstr "Sabit disk"
+
+#. Tag: title
+#, no-c-format
+msgid "Minimum requirements"
+msgstr "Minimum gereksinimler"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus &PRODVER; requires at least &MINREQSPACE; of free hard disk space for a successful installation. As we don't offer custom package selection during the installation, this minimum size constraint applies to all installations."
+msgstr "Pardus, &PRODVER; kurulmak için en az &MINREQSPACE; boş disk alanına ihtiyaç duyar. Kurulum sırasında paket seçimi sunulmadığı için bu değer her kurulum için aynıdır."
+
+#. Tag: title
+#, no-c-format
+msgid "Recommended requirements"
+msgstr "Önerilen gereksinimler"
+
+#. Tag: para
+#, no-c-format
+msgid "In order to effectively use Pardus &PRODVER; on your system without running low on disk space during your daily workflow, we recommend at least &RECOMMSPACE; of free hard disk space."
+msgstr "Pardus &PRODVER; sürümünde günlük kullanım ihtiyaçlarının rahatça karşılanması için en az &RECOMMSPACE; boş disk alanı bulunmasını öneririz."
+
+#. Tag: title
+#, no-c-format
+msgid "Note on Swap space"
+msgstr "Takas alanı hakkında"
+
+#. Tag: para
+#, no-c-format
+msgid "Swap space is used whenever your operating system runs out of physical memory. If you think that your physical memory is big enough for your daily usage, you may skip creating a swap space during installation."
+msgstr "Takas alanı, fiziksel belleğin yetersiz kaldığı durumlarda kullanılır. Eğer fiziksel belleğinizin gündelik kullanımınız için yeterli olduğundan eminseniz kurulum sırasında takas alanı oluşturmamayı tercih edebilirsiniz."
+
+#. Tag: para
+#, no-c-format
+msgid "<emphasis>Note that</emphasis> a disk partition reserved for swap space is <emphasis>required</emphasis> if you want to hibernate (Suspend to disk) Pardus. Otherwise the functionality will be disabled."
+msgstr "<emphasis>Lütfen</emphasis> Pardus'un kış uykusuna (disk kullanarak askıya alma) yatmasını istiyorsanız takas alanı kullanmanız <emphasis>gerektiğini</emphasis> unutmayın. Takas alanı olmadığında bu özellik devre dışı kalacaktır."

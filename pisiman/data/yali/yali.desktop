@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Qt;Utility;
+Comment[tr_TR]=
+Comment=
+Encoding=UTF-8
+Exec=pkexec yali-bin
+GenericName[tr_TR]=Sistem kurulum uygulaması
+GenericName=Sistem kurulum uygulaması
+Icon=/usr/share/about-distro/pisilinux.svg
+MimeType=
+Name[tr_TR]=YALI
+Name=YALI
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-RunOnDiscreteGpu=false
+X-KDE-SubstituteUID=false
+X-KDE-Username=

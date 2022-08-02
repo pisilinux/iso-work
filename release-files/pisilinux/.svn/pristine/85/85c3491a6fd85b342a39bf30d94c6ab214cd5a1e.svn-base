@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="sect-Release_Notes-What_is_New">
+    <title>What is new?</title>
+
+    <para>
+        You can find some changes on core components of Pardus &PRODVER;, for other addtional
+        changes please see <ulink url="stats.html">here</ulink>.
+    </para>
+
+    <section id="sect-Release_Notes-Updates_in_Core_Components">
+        <title>Updates in Core Components</title>
+        <itemizedlist>
+            <listitem>
+                <para>
+                    <application>NetworkManager</application> 
+                    <itemizedlist>
+                        <listitem><para>NetworkManager is updated to &NMVER;.</para></listitem>
+                        <listitem><para>Problems about adding VPN connections have been fixed.</para></listitem>
+                        <listitem><para>Handle WLAN security passwords gracefully while upgrading distribution.</para></listitem>
+                    </itemizedlist>
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    <application>ModemManager</application> 
+                    <itemizedlist>
+                    <listitem><para>ModemManager is updated to &MMVER;.</para></listitem>
+                    <listitem><para>Improvements for Samsung modems</para></listitem>
+                    <listitem><para>Support access technology reporting for Qualcomm Gobi modems</para></listitem>
+                    <listitem><para>Fix communication with Nokia N900 devices</para></listitem>
+                    <listitem><para>Support multiple CDMA Rm protocols</para></listitem>
+                    <listitem><para>Fix handling of Option access technology reporting</para></listitem>
+                    <listitem><para>Fix handling of CDMA EVDO registration states</para></listitem>
+                    <listitem><para>Fix problems reconnecting Ericsson F5521gw modems</para></listitem>
+                    <listitem><para>Better handling of some Android handset modem</para></listitem>
+                    </itemizedlist>
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    <application>cups</application> - cups is updated to &CUPSVER;.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    <application>LibreOffice</application>
+                    <itemizedlist>
+                        <listitem><para>LibreOffice is updated to &LIBREVER;</para></listitem>
+                        <listitem><para>Fixed crash closing document with footnotes</para></listitem>
+                        <listitem><para>Allow multi-range copy from VBA (Calc)</para></listitem>
+                        <listitem><para>Fix for crash with hidden column in Data->Form (Calc)</para></listitem>
+                        <listitem><para>Prevent crash at column row boundaries (Calc)</para></listitem>
+                        <listitem><para>Enable l10n of presenter screen (Presenter Screen Extension)</para></listitem>
+                        <listitem><para>Correctly detect documents with xlk extension as Excel binary</para></listitem>
+                        <listitem><para>Missing icon in Styles and Formatting dialog (Impress)</para></listitem>
+                        <listitem><para>Set correct mimetype for draw documents on xml export (Draw)</para></listitem>
+                        <listitem><para>You can check out LibreOffice web page for more information.</para></listitem>
+                    </itemizedlist>
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    <application>MPlayer/libass</application>: Fixed crash playing subtitled videos which was triggered by freetype 2.4.6 security update.
+                </para>
+            </listitem>
+        </itemizedlist>
+    </section>
+
+</section>

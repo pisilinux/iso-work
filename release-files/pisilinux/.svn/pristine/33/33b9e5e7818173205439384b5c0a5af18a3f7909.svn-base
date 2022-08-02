@@ -1,0 +1,92 @@
+#
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Antoon Tolboom <atolboo@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-07-11T21:41:06\n"
+"PO-Revision-Date: 2011-01-20 10:57+0100\n"
+"Last-Translator: Antoon Tolboom <atolboo@gmail.com>\n"
+"Language-Team: Dutch <kde-i18n-doc@kde.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Tag: title
+#, fuzzy, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;"
+msgstr "Welkom bij Pardus &PRODVER;"
+
+#. Tag: para
+#, fuzzy, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;, the latest maintenance release of Pardus, a powerful, KDE-focused Linux distribution."
+msgstr "Welkom bij Pardus &PRODVER;, de laatste uitgave van Pardus, een krachtige op KDE gebaseerde Linux-distributie."
+
+#. Tag: title
+#, no-c-format
+msgid "What is Pardus?"
+msgstr "Wat is Pardus?"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus is an open-source, freely distributable, GPL (General Public License) licensed user-friendly GNU/Linux distribution with many usability, hardware compatibility, stability and security enhancements."
+msgstr "Pardus is een open-source, vrij beschikbare, onder GPL-licentie (General Public License) vallende, gebruikersvriendelijke GNU/Linux-distributie met veel gebruikersgemak, hardware-compatibiliteit, stabiliteit en veilige mogelijkheden."
+
+#. Tag: para
+#, no-c-format
+msgid "The Pardus project is sponsored by the <emphasis>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</emphasis>, an affiliate of the <emphasis>Scientific and Technological Research Council of Turkey (TUBITAK)</emphasis>."
+msgstr "Het Pardus-project wordt ondersteund door de <emphasis>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</emphasis>, een afdeling van de <emphasis>Scientific and Technological Research Council of Turkey (TUBITAK)</emphasis>."
+
+#. Tag: para
+#, no-c-format
+msgid "The aim of the Pardus distribution is to offer people a stable, reliable, easy-to-use and feature-rich computer experience by providing modern and popular open-source software. The developers are also putting an additional effort to make Pardus run on a wide range of hardware."
+msgstr "Het doel van de Pardus-distributie is het aanbieden van een stabiele, betrouwbare, gemakkelijk-in-gebruik en vele-mogelijkheden computerervaring door gebruik te maken van moderne en populaire open-source software. De ontwikkelaars hebben tevens additionele inspanningen gedaan om Pardus op zoveel mogelijk hardware mogelijk te maken. "
+
+#. Tag: para
+#, no-c-format
+msgid "The project is named after the latin (and scientific) name for the Anatolian leopard, <emphasis>Panthera pardus tulliana</emphasis>."
+msgstr "Het project is genoemd naar de Latijnse (en wetenschappelijke) naam van de Anatolische luipaard, <emphasis>Panthera pardus tulliana</emphasis>."
+
+#. Tag: title
+#, no-c-format
+msgid "How Can I Try Pardus?"
+msgstr "Hoe kan ik Pardus proberen?"
+
+#. Tag: para
+#, no-c-format
+msgid "You can try Pardus either by installing it on your computer or running the Live version without touching your hard disk. You can boot Pardus from an optical drive as well as from USB mass storage devices like external hard drives and USB flash drives."
+msgstr "Het is mogelijk om Pardus te proberen door het op de computer te installeren of door het starten van de live-versie en daardoor de inhoud van de harde schijf niet te veranderen. Pardus kan opgestart worden vanaf een optisch medium en ook vanaf een USB-medium zoals externe harde schijf en USB-geheugen/stick."
+
+#. Tag: para
+#, no-c-format
+msgid "Both the installation and live version images exceeds the size of a regular CD so if you are willing to use an optical drive for booting Pardus, you currently have to use DVD media to burn the images."
+msgstr "Zowel de installatie- en ook de live-uitgave passen niet op een normale CD en dus is het gebruik van een DVD noodzakelijk om Pardus via een optisch medium te gebruiken."
+
+#. Tag: para
+#, no-c-format
+msgid "Note that the boot order in your system's BIOS software should be set with the optical drive or USB mass storage device as the first device in order to boot from the installation or the live medium. On newer systems, the boot order can also be changed by pressing a key (generally F8 on desktop systems) while booting."
+msgstr "Let op dat de volgorde van opstarten in de BIOS van de computer ingesteld dient te worden met het optisch - of USB-station als eerste opstartmedium. Bij de meeste nieuwere computers kan deze volgorde ook geselecteerd worden door het indrukken van een toets (meestal F8 of F11) tijdens het opstarten."
+
+#. Tag: title
+#, no-c-format
+msgid "More Information"
+msgstr "Meer informatie"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit the official web site <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> for more information."
+msgstr "Bezoek de officiële website <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> voor meer informatie."
+
+#. Tag: title
+#, no-c-format
+msgid "Feedback"
+msgstr "Terugkoppeling"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink> to report a bug, send a bug fix or suggest improvements about Pardus.We would like to thank all of our users and community members for their valuable contributions which help improving Pardus, Linux and free software worldwide."
+msgstr "Bezoek <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink> voor het rapporteren van fouten, oplossingen voor fouten of aanwijzingen voor verbeteringen van Pardus. Wij willen hierbij all onze gebruikers en gemeenschapsleden bedanken voor hun waardevolle bijdrage voor het verbeteren van Pardus, Linux and vrije wereldwijde software."

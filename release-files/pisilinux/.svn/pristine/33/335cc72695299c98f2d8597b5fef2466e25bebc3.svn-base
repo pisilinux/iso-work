@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE articleinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+]>
+
+<articleinfo id="arti-Release_Notes-Release_Notes">
+    <title>Release Notes</title>
+    <productname>Pardus</productname>
+    <productnumber>2011.2</productnumber>
+    <edition>1</edition>
+    <pubsnumber>0</pubsnumber>
+</articleinfo>

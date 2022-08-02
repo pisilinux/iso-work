@@ -1,0 +1,89 @@
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-07-11T21:41:06\n"
+"PO-Revision-Date: 2011-01-20 14:48-0400\n"
+"Last-Translator: Klemens Häckel <click3d [at] linuxmail <dot> org>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#, fuzzy, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;"
+msgstr "Bienvenido a Pardus &PRODVER;"
+
+#. Tag: para
+#, fuzzy, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;, the latest maintenance release of Pardus, a powerful, KDE-focused Linux distribution."
+msgstr "Bienvenido a Pardus &PRODVER;, la versión más reciente de Pardus, una distribución de Linux potente, con enfoque al entorno de escritorio KDE."
+
+#. Tag: title
+#, no-c-format
+msgid "What is Pardus?"
+msgstr "Qué es Pardus ?"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus is an open-source, freely distributable, GPL (General Public License) licensed user-friendly GNU/Linux distribution with many usability, hardware compatibility, stability and security enhancements."
+msgstr "Pardus es un proyecto de una distribución de GNU/Linux amigable al usuario, creado con código abierto, a libre distribución, y liecnciado pajo la licencia GPL (General Public License) , con varios mejoras en usabilidad, compatibilidad de hardware, estabilidad y seguridad."
+
+#. Tag: para
+#, no-c-format
+msgid "The Pardus project is sponsored by the <emphasis>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</emphasis>, an affiliate of the <emphasis>Scientific and Technological Research Council of Turkey (TUBITAK)</emphasis>."
+msgstr "El auspiciante (sponsor) del proyecto Pardus es el <emphasis>Centro de Investigación de Tecnologías Avanzadas de Informática y Seguridad Informática (BILGEM)</emphasis>, un asociado del  <emphasis>Concilio de Investigación Científica y Tecnológica de Turquía (TUBITAK)</emphasis>."
+
+#. Tag: para
+#, no-c-format
+msgid "The aim of the Pardus distribution is to offer people a stable, reliable, easy-to-use and feature-rich computer experience by providing modern and popular open-source software. The developers are also putting an additional effort to make Pardus run on a wide range of hardware."
+msgstr "La distribución Pardus se esfuerza para brindar a la gente una experiencia de computación estable, confiable y fácil de usar mediante la provisión de software de código abierto y popular. Además los desarrolladores trabajan arduamente para lograr una compatibilidad con una amplia gama de hardware."
+
+#. Tag: para
+#, no-c-format
+msgid "The project is named after the latin (and scientific) name for the Anatolian leopard, <emphasis>Panthera pardus tulliana</emphasis>."
+msgstr "El nombre del proyecto viene del nombre en latín (cientifico) del leopardo de Anatolia, <emphasis>Panthera pardus tulliana</emphasis>."
+
+#. Tag: title
+#, no-c-format
+msgid "How Can I Try Pardus?"
+msgstr "Como puedo probar Pardus ?"
+
+#. Tag: para
+#, no-c-format
+msgid "You can try Pardus either by installing it on your computer or running the Live version without touching your hard disk. You can boot Pardus from an optical drive as well as from USB mass storage devices like external hard drives and USB flash drives."
+msgstr "Para usar Pardus puede instalarlo en su computadora o ejecutando el sistema en la versión live (en vivo) sin modificar su disco duro. Puede bootear Pardus con un lector óptico o de un dispositivo de almacenamiento USB como discos externos o Pendrive."
+
+#. Tag: para
+#, no-c-format
+msgid "Both the installation and live version images exceeds the size of a regular CD so if you are willing to use an optical drive for booting Pardus, you currently have to use DVD media to burn the images."
+msgstr "Tanto la versión liva como la versión de instalación superan el tamaño de una CD común, por lo tanto si prefiere utilizar un medio óptico para bootear Pardus, debe grabar las imagenes en DVD."
+
+#. Tag: para
+#, no-c-format
+msgid "Note that the boot order in your system's BIOS software should be set with the optical drive or USB mass storage device as the first device in order to boot from the installation or the live medium. On newer systems, the boot order can also be changed by pressing a key (generally F8 on desktop systems) while booting."
+msgstr "Tenga en cuenta que debe asegurarse que en el orden de arranque en el BIOS el lector óptico o el dispositivo USB deben estar en primer posición para arrancar de ello tanto para la instalación como en modo vivo. En algunos sistemas se puede seleccionar el orden de dispositivos de arranque apretando una tecla (generalmente F8 para equipos de escritorio) durante el arranque."
+
+#. Tag: title
+#, no-c-format
+msgid "More Information"
+msgstr "Más Información"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit the official web site <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> for more information."
+msgstr "Visite el sitio web oficial <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> por más información."
+
+#. Tag: title
+#, no-c-format
+msgid "Feedback"
+msgstr "Feedback"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink> to report a bug, send a bug fix or suggest improvements about Pardus.We would like to thank all of our users and community members for their valuable contributions which help improving Pardus, Linux and free software worldwide."
+msgstr "Visite <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink> para reportar un error, enviar correcciones o sugerir mejoras en Pardus. Agradecemos a todos nuestros usuarios y miembros de las comunidades por sus aportes, que ayudan a mejorar Pardus, Linux y el software libre en general."

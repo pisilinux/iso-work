@@ -1,0 +1,349 @@
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-09-19T11:46:58\n"
+"PO-Revision-Date: 2011-01-20 13:40+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#, no-c-format
+msgid "What is new?"
+msgstr "Yenilikler"
+
+#. Tag: para
+#, no-c-format
+msgid "You can find some changes on core components of Pardus &PRODVER;, for other addtional changes please see <ulink url=\"stats.html\">here</ulink>."
+msgstr "Pardus &PRODVER; sürümünün temel bileşenleri ile ilgili değişiklikleri burada bulabilirsiniz. Yapılan diğer değişiklikler için <ulink url=\"stats.html\">buraya</ulink> bakabilirsiniz."
+
+#. Tag: title
+#, no-c-format
+msgid "Updates in Core Components"
+msgstr "Temel Bileşenlerde Güncellemeler"
+
+#. Tag: para
+#, no-c-format
+msgid "<application>NetworkManager</application>"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "NetworkManager is updated to &NMVER;."
+msgstr "NetworkManager &NMVER; sürümüne güncellendi."
+
+#. Tag: para
+#, no-c-format
+msgid "Problems about adding VPN connections have been fixed."
+msgstr "VPN bağlantısı ekleme ile ilgili sorunlar düzeltildi."
+
+#. Tag: para
+#, no-c-format
+msgid "Handle WLAN security passwords gracefully while upgrading distribution."
+msgstr "Dağıtım güncellemelerinde WLAN güvenlik parolalarını artık daha dikkatli ele alınacak."
+
+#. Tag: para
+#, no-c-format
+msgid "<application>ModemManager</application>"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "ModemManager is updated to &MMVER;."
+msgstr "ModemManager &MMVER; sürümüne güncellendi."
+
+#. Tag: para
+#, no-c-format
+msgid "Improvements for Samsung modems"
+msgstr "Samsung modemler için çeşitli iyileştirmeler"
+
+#. Tag: para
+#, no-c-format
+msgid "Support access technology reporting for Qualcomm Gobi modems"
+msgstr "Qualcomm Gobi modemler için erişim teknolojisi raporlama desteği"
+
+#. Tag: para
+#, no-c-format
+msgid "Fix communication with Nokia N900 devices"
+msgstr "Nokia N900 aygıtlarla iletişim düzeltildi"
+
+#. Tag: para
+#, no-c-format
+msgid "Support multiple CDMA Rm protocols"
+msgstr "Çoklu CDMA Rm protokolü desteği"
+
+#. Tag: para
+#, no-c-format
+msgid "Fix handling of Option access technology reporting"
+msgstr "Option access technology reporting işlemleri düzeltildi"
+
+#. Tag: para
+#, no-c-format
+msgid "Fix handling of CDMA EVDO registration states"
+msgstr "CDMA EVDO kayıt durumlarının işlenişi düzeltildi"
+
+#. Tag: para
+#, no-c-format
+msgid "Fix problems reconnecting Ericsson F5521gw modems"
+msgstr "Ericsson F5521gw modemlerin yeniden bağlanma problemleri düzeltildi"
+
+#. Tag: para
+#, no-c-format
+msgid "Better handling of some Android handset modem"
+msgstr "Bazı Android handset modemlerle ilgili iyileştirmeler"
+
+#. Tag: para
+#, no-c-format
+msgid "<application>cups</application> - cups is updated to &CUPSVER;."
+msgstr "<application>cups</application> - cups &CUPSVER; sürümüne güncellendi."
+
+#. Tag: para
+#, no-c-format
+msgid "<application>LibreOffice</application>"
+msgstr ""
+
+#. Tag: para
+#, no-c-format
+msgid "LibreOffice is updated to &LIBREVER;"
+msgstr "LibreOffice &LIBREVER; sürümüne güncellendi."
+
+#. Tag: para
+#, no-c-format
+msgid "Fixed crash closing document with footnotes"
+msgstr "Dipnot içeren dokümanların kapanışı sırasında meydana gelen çökme düzeltildi."
+
+#. Tag: para
+#, no-c-format
+msgid "Allow multi-range copy from VBA (Calc)"
+msgstr "VBA'dan çoklu aralık kopyalamaya izin verildi (Calc)"
+
+#. Tag: para
+#, no-c-format
+msgid "Fix for crash with hidden column in Data-&gt;Form (Calc)"
+msgstr "Veri-&gt;Form yolundaki gizli sütun ile ilgili çökme düzeltildi (Calc)"
+
+#. Tag: para
+#, no-c-format
+msgid "Prevent crash at column row boundaries (Calc)"
+msgstr "Sütun satır sınırlarındaki çökme düzeltildi (Calc)"
+
+#. Tag: para
+#, no-c-format
+msgid "Enable l10n of presenter screen (Presenter Screen Extension)"
+msgstr "Presenter Screen eklentisine çeviri desteği eklendi"
+
+#. Tag: para
+#, no-c-format
+msgid "Correctly detect documents with xlk extension as Excel binary"
+msgstr "xlk uzantılı dokümanlar olması gerektiği gibi Excel ikilisi olarak sınıflandırıldı"
+
+#. Tag: para
+#, no-c-format
+msgid "Missing icon in Styles and Formatting dialog (Impress)"
+msgstr "Biçemler ve Biçimlendirme ekranındaki eksik simge düzeltildi (Impress)"
+
+#. Tag: para
+#, no-c-format
+msgid "Set correct mimetype for draw documents on xml export (Draw)"
+msgstr "xml biçiminde kaydetme işleminde draw dokümanlarına doğru mimetype atanması sağlandı (Draw)"
+
+#. Tag: para
+#, no-c-format
+msgid "You can check out LibreOffice web page for more information."
+msgstr "Daha fazla bilgi için LibreOffice web sayfasına bakabilirsiniz."
+
+#. Tag: para
+#, no-c-format
+msgid "<application>MPlayer/libass</application>: Fixed crash playing subtitled videos which was triggered by freetype 2.4.6 security update."
+msgstr "<application>MPlayer/libass</application>: Altyazılı videoların oynatılması sırasında yaşanan ve freetype 2.4.6 güvenlik güncellemesiyle tetiklenen çökme düzeltildi."
+
+#~ msgid "Updates in Pardus Technologies"
+#~ msgstr "Pardus Teknolojilerinde Yenilikler"
+
+#~ msgid "YALI"
+#~ msgstr "YALI"
+
+#~ msgid "<emphasis>YALI</emphasis>, the installer of Pardus, gained system rescue menu that provides easy bootloader and password recovery."
+#~ msgstr "Pardus kurulum aracı <emphasis>YALI</emphasis>, sistem önyükleyici ve parolalarınızı kolayca kurtarabilmeniz için artık kurtarma ekranı ile geliyor."
+
+#~ msgid "Pisi"
+#~ msgstr "Pisi"
+
+#~ msgid "Some of the core components are now parallellized to increase the utilization of multi-core machines which means faster package operations and better package management experience."
+#~ msgstr "Çok çekirdekli bilgisayarları daha verimli kullanmak üzere paralelleştirilen bazı bileşenleriyle Pisi, artık daha hızlı paket işlemleri ve daha iyi paket yönetimi deneyimi vaad ediyor."
+
+#~ msgid "<emphasis>QuickFormat</emphasis> is a removable device formatting tool that can integrate to Dolphin. Now, it's very easy to format USB flash drives and card readers."
+#~ msgstr "<emphasis>QuickFormat</emphasis> Dolphin ile uyumlu çalışabilen bir çıkarılabilir aygıt formatlama aracıdır. Artık USB belleklerinizi ve çıkarılabilir bellek kartlarınızı formatlamak çok kolay."
+
+#~ msgid "<application>Kernel</application> - The Linux kernel shipped with Pardus &PRODVER; is &KERNELVER;."
+#~ msgstr "<application>Kernel</application> - Pardus &PRODVER; ile Linux çekirdeğinin &KERNELVER; sürümü kullanılıyor."
+
+#~ msgid "<application>Plymouth</application> - The bootsplash technology used in Pardus &PREVVER; is updated to its latest version for a much stable experience."
+#~ msgstr "<application>Plymouth</application> - Daha kararlı bir deneyim için; Pardus &PREVVER; sürümünde açılış süreci görselleştirmesi için kullanılan teknolojinin en son güncel sürümü tercih edildi."
+
+#~ msgid "<application>X.org</application> - xorg-server is updated to &XORGVER;."
+#~ msgstr "<application>X.org</application> - Xorg sunucu, &XORGVER; sürümüne yükseltildi."
+
+#~ msgid "<application>TeX Live</application> - TeX Live documentation stack is updated to latest &TEXLIVEVER; version."
+#~ msgstr "<application>TeX Live</application> - TeX Live belgeleme araçları, mevcut en güncel sürüm olan &TEXLIVEVER; sürümüne yükseltildi."
+
+#~ msgid "Desktop Experience"
+#~ msgstr "Masaüstü Deneyimi"
+
+#~ msgid "Changes in KDE Desktop Environment"
+#~ msgstr "KDE Yazılım Seçkisinde Değişiklikler"
+
+#~ msgid "Pardus &PRODVER; comes with the latest KDE Software Compilation, KDE SC &KDEVER;. The base packages also contains numerous backports and fixes which will improve the stability of your desktop experience significantly."
+#~ msgstr "Pardus &PRODVER; en yeni KDE Yazılım Seçkisi, KDE SC &KDEVER; ile geliyor. Temel paketler bir çok uyumluluk ve hata giderme çalışmasından geçirilerek masaüstü deneyiminize gözle görülür bir iyileştirme hedeflendi."
+
+#~ msgid "KDE Software Compilation, versioned &KDEVER;, provide many new features in each of KDE's components including Plasma, Solid, Nepomuk, KWin and also introduces a brand new Bluetooth framework called BlueDevil allows easy device pairing and management."
+#~ msgstr "KDE &KDEVER; Yazılım Seçkisi, Plasma, Solid, Nepomuk, KWin gibi önemli bileşenlerine yeni özellikler eklemenin yanı sıra, Bluetooth aygıtlarınızı kolayca eşleştirmenizi ve yönetmenizi sağlayan BlueDevil ismindeki altyapısını, bu sürümle kullanıma sunuyor."
+
+#~ msgid "Default Applications"
+#~ msgstr "Öntanımlı Uygulamalar"
+
+#~ msgid "Mozilla Firefox"
+#~ msgstr "Mozilla Firefox"
+
+#~ msgid "Pardus &PRODVER; comes with <emphasis>Mozilla Firefox &FIREFOXVER;</emphasis> as the default web browser application. This version of Firefox introduces CSS animations, Do-Not-Track, improved support for HTML5, MathML, and SMIL, improved network, memory and JavaScript performance and fixes for several stability and security issues."
+#~ msgstr "Pardus &PRODVER; öntanımlı web tarayıcı olarak <emphasis>Mozilla Firefox &FIREFOXVER;</emphasis> kullanmaktadır. Firefox'un bu sürümü ile birlikte; CSS animasyonları, Do-Not-Track, HTML5, MathML ve SMIL için gelişmiş destek, iyileştirilmiş ağ, bellek ve JavaScript performansı ve birçok hata düzeltmesi ve güvenlik iyileştirmeleri geliyor."
+
+#~ msgid "Clementine"
+#~ msgstr "Clementine"
+
+#~ msgid "<emphasis>Clementine</emphasis>, a cross-platform music player based on Amarok 1.4 is updated to latest stability and maintenance version &CLEMENTINEVER;."
+#~ msgstr "Amarok 1.4 sürümü temel alınarak hazırlanan platform bağımsız müzik çalar <emphasis>Clementine</emphasis> en güncel kararlılık ve bakım sürümü olan &CLEMENTINEVER; sürümüne güncellendi."
+
+#~ msgid "SMPlayer"
+#~ msgstr "SMPlayer"
+
+#~ msgid "<emphasis>SMplayer</emphasis>, a Qt based frontend for MPlayer is set as the default Video/VCD/DVD playing application as it is well integrated with KDE desktop environment in terms of usability and graphical user interface and supports playing a wide range of video file types thanks to the MPlayer backend."
+#~ msgstr "Qt ile yazılmış bir MPlayer önyüzü olan ve KDE ile görsel arabirim ve kullanım alışkanlıkları açısından çok iyi entegre olan ve MPlayer sayesinde bir çok farklı video türünü oynatabilen <emphasis>SMplayer</emphasis> Video/VCD/DVD izlemek için öntanımlı uygulama olarak seçildi."
+
+#~ msgid "KsCD"
+#~ msgstr "KsCD"
+
+#~ msgid "<emphasis>KsCD</emphasis>, is set as the default Audio CD playing application."
+#~ msgstr "Müzik CD'leri için öntanımlı uygulama olarak <emphasis>KsCD</emphasis> seçildi."
+
+#~ msgid "Web Browsers"
+#~ msgstr "İnternet Tarayıcıları"
+
+#~ msgid "Although not included in the installation images, a wide range of web browsers including Chromium browser, rekonq, Arora and Opera are available for installation through the package manager."
+#~ msgstr "Kurulum imajlarında yer almasa da, paket yöneticisi ile Chromium, rekonq, Arora ve Opera gibi İnternet tarayıcıları da seçilebiliyor."
+
+#~ msgid "System Settings"
+#~ msgstr "Sistem Ayarları"
+
+#~ msgid "The display configuration tool of the graphics card manufacturer is now recommended in the <emphasis>Display and Monitor</emphasis> module of the System Settings, if it suits better to your graphics card driver."
+#~ msgstr "Sistem Ayarları uygulamasındaki ekran yapılandırma bölümü olan <emphasis>Görüntü ve Ekran</emphasis> modülü, artık gerektiği durumlarda kullanıcılara ekran kartı üreticisinin kendi yapılandırma aracını tavsiye ediyor."
+
+#~ msgid "Office Suite"
+#~ msgstr "Ofis Paketi"
+
+#~ msgid "<emphasis>LibreOffice</emphasis>, an Open Source personal productivity suite sponsored by the Document Foundation, is the default Office Suite in Pardus &PRODVER;. &LIBREOFFICEVER; version of LibreOffice introduces; improved text rendering, configurable color charts, improved thumbnailed HTML export of presentations, faster Flat ODF import/export and better desktop theme integration."
+#~ msgstr "Document Foundation tarafından hazırlanan, açık kaynak kodlu üretim araçları paketi <emphasis>LibreOffice</emphasis> Pardus &PRODVER; sürümünün öntanımlı ofis paketidir. LibreOffice &LIBREOFFICEVER; sürümü ile birlikte gelen özellikler arasında; yazıtiplerinin daha iyi çizdirilmesi, ayarlanabilir renk çizelgeleri, sunumların küçük resimli HTML dışarı aktarımı, daha hızlı düz ODF içeri/dışarı aktarımı ve daha iyi masaüstü entegrasyonu sıralanabilir."
+
+#~ msgid "Other"
+#~ msgstr "Diğer"
+
+#~ msgid "Most wanted packages like <emphasis>Skype</emphasis>, a P2P VoIP client that allows you to make voice calls, and <emphasis>Wine</emphasis>, a software that allows you to run Microsoft Windows applications, are now included in Pardus &PRODVER; package repopsitories."
+#~ msgstr "En çok istenen paketlerden <emphasis>Skype</emphasis> (sesli aramalar yapmanızı sağlayan bir VoIP istemci) ve <emphasis>Wine</emphasis> (Microsoft Windows uygulamalarını çalıştırabilmenizi sağlayan bir araç) artık Pardus &PRODVER; paket depolarında yer alıyor."
+
+#~ msgid "The user interface is completely redesigned to improve the usability."
+#~ msgstr "Kullanışlılığı artırmak için tüm arayüz yeniden tasarlandı."
+
+#~ msgid "Users are now able to select between Open Source and proprietary drivers for their NVIDIA video adapters."
+#~ msgstr "Kullanıcılar kurulum esnasında NVIDIA ekran kartları için açık kaynak ya da firmanın sahipli sürücülerinden birini seçme şansına sahip."
+
+#~ msgid "First Boot"
+#~ msgstr "İlk Açılış"
+
+#~ msgid "Some of the settings which were asked during the installation in Pardus &PREVVER; are now moved into a different application which shows up once during the first boot after the installation."
+#~ msgstr "Pardus &PREVVER; sürümünde bazı yapılandırma işlemleri kurulum sırasında yapılıyordu. Bu işlemler artık farklı bir uygulama içerisinde yer alıyor ve kurulumdan sonraki ilk açılışta yapılıyor."
+
+#~ msgid "Kaptan"
+#~ msgstr "Kaptan"
+
+#~ msgid "<emphasis>Kaptan</emphasis>, the desktop customization tool of Pardus, now optionally captures your picture and sets it as your avatar in KDE."
+#~ msgstr "Pardus'un kişiselleştirme yardımcısı <emphasis>Kaptan</emphasis>, isteğinize bağlı olarak resminizi çekerek KDE içinde avatar olarak kullanmanızı sağlıyor."
+
+#~ msgid "Users are now able to select their preferred icon theme which will be used in their KDE desktop environment."
+#~ msgstr "Kullanıcılar artık KDE içinde kullanılacak olan simge setini Kaptan ile seçebiliyor."
+
+#~ msgid "<emphasis>Pisi</emphasis> now internally uses XZ as the default compression algorithm."
+#~ msgstr "<emphasis>Pisi</emphasis> XZ sıkıştırma algoritmasını öntanımlı olarak kullanıyor."
+
+#~ msgid "Binary package names now reflects the architecture and the distribution release for which the package is built."
+#~ msgstr "İkili paketlerin isimleri artık hangi sürüm ve işlemci mimarisine göre derlendikleri bilgisini gösterir şekilde hazırlanıyor."
+
+#~ msgid "Various speed enhancements has been done in the core components for a better package management experience."
+#~ msgstr "Paket yönetiminde daha rahat kullanım için temel bileşenlerde bir çok iyileştirme yapıldı."
+
+#~ msgid "Package Manager"
+#~ msgstr "Paket Yöneticisi"
+
+#~ msgid "Users are now able to vote for a package and see the screenshots of graphical applications shipped within packages."
+#~ msgstr "Kullanıcılar artık paketleri oylayabiliyor ve ekran görüntülerine bakarak tercih yapabiliyor."
+
+#~ msgid "The graphical user interface is redesigned to improve the usability. Various speed enhancements has been done for a better graphical package management experience."
+#~ msgstr "Grafik arabirim kullanışlılığı artırmak için baştan tasarlandı. Daha hızlı çalışması için bir çok iyileştirme yapıldı."
+
+#~ msgid "A lot of KDE integration work has been done including the usage of KDE system tray."
+#~ msgstr "KDE sistem çekmecesinin kullanımı da dahil olmak üzere bir çok KDE entegrasyonu iyileştirmesi gerçekleştirildi."
+
+#~ msgid "<application>X.org</application> - xorg-server is updated to &XORGVER;, improvements to the automatic driver configuration mechanism has been done by our developers."
+#~ msgstr "<application>X.org</application> - xorg-sunucusu &XORGVER; sürümüne yükseltildi. Otomatik sürücü yapılandırması için geliştiricilerimizin iyileştirmeleri eklendi."
+
+#~ msgid "KDE SC &KDEVER; brings more performance and stability to the desktop experience. Support for WebKit, improved user experience for netbooks, a new high-speed cache allowing fast access to resources stored on disk are among the new features of this version."
+#~ msgstr "KDE SC &KDEVER; daha iyi performans ve kararlılık sağlıyor. WebKit desteği, netbook kullanıcıları için geliştirilen kullanışlılık, yüksek hızlı önbellek ile diskte tutulan bilgilere çabucak ulaşım gibi özellikler göze çarpıyor."
+
+#~ msgid "Visual Enhancements"
+#~ msgstr "Görsel İyileştirmeler"
+
+#~ msgid "All GTK applications are now rendered with Oxygen style thanks to the <emphasis>oxygen-gtk</emphasis> project. This brings a huge improvement to the user interface consistency."
+#~ msgstr "<emphasis>oxygen-gtk</emphasis> projesi sayesinde, tüm GTK uygulamaları artık Oxygen biçemiyle görüntülenebiliyor, Bu özellik arabirim tutarlılığı konusunda büyük bir gelişme sağladı."
+
+#~ msgid "Milky icon theme especially designed for Pardus is shipped within the installation image. Users can set this icon theme through <emphasis>Kaptan</emphasis> or <emphasis>System Settings</emphasis>."
+#~ msgstr "Milky simge seti Pardus için özel olarak tasarlanan ve kurulum imajıyla dağıtılan setlerden biri. Kullanıcılar yenilenen <emphasis>Kaptan</emphasis> ya da <emphasis>Sistem Ayarları</emphasis> içinden kullanacakları simge setini seçebiliyor."
+
+#~ msgid "Network Management"
+#~ msgstr "Ağ Yönetimi"
+
+#~ msgid "Besides switching to GNOME NetworkManager as the default networking backend, Pardus &PRODVER; comes with a heavily improved and modified KDE Network Management tool and plasmoid to give their users a much more consistent networking experience."
+#~ msgstr "Ağ yapılandırmasında GNOME NetworkManager kullanmanın yanında Pardus &PRODVER; KDE Ağ Yönetim araç ve plasmoid programcıklarıyla geliyor ve çok kararlı bir ağ kullanımı sunuyor."
+
+#~ msgid "With this new networking backend, users are now able to easily set up their Ethernet (With support for 802.1x authentication), 802.11 Wireless (With support for WEP/WPA/WPA2/WPA-EAP and 802.1x authentication), EDGE/3G/CDMA and VPN networks."
+#~ msgstr "Yeni ağ altyapısı ile kullanıcılar Ethernet (802.1x yetkilendirme desteği ile), 802.11 Kablosuz (WEP/WPA/WPA2/WPA-EAP ve 802.1x yetkilendirme desteği), EDGE/3G/CDMA ve VPN ağlarına bağlanabiliyor."
+
+#~ msgid "Pardus &PRODVER; comes with Mozilla Firefox &FIREFOXVER; as the default web browser application. New features of this Firefox release include Firefox Panorama, application tabs, a redesigned extension manager, Jetpack extensions support, integration with Firefox Sync, and support for multitouch displays."
+#~ msgstr "Pardus &PRODVER; öntanımlı İnternet tarayıcısı olarak Mozilla Firefox &FIREFOXVER; sürümü ile geliyor. Firefox'un bu sürümde yeni özellikleri arasında Firefox Panorama, uygulama sekmeleri, yenilenmiş eklenti yöneticisi, Jetpack eklenti desteği, değişik bilgisayarlar arası eşgüdüm sağlayan Firefox Sync entegrasyonu ve birden çok parmakla dokunmayı destekleyen ekran desteği yer alıyor."
+
+#~ msgid "<emphasis>Panda</emphasis> (Pardus alternative driver administration) is a new System Settings module which allows users to change the driver between Open Source and proprietary one for NVIDIA and ATI display adapters."
+#~ msgstr "<emphasis>Panda</emphasis> (Pardus alternative driver administration / Pardus alternatif sürücü yönetimi) Sistem Ayarlarına eklenen yeni bileşenlerden biri. Panda kullanılarak NVIDIA ve ATI kartlarda açık kaynak kodlu ya da sahipli sürücülerden biri seçilebiliyor."
+
+#~ msgid "Users are now able to set up their Bluetooth devices, Wacom tablets and Synaptics touchpads through System Settings."
+#~ msgstr "Kullanıcılar Sistem Ayarlarını kullanarak Bluetooth aygıtları, Wacom tabletleri ya da Synaptics tercihlerini yapılandırabiliyor."
+
+#~ msgid "The default language used throughout the whole system can now be changed through the locale settings section."
+#~ msgstr "Yerelleştirme yapılandırmasıyla tüm sistemde kullanılan öntanımlı dil değiştirilebiliyor."
+
+#~ msgid "<emphasis>LibreOffice</emphasis>, an Open Source personal productivity suite sponsored by the Document Foundation, is now the default Office Suite in Pardus &PRODVER;."
+#~ msgstr "Document Foundation tarafından hazırlanan, açık kaynak kodlu üretim araçları paketi <emphasis>LibreOffice</emphasis> Pardus &PRODVER; sürümüyle öntanımlı ofis paketi olarak geliyor."
+
+#~ msgid "Games"
+#~ msgstr "Oyunlar"
+
+#~ msgid "Pardus &PRODVER; continues the tradition of giving importance to the quality of games offered to their users. The default installation now includes the board and logic games provided by the <application>kdegames</application> package."
+#~ msgstr "Pardus &PRODVER; sürümüyle, kullanıcılarına kaliteli oyunlar sunma geleneğini sürdürüyor. Kurulum sırasında <application>kdegames</application> ile gelen masaüstü oyunları ve mantık oyunları yer alıyor."
+
+#~ msgid "Other Changes"
+#~ msgstr "Diğer Değişiklikler"
+
+#~ msgid "Firefox gets new stable release rapidly. &FIREFOXVER; release presents many new features like the new interface of the browser as well as plugin management new interface, tab grouping, bookmarks between computers, passwords and history matching, a new plug-in interface. HTML5, CSS3 and WebM technology supports are also most important features for the developers."
+#~ msgstr "Firefox &FIREFOXVER; sürümü bir çok yeni özellik sunuyor. Yeni arabirim, eklenti yönetimi, sekme gruplama, bilgisayarlar arası yer imlerini, parola ve tarama geçmişini eşlemenin yanı sıra geliştiriciler için önem taşıyan HTML5 ve CSS3 desteği, WebM teknolojilerine uyumluluk gibi özellikler öne çıkanlar arasında."

@@ -1,0 +1,152 @@
+#
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Antoon Tolboom <atolboo@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-01-20T06:58:23\n"
+"PO-Revision-Date: 2011-01-19 16:20+0100\n"
+"Last-Translator: Antoon Tolboom <atolboo@gmail.com>\n"
+"Language-Team: Dutch <kde-i18n-doc@kde.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Tag: title
+#, no-c-format
+msgid "System Requirements"
+msgstr "Systeemvereisten"
+
+#. Tag: title
+#, no-c-format
+msgid "Processor (CPU)"
+msgstr "Processor (CPU)"
+
+#. Tag: para
+#, no-c-format
+msgid "You may want to install the 64-bit version of Pardus &PRODVER; if your system is equipped with one of the processors listed in the sections below."
+msgstr "Het is mogelijk om de 64-bit versie van Pardus &PRODVER; te installeren indien het systeem voorzien is van een van de in onderstaande lijst getoonde processoren."
+
+#. Tag: title
+#, no-c-format
+msgid "Intel processors which support 64-bit architecture"
+msgstr "Intel-processoren met ondersteuning voor 64-bit architectuur "
+
+#. Tag: para
+#, no-c-format
+msgid "Newer versions of Pentium 4, Celeron D, Xeon and Pentium Dual-Core"
+msgstr "Nieuwere versies van Pentium 4, Celeron D, Xeon en Pentium Dual-Core"
+
+#. Tag: para
+#, no-c-format
+msgid "Atom D5xx, N4xx and N5xx"
+msgstr "Atom D5xx, N4xx en N5xx"
+
+#. Tag: para
+#, no-c-format
+msgid "All versions of Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 and Core i3 processors"
+msgstr "Alle versies van Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 en Core i3 processoren"
+
+#. Tag: para
+#, no-c-format
+msgid "Probably newer processors manufactured after the time this document was originally written."
+msgstr "Hoogstwaarschijnlijk ook nieuwere versies die vrijgegeven worden na het schrijven van dit document."
+
+#. Tag: title
+#, no-c-format
+msgid "AMD processors which support 64-bit architecture"
+msgstr "AMD-processoren met ondersteuning voor 64-bit architectuur "
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Athlon 64, 64 X2, 64 FX"
+msgstr "AMD Athlon 64, 64 X2, 64 FX"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Athlon II"
+msgstr "AMD Athlon II"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Opteron"
+msgstr "AMD Opteron"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Turion 64"
+msgstr "AMD Turion 64"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Turion 64 X2"
+msgstr "AMD Turion 64 X2"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Sempron"
+msgstr "AMD Sempron"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Phenom"
+msgstr "AMD Phenom"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Phenom II"
+msgstr "AMD Phenom II"
+
+#. Tag: title
+#, no-c-format
+msgid "System memory (RAM)"
+msgstr "Systeemgeheugen (RAM)"
+
+#. Tag: para
+#, no-c-format
+msgid "System memory (RAM) requirements of Pardus &PRODVER; depends heavily on your daily workflow so it is very hard to define upper and lower bounds, but we recommend at least &MINMEM; of memory for a smooth desktop experience."
+msgstr "De eisen voor systeemgeheugen (RAM) van Pardus &PRODVER; zijn sterk afhankelijk van het dagelijks gebruik en daarom is de boven- en ondergrens moeilijk aan te geven, ten minste &MINMEM; geheugen wordt aanbevolen voor een prettige bedieningservaring."
+
+#. Tag: title
+#, no-c-format
+msgid "Hard disk space requirements"
+msgstr "Eisen voor harde schijfruimte"
+
+#. Tag: title
+#, no-c-format
+msgid "Minimum requirements"
+msgstr "Minimum eisen"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus &PRODVER; requires at least &MINREQSPACE; of free hard disk space for a successful installation. As we don't offer custom package selection during the installation, this minimum size constraint applies to all installations."
+msgstr "Pardus &PRODVER; heeft tenminste &MINREQSPACE; vrije ruimte op de harde schijf nodig voor een succesvolle installatie. Omdat het niet mogelijk is het pakket tijdens de installatie aan te passen, is dit de minimale eis voor alle installaties."
+
+#. Tag: title
+#, no-c-format
+msgid "Recommended requirements"
+msgstr "Aanbevolen eisen"
+
+#. Tag: para
+#, no-c-format
+msgid "In order to effectively use Pardus &PRODVER; on your system without running low on disk space during your daily workflow, we recommend at least &RECOMMSPACE; of free hard disk space."
+msgstr "Voor het comfortabel dagelijks werken met Pardus &PRODVER; en daarbij het risico van onvoldoende schijfruimte te vermijden wordt tenminste &RECOMMSPACE; vrije hard schijfruimte aanbevolen."
+
+#. Tag: title
+#, no-c-format
+msgid "Note on Swap space"
+msgstr "Opmerking over swapruimte"
+
+#. Tag: para
+#, no-c-format
+msgid "Swap space is used whenever your operating system runs out of physical memory. If you think that your physical memory is big enough for your daily usage, you may skip creating a swap space during installation."
+msgstr "Swapruimte is nodig wanneer het besturingssysteem over onvoldoende systeemgeheugen (RAM) beschikt. Wanneer het aanwezige systeemgeheugen voldoende is voor het dagelijks gebruik, is het aanmaken van swapruimte niet nodig tijdens de installatie."
+
+#. Tag: para
+#, no-c-format
+msgid "<emphasis>Note that</emphasis> a disk partition reserved for swap space is <emphasis>required</emphasis> if you want to hibernate (Suspend to disk) Pardus. Otherwise the functionality will be disabled."
+msgstr "<emphasis>Let op:</emphasis> een gereserveerde partitie voor swapruimte is <emphasis>noodzakelijk</emphasis> indien de schijf-slaapstand (Suspend to disk) in Pardus gebruikt wordt. Anders is deze functie uitgeschakeld."

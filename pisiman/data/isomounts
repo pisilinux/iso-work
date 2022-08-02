@@ -1,0 +1,5 @@
+# syntax: <img> <arch> <mount point> <type> <kernel argument>
+# Sample kernel argument in syslinux: overlay=extra,extra2
+
+pisi.sqfs x86_64 / squashfs
+

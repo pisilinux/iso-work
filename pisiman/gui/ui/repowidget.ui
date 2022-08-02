@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RepoWidget</class>
+ <widget class="QWidget" name="RepoWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>552</width>
+    <height>353</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="1">
+    <widget class="QPushButton" name="pb_repo_save">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset theme="document-save"/>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QPushButton" name="pb_repo_add">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset theme="list-add"/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QPushButton" name="pb_repo_open">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset theme="document-open"/>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QPushButton" name="pb_repo_remove">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset theme="list-remove-symbolic"/>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QPushButton" name="pb_repo_up">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset theme="arrow-up"/>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" rowspan="7">
+    <widget class="QTableWidget" name="tw_repo">
+     <property name="selectionBehavior">
+      <enum>QAbstractItemView::SelectRows</enum>
+     </property>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Address</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>110</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item row="5" column="1">
+    <widget class="QPushButton" name="pb_repo_down">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset theme="arrow-down"/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

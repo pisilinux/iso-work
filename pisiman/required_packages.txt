@@ -1,0 +1,12 @@
+make
+pyqtermwidget5
+python-chardet
+python-idna
+python-qt5
+python-qt5-devel
+python-requests
+python-sip
+python-urllib3
+squashfs-tools
+syslinux
+xorriso

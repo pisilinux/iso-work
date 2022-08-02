@@ -1,0 +1,27 @@
+#
+# Ivica Kolić <ikoli@yahoo.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Article_Info\n"
+"POT-Creation-Date: 2011-07-11T21:41:06\n"
+"PO-Revision-Date: 2011-06-13 18:12+0100\n"
+"Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
+"Language-Team: Croatian <ikoli@yahoo.com>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Croatian\n"
+"X-Poedit-Country: CROATIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Tag: title
+#, no-c-format
+msgid "Release Notes"
+msgstr "Bilješke o izadanju"
+
+#. Tag: productname
+#, no-c-format
+msgid "Pardus"
+msgstr "Pardus"

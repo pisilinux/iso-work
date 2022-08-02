@@ -1,0 +1,89 @@
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-07-11T21:41:06\n"
+"PO-Revision-Date: 2011-01-20 11:12+0100\n"
+"Last-Translator: Stefan Wilhelm <sw  _at_  pardususer  dot  de>\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#, fuzzy, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;"
+msgstr "Willkommen bei Pardus &PRODVER;"
+
+#. Tag: para
+#, fuzzy, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;, the latest maintenance release of Pardus, a powerful, KDE-focused Linux distribution."
+msgstr "Willkommen bei Pardus &PRODVER;, der neuesten Version einer leistungsfähigen und auf KDE fokussierten Linux Distribution."
+
+#. Tag: title
+#, no-c-format
+msgid "What is Pardus?"
+msgstr "Was ist Pardus?"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus is an open-source, freely distributable, GPL (General Public License) licensed user-friendly GNU/Linux distribution with many usability, hardware compatibility, stability and security enhancements."
+msgstr "Pardus ist eine nutzerfreundliche OpenSource GNU/Linux Distribution, die frei verfügbar ist und unter der GPL (General Public License) steht mit vielen nutzerfreundlichen Funktionen, ausgezeichneter Hardwarekompatibilität, herausragender Stabilität und Sicherheit."
+
+#. Tag: para
+#, no-c-format
+msgid "The Pardus project is sponsored by the <emphasis>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</emphasis>, an affiliate of the <emphasis>Scientific and Technological Research Council of Turkey (TUBITAK)</emphasis>."
+msgstr "Das Pardus Projekt ist finanziert durch das <emphasis>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</emphasis>, welches der <emphasis>Scientific and Technological Research Council of Turkey (TUBITAK)</emphasis> angegliedert ist."
+
+#. Tag: para
+#, no-c-format
+msgid "The aim of the Pardus distribution is to offer people a stable, reliable, easy-to-use and feature-rich computer experience by providing modern and popular open-source software. The developers are also putting an additional effort to make Pardus run on a wide range of hardware."
+msgstr "Das Ziel von Pardus ist, den Benutzern eine stabile, verlässliche, einfach zu nutzende und funktionsreiche Computererfahrung durch moderne und beliebte OpenSource Software zu bieten. Die Entwickler legen großen Wert darauf, dass Pardus auf einer breiten Basis von Hardware läuft."
+
+#. Tag: para
+#, no-c-format
+msgid "The project is named after the latin (and scientific) name for the Anatolian leopard, <emphasis>Panthera pardus tulliana</emphasis>."
+msgstr "Das Projekt ist nach dem wissenschaftlichen lateinischen Namen des Anatolischen Leopards, <emphasis>Panthera pardus tulliana</emphasis> benannt."
+
+#. Tag: title
+#, no-c-format
+msgid "How Can I Try Pardus?"
+msgstr "Wie kann ich Pardus probieren?"
+
+#. Tag: para
+#, no-c-format
+msgid "You can try Pardus either by installing it on your computer or running the Live version without touching your hard disk. You can boot Pardus from an optical drive as well as from USB mass storage devices like external hard drives and USB flash drives."
+msgstr "Sie können Pardus testen indem Sie es auf Ihren Computer installieren, oder Sie lassen die Live Version laufen, ohne dass die Festplatte verändert wird. Sie können Pardus von einem optischen Medium genauso wie von einem USB Speicher (ext. Festplatte oder USB-Stick) booten."
+
+#. Tag: para
+#, no-c-format
+msgid "Both the installation and live version images exceeds the size of a regular CD so if you are willing to use an optical drive for booting Pardus, you currently have to use DVD media to burn the images."
+msgstr "Falls Sie ein optisches Medium verwenden wollen, um Pardus zu booten, müssen Sie eine DVD nutzen um das Image zu brennen, da sowohl die Installations- als auch das Live-Image die Größe einer regulären CD übersteigen."
+
+#. Tag: para
+#, no-c-format
+msgid "Note that the boot order in your system's BIOS software should be set with the optical drive or USB mass storage device as the first device in order to boot from the installation or the live medium. On newer systems, the boot order can also be changed by pressing a key (generally F8 on desktop systems) while booting."
+msgstr "Um von dem Installations- oder Livemedium zu booten sollte die Bootreihenfolge im BIOS Ihres Computers so eingestellt werden, dass zuerst von dem optischen Laufwerk oder vom USB Gerät gebootet wird. Bei neueren Systemen kann die Bootreihenfolge auch durch Drücken einer Taste (bei Desktop Systemen normalerweise F8) während des Bootvorgangs geändert werden."
+
+#. Tag: title
+#, no-c-format
+msgid "More Information"
+msgstr "Weitere Informationen"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit the official web site <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> for more information."
+msgstr "Für weitere Informationen können Sie die offizielle Webseite <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> besuchen. Support und Hilfe können Sie sowohl im englischsprachigen Worldforum unter <ulink url=\"http://worldforum.pardus-linux.nl/\">http://worldforum.pardus-linux.nl</ulink> als auch in der deutschsprachigen Pardususer-Community unter <ulink url=\"http://www.pardususer.de\">http://www.pardususer.de</ulink> erhalten."
+
+#. Tag: title
+#, no-c-format
+msgid "Feedback"
+msgstr "Rückmeldung"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink> to report a bug, send a bug fix or suggest improvements about Pardus.We would like to thank all of our users and community members for their valuable contributions which help improving Pardus, Linux and free software worldwide."
+msgstr "Um Fehler zu melden, einen Bugfix zu senden, oder um eine Verbesserung für Pardus vorzuschlagen können Sie die Seite <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink> aufsuchen. An dieser Stelle möchten wir allen Nutzern und Communitymitgliedern für Ihre wertvolle Arbeit danken, die uns hilft Pardus, Linux und freie Software zu verbessern."

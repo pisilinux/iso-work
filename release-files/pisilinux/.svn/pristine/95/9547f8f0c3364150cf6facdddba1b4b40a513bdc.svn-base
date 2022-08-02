@@ -1,0 +1,11 @@
+# Config::Simple 4.59
+# Sat Sep  4 11:12:46 2010
+
+xml_lang: en-US
+type: Article
+brand: common
+web_type: home
+chunk_section_depth: 1
+chunk_first: 1
+draft: 1
+

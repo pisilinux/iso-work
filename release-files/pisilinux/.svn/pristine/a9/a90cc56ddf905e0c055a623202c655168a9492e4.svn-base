@@ -1,0 +1,153 @@
+#
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Patrik Karlsson <patrik@trixon.se>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-01-19T10:14:10\n"
+"PO-Revision-Date: 2011-01-19 18:40+0100\n"
+"Last-Translator: Patrik Karlsson <patrik@trixon.se>\n"
+"Language-Team: Swedish <pardus-translators@pardus.org.tr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Tag: title
+#, no-c-format
+msgid "System Requirements"
+msgstr "Systemkrav"
+
+#. Tag: title
+#, no-c-format
+msgid "Processor (CPU)"
+msgstr "Processor (CPU)"
+
+#. Tag: para
+#, no-c-format
+msgid "You may want to install the 64-bit version of Pardus &PRODVER; if your system is equipped with one of the processors listed in the sections below."
+msgstr "Du kanske vill installera 64-bitarsversionen av Pardus &PRODVER; om ditt system har någon av processorerna i listan nedan."
+
+#. Tag: title
+#, no-c-format
+msgid "Intel processors which support 64-bit architecture"
+msgstr "Intelprocessorer med stöd för 64-bitarsarkitektur"
+
+#. Tag: para
+#, no-c-format
+msgid "Newer versions of Pentium 4, Celeron D, Xeon and Pentium Dual-Core"
+msgstr "Nyare versioner av Pentium 4, Celeron D, Xeon och Pentium Dual-Core"
+
+#. Tag: para
+#, no-c-format
+msgid "Atom D5xx, N4xx and N5xx"
+msgstr "Atom D5xx, N4xx and N5xx"
+
+#. Tag: para
+#, no-c-format
+msgid "All versions of Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 and Core i3 processors"
+msgstr "Alla versioner av Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 och Core i3 processorer"
+
+#. Tag: para
+#, no-c-format
+msgid "Probably newer processors manufactured after the time this document was originally written."
+msgstr "Antagligen processorer tillverkade efter detta dokument skrevs."
+
+#. Tag: title
+#, no-c-format
+msgid "AMD processors which support 64-bit architecture"
+msgstr "AMD-processorer med stöd för 64-bitarsarkitektur"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Athlon 64, 64 X2, 64 FX"
+msgstr "AMD Athlon 64, 64 X2, 64 FX"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Athlon II"
+msgstr "AMD Athlon II"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Opteron"
+msgstr "AMD Opteron"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Turion 64"
+msgstr "AMD Turion 64"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Turion 64 X2"
+msgstr "AMD Turion 64 X2"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Sempron"
+msgstr "AMD Sempron"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Phenom"
+msgstr "AMD Phenom"
+
+#. Tag: para
+#, no-c-format
+msgid "AMD Phenom II"
+msgstr "AMD Phenom II"
+
+#. Tag: title
+#, no-c-format
+msgid "System memory (RAM)"
+msgstr "Systemminne (RAM)"
+
+#. Tag: para
+#, no-c-format
+msgid "System memory (RAM) requirements of Pardus &PRODVER; depends heavily on your daily workflow so it is very hard to define upper and lower bounds, but we recommend at least &MINMEM; of memory for a smooth desktop experience."
+msgstr "Pardus &PRODVER; krav på systemminnet (RAM) beror starkt av ditt dagliga arbetsflöde så det är svårt att definiera en övre och lägre gräns, men vi rekommenderar minst &MINMEM; minne för en angenäm skrivbordsupplevelse."
+
+#. Tag: title
+#, no-c-format
+msgid "Hard disk space requirements"
+msgstr "Hårddiskkrav"
+
+#. Tag: title
+#, no-c-format
+msgid "Minimum requirements"
+msgstr "Minsta krav"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus &PRODVER; requires at least &MINREQSPACE; of free hard disk space for a successful installation. As we don't offer custom package selection during the installation, this minimum size constraint applies to all installations."
+msgstr "Pardus &PRODVER; kräver minst &MINREQSPACE; tillgängligt hårddiskutrymme för en framgångsrik installation. Då vi inte erbjuder individuella val av paket under installationen gäller detta krav alla installationer."
+
+#. Tag: title
+#, no-c-format
+msgid "Recommended requirements"
+msgstr "Rekommenderade krav"
+
+#. Tag: para
+#, no-c-format
+msgid "In order to effectively use Pardus &PRODVER; on your system without running low on disk space during your daily workflow, we recommend at least &RECOMMSPACE; of free hard disk space."
+msgstr "För att effektivt kunna använda Pardus &PRODVER; på ditt system utan att få ont om diskutrymme under ditt dagliga arbete rekommenderar vi minst &RECOMMSPACE; tillgängligt hårddiskutrymme."
+
+#. Tag: title
+#, no-c-format
+msgid "Note on Swap space"
+msgstr "Noteras om växlingsutrymme"
+
+#. Tag: para
+#, no-c-format
+msgid "Swap space is used whenever your operating system runs out of physical memory. If you think that your physical memory is big enough for your daily usage, you may skip creating a swap space during installation."
+msgstr "Växlingsutrymmet används när ditt operativsystem får slut på fysiskt minne. Om du tror att ditt fysiska minne är tillräckligt stort för din dagliga användning kan du hoppa över att skapa växlingsutrymme under installationen."
+
+#. Tag: para
+#, no-c-format
+msgid "<emphasis>Note that</emphasis> a disk partition reserved for swap space is <emphasis>required</emphasis> if you want to hibernate (Suspend to disk) Pardus. Otherwise the functionality will be disabled."
+msgstr "<emphasis>Lägg märke till att</emphasis> en diskpartition ämnad för växlingsutrymme <emphasis>krävs</emphasis> för att viloläge (Spara till disk) skall fungera. I annat fall är funktionen avstängd."
+

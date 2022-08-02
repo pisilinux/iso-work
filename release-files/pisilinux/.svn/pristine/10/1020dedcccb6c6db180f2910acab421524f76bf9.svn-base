@@ -1,0 +1,64 @@
+#
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Patrik Karlsson <patrik@trixon.se>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-09-19T10:47:03\n"
+"PO-Revision-Date: 2011-01-19 18:17+0100\n"
+"Last-Translator: Patrik Karlsson <patrik@trixon.se>\n"
+"Language-Team: Swedish <pardus-translators@pardus.org.tr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Tag: title
+#, no-c-format
+msgid "Overview"
+msgstr "Översikt"
+
+#. Tag: para
+#, fuzzy, no-c-format
+msgid "Pardus &PRODVER; contains security, critical fixes and some translation and other improvements over the previous Pardus release &PREVVER;."
+msgstr "Pardus &PRODVER; innehåller stora förbättringar jämfört med föregående Pardusutgåva &PREVVER;. Här följer en kort sammanfattning över dessa förbättringar."
+
+#, fuzzy
+#~ msgid "<application>Kernel</application> - &KERNELVER; Linux kernel provides updated hardware support together with a hundred of bug fixes."
+#~ msgstr "<application>Kärnan</application> - Den senaste Linuxkärnan &KERNELVER; tillhandahåller det senaste hårdvarustödet tillsammans med tusentals felrättningar."
+
+#, fuzzy
+#~ msgid "<application>YALI</application> - YALI, the installer of Pardus, gained Rescue Mode which provides easy password and bootloader recovery."
+#~ msgstr "<application>YALI</application> - YALI, installationsprogrammet för Pardus, har fått stöd för LVM/RAID och UUID."
+
+#, fuzzy
+#~ msgid "<application>KDE SC</application> - Pardus &PRODVER; comes with the latest KDE Software Compilation, KDE SC &KDEVER;. The base packages also contains numerous backports and fixes which will improve the stability of your desktop experience significantly."
+#~ msgstr "<application>KDE SC</application> - Pardus &PRODVER; har den senaste KDE Software Component, KDE SC &KDEVER;. Baspaketet innehåller också ett antal bakåtporteringar och rättningar vilket ökar stabiliteten på skrivbordet avsevärt."
+
+#, fuzzy
+#~ msgid "<application>LibreOffice</application> - LibreOffice, an Open Source personal productivity suite sponsored by the Document Foundation, is updated to the much-awaited &LIBREOFFICEVER; version which brings huge improvements over the older version."
+#~ msgstr "<application>LibreOffice</application> - LibreOffice, en kontorssvit baserad på öppen källkod sponsrad av Document Foundation, är nu standard i Pardus &PRODVER;."
+
+#~ msgid "Hardware Overview"
+#~ msgstr "Hårdvara"
+
+#~ msgid "Pardus &PRODVER; now supports 64-bit processor architecture which is supported by many new Intel and AMD processors."
+#~ msgstr "Pardus &PRODVER; har stöd för 64-bitars processorarkitektur som stöds av många nyare Intel- och AMD-processorer."
+
+#~ msgid "Software Overview"
+#~ msgstr "Program"
+
+#~ msgid "<application>Plymouth</application> - The bootsplash technology used in Pardus &PREVVER; is completely dropped and replaced by the new Plymouth engine."
+#~ msgstr "<application>Plymouth</application> - Bootsplash-tekniken som användes i Pardus &PREVVER; är helt ersatt med Plymouth-motorn."
+
+#~ msgid "<application>Kaptan</application> - Kaptan, the desktop customization tool of Pardus, now optionally captures your picture and sets it as your avatar in KDE."
+#~ msgstr "<application>Kaptan</application> - Kaptan, anpassningsverktyget för Pardusskrivbordet, nu med möjligheten att ta din bild och använda som avatar i KDE."
+
+#~ msgid "<application>NetworkManager</application> - GNOME NetworkManager 0.8.2 is now the default networking backend in Pardus &PRODVER;. Users are now able to set up their HSPA/CDMA/VPN networks together with the already supported Ethernet and 802.11 WLAN networks."
+#~ msgstr "<application>NetworkManager</application> - GNOME NetworkManager 0.8.2 är nu standardhanteraren för nätverksbakänden i Pardus &PRODVER;. Användaren kan nu ställa in sina nätverk för HSPA/CDMA/VPN tillsammans med det redan stödda Ethernet och 802.11 WLAN-nätverk."
+
+#~ msgid "<application>GTK Oxygen style</application> - All GTK applications are now rendered with Oxygen style thanks to the <emphasis>oxygen-gtk</emphasis> project. This brings a huge improvement to the user interface consistency."
+#~ msgstr "<application>GTK Oxygen style</application> - Alla GTK-program ritas i stilen Oxygen tack vare <emphasis>oxygen-gtk</emphasis>-projektet. Detta leder till en enorm förbättring till konsekvens i användargränssnittet."

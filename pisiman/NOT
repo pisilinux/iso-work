@@ -1,0 +1,8 @@
+Eski arayüz için gui/main.py dosyasındaki 32. satırı yorum haline getirip 29. satır aktifleştirin
+
+
+Düzgün çalışması için pisiman dizininde bir defa `sh ./make.sh` komutunu çalıştırın ardından `sudo ./pisiman.py`
+komutunu kullanarak uygulamayı çalıştırabilirsiniz.
+Veya doğrudan pisiman dizininde `sh ./run.sh` komutunu çalıştırın paketleri kurup uygulamayı çalıştıracaktır.
+Make komutu hata döndürürse sudo pisi it -c system-devel komutunu çalıştırın,
+geliştirici paketleri sisteme yüklenmesinden sonra tekrar make komutunu çalıştırın.

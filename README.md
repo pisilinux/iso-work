@@ -1,0 +1,10 @@
+iso-work
+========
+
+Pisi Linux iso creation tools and files
+
+pisiman/required_packages.txt dosyasındaki programların sisteminizde kurulu olması gerekmektedir.
+otomatik kurulum ve çalıştırma için pisiman dizininde `sh ./run.sh` komutunu çalıştırmanız yeterli.
+Not: konsolda kurulum ve çalıştırma için sudo ile parola istenmektedir.  
+
+Çalıştırmadan önce pisiman/not dosyasını okuyun.

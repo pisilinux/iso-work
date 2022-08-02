@@ -1,0 +1,743 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style type="text/css">
+        a {text-decoration:none; size:10px; font-weight:bold;}
+        a:link {color:#3366FF}    /* unvisited link */
+        a:visited {color:#6600CC} /* visited link */
+        a:hover {color:#000066}   /* mouse over link */
+        a:active {color:#3366FF}  /* selected link */
+        body {background-color: #FFFFFF}
+    </style>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Detailed ChangeLog between Pardus-2011.1-Dama-Dama-x86_64 and Pardus-2011.2-Cervus-elaphus-x86_64</title>
+</head>
+<body>
+
+    <h1><a name="top">Pardus-2011.2-Cervus-elaphus-x86_64 Statistics</a></h1>
+    <a href="http://www.pardus.org.tr/eng">http://www.pardus.org.tr/eng</a><br />
+    <em>Generated on Mon Sep 19 11:32:13 2011</em>
+
+    <h2>Introduction</h2>
+        <p>
+        This is an automatically generated HTML document to provide some comparisons and statistics about a Pardus release.
+        The tool which generates this document compares two ISO9660 Pardus disc images to find out the evolution of the included binary packages.
+        </p>
+
+    <h2>Table of Contents</h2>
+    <ol>
+        <li><a href="#istats">Image statistics</a></li>
+        <li>
+            <a href="#pstats">New packages</a>
+            <ol>
+                <li><a href="#docbook-xml">docbook-xml</a></li>
+<li><a href="#docbook-xsl">docbook-xsl</a></li>
+<li><a href="#lash">lash</a></li>
+<li><a href="#sgml-common">sgml-common</a></li>
+            </ol>
+        </li>
+        <li>
+            <a href="#pmstats">Package updates</a>
+            <ol>
+                <li><a href="#ModemManager">ModemManager</a></li>
+<li><a href="#NetworkManager">NetworkManager</a></li>
+<li><a href="#artwork-pardus-release">artwork-pardus-release</a></li>
+<li><a href="#audiofile">audiofile</a></li>
+<li><a href="#b43-fwcutter">b43-fwcutter</a></li>
+<li><a href="#baselayout">baselayout</a></li>
+<li><a href="#command-not-found">command-not-found</a></li>
+<li><a href="#cups">cups</a></li>
+<li><a href="#cyrus-sasl">cyrus-sasl</a></li>
+<li><a href="#db4-java">db4-java</a></li>
+<li><a href="#dbus-python">dbus-python</a></li>
+<li><a href="#dhcp">dhcp</a></li>
+<li><a href="#ffmpeg">ffmpeg</a></li>
+<li><a href="#flashplugin">flashplugin</a></li>
+<li><a href="#fluidsynth">fluidsynth</a></li>
+<li><a href="#freetype">freetype</a></li>
+<li><a href="#gimp">gimp</a></li>
+<li><a href="#glib2">glib2</a></li>
+<li><a href="#glibc">glibc</a></li>
+<li><a href="#gst-plugins-bad">gst-plugins-bad</a></li>
+<li><a href="#hal">hal</a></li>
+<li><a href="#kaptan">kaptan</a></li>
+<li><a href="#kde-l10n-tr">kde-l10n-tr</a></li>
+<li><a href="#kde-wacom-tablet">kde-wacom-tablet</a></li>
+<li><a href="#kdelibs">kdelibs</a></li>
+<li><a href="#kdeutils">kdeutils</a></li>
+<li><a href="#lapack">lapack</a></li>
+<li><a href="#less">less</a></li>
+<li><a href="#libX11">libX11</a></li>
+<li><a href="#libXaw">libXaw</a></li>
+<li><a href="#libXfont">libXfont</a></li>
+<li><a href="#libXrandr">libXrandr</a></li>
+<li><a href="#libass">libass</a></li>
+<li><a href="#libechonest">libechonest</a></li>
+<li><a href="#libexif">libexif</a></li>
+<li><a href="#libgsf">libgsf</a></li>
+<li><a href="#libgssglue">libgssglue</a></li>
+<li><a href="#libidn">libidn</a></li>
+<li><a href="#libmikmod">libmikmod</a></li>
+<li><a href="#libmodplug">libmodplug</a></li>
+<li><a href="#libpano13">libpano13</a></li>
+<li><a href="#libpng">libpng</a></li>
+<li><a href="#libqalculate">libqalculate</a></li>
+<li><a href="#libreoffice">libreoffice</a></li>
+<li><a href="#librsvg">librsvg</a></li>
+<li><a href="#libsdl">libsdl</a></li>
+<li><a href="#libshout">libshout</a></li>
+<li><a href="#libsndfile">libsndfile</a></li>
+<li><a href="#libsoup">libsoup</a></li>
+<li><a href="#libtirpc">libtirpc</a></li>
+<li><a href="#libxml2">libxml2</a></li>
+<li><a href="#lsb-release">lsb-release</a></li>
+<li><a href="#lzo">lzo</a></li>
+<li><a href="#mercurial">mercurial</a></li>
+<li><a href="#mobile-broadband-provider-info">mobile-broadband-provider-info</a></li>
+<li><a href="#module-broadcom-wl">module-broadcom-wl</a></li>
+<li><a href="#module-nvidia-current">module-nvidia-current</a></li>
+<li><a href="#module-nvidia173">module-nvidia173</a></li>
+<li><a href="#module-nvidia96">module-nvidia96</a></li>
+<li><a href="#module-virtualbox-guest">module-virtualbox-guest</a></li>
+<li><a href="#mplayer">mplayer</a></li>
+<li><a href="#net-tools">net-tools</a></li>
+<li><a href="#nvidia-settings">nvidia-settings</a></li>
+<li><a href="#nvidia-xconfig">nvidia-xconfig</a></li>
+<li><a href="#openssl">openssl</a></li>
+<li><a href="#package-manager">package-manager</a></li>
+<li><a href="#pciutils">pciutils</a></li>
+<li><a href="#pcsc-lite">pcsc-lite</a></li>
+<li><a href="#perl-HTML-Parser">perl-HTML-Parser</a></li>
+<li><a href="#plasma-applet-networkmanagement">plasma-applet-networkmanagement</a></li>
+<li><a href="#polkit-kde_1">polkit-kde_1</a></li>
+<li><a href="#polkit-qt_1">polkit-qt_1</a></li>
+<li><a href="#python-Twisted">python-Twisted</a></li>
+<li><a href="#qt">qt</a></li>
+<li><a href="#qwt">qwt</a></li>
+<li><a href="#ruby">ruby</a></li>
+<li><a href="#samba">samba</a></li>
+<li><a href="#sdl-gfx">sdl-gfx</a></li>
+<li><a href="#sdl-image">sdl-image</a></li>
+<li><a href="#sdl-mixer">sdl-mixer</a></li>
+<li><a href="#sdl-ttf">sdl-ttf</a></li>
+<li><a href="#smpeg">smpeg</a></li>
+<li><a href="#sqlite">sqlite</a></li>
+<li><a href="#subversion">subversion</a></li>
+<li><a href="#syslinux">syslinux</a></li>
+<li><a href="#tcl">tcl</a></li>
+<li><a href="#tcltk">tcltk</a></li>
+<li><a href="#usb-modeswitch">usb-modeswitch</a></li>
+<li><a href="#usbutils">usbutils</a></li>
+<li><a href="#vim">vim</a></li>
+<li><a href="#wget">wget</a></li>
+<li><a href="#whois">whois</a></li>
+<li><a href="#xorg-video-radeon">xorg-video-radeon</a></li>
+<li><a href="#yali">yali</a></li>
+            </ol>
+        </li>
+        <li>
+            <a href="#bstats">Bugzilla statistics</a>
+        </li>
+    </ol>
+
+    <hr />
+    <br />
+    <ol>
+        <li>
+            <h2><a name="istats">Image statistics</a> <a style="text-decoration:none;" href="#top">(top)</a></h2>
+            <ul>
+                <li><b>Image name:</b> <em>Pardus-2011.2-Cervus-elaphus-x86_64</em></li>
+                <li><b>Image size:</b> <em>1.16 GB</em></li>
+                <li><b>Date of release:</b> <em>19 Sep 2011</em></li>
+                <li><b>Number of total packages:</b> <em>845</em></li>
+                <li><b>Number of new packages:</b> <em>4</em></li>
+                <li><b>Number of updated packages:</b> <em>94</em></li>
+                <li><b>Download page:</b> <a href="http://www.pardus.org.tr/eng/download.html" target="_blank">Click here</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <h2><a name="pstats">New packages</a> <a style="text-decoration:none;" href="#top">(top)</a></h2>
+            <ul>
+
+<li><b><a name="docbook-xml">docbook-xml</a></b>
+<p><em>Contains Docbook DTD for XML. A widely used XML scheme for writing documentation and help</em></p></li>
+<li><b><a name="docbook-xsl">docbook-xsl</a></b>
+<p><em>These XSL stylesheets allow you to transform any DocBook XML document to other formats such as HTML, FO and XHTML.</em></p></li>
+<li><b><a name="lash">lash</a></b>
+<p><em>LASH is a session management system for JACK and ALSA audio applications on GNU/Linux. It allows you to save and restore audio sessions consisting of multiple interconneced applications, restoring program state (i.e. loaded patches) and the connections between them.</em></p></li>
+<li><b><a name="sgml-common">sgml-common</a></b>
+<p><em>Sgml-common is a collection of entities and document type definitions (DTDs) useful for SGML processing.</em></p></li>
+</ul></li>
+
+<li><h2><a name="pmstats">Package update statistics</a> <a style="text-decoration:none;" href="#top">(top)</a></h2>
+<h3>94 of 1018 packages has been updated between Pardus-2011.1-Dama-Dama-x86_64 and Pardus-2011.2-Cervus-elaphus-x86_64:</h3>
+<ul>
+<li><b><a name="ModemManager">ModemManager</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-03</em> by <em>Ozan Çağlayan</em> to version <b>0.5</b>, release: <b>15</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">- Improvements for Samsung modems<br />- Support access technology reporting for Qualcomm Gobi modems<br />- Fix communication with Nokia N900 devices<br />- Support multiple CDMA Rm protocols<br />- Fix handling of Option access technology reporting<br />- Fix handling of CDMA EVDO registration states<br />- Fix problems reconnecting Ericsson F5521gw modems<br />- Better handling of some Android handset modem</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="NetworkManager">NetworkManager</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-06</em> by <em>Ozan Çağlayan</em> to version <b>0.8.5.91</b>, release: <b>18</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-04</em> by <em>Metin Akdere</em> to version <b>0.8.4.0</b>, release: <b>17</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Handle WLAN security passwords gracefully while upgrading distribution. p<a href="http://bugs.pardus.org.tr/18873" target="_blank">#18873</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="artwork-pardus-release">artwork-pardus-release</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-06</em> by <em>Gökçen Eraslan</em> to version <b>2011.2</b>, release: <b>21</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add default wallpaper for 2011.2, thanks to Renan Çakırerk and Böhringer Friedrich.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="audiofile">audiofile</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Anıl Özbek</em> to version <b>0.2.7</b>, release: <b>8</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add lib32 package for audiofile, fixes p<a href="http://bugs.pardus.org.tr/18836" target="_blank">#18836</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="b43-fwcutter">b43-fwcutter</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-16</em> by <em>Ozan Çağlayan</em> to version <b>015</b>, release: <b>5</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="baselayout">baselayout</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-06</em> by <em>Gökçen Eraslan</em> to version <b>3.5.2</b>, release: <b>175</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Change version number for Pardus 2011.2</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-24</em> by <em>H. İbrahim Güngör</em> to version <b>3.5.2</b>, release: <b>174</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add dansguardian user and group.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-11</em> by <em>Metin Akdere</em> to version <b>3.5.2</b>, release: <b>173</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add slocate group. (p<a href="http://bugs.pardus.org.tr/18754" target="_blank">#18754</a>)</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-09</em> by <em>Eren Türkay</em> to version <b>3.5.2</b>, release: <b>172</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add svxlink user. Add it into dialout, daemon, and audio groups. (p<a href="http://bugs.pardus.org.tr/18672" target="_blank">#18672</a>)</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="command-not-found">command-not-found</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-18</em> by <em>Ozan Çağlayan</em> to version <b>3.1</b>, release: <b>15</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump (p<a href="http://bugs.pardus.org.tr/18342" target="_blank">#18342</a>)</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="cups">cups</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-02</em> by <em>Ozan Çağlayan</em> to version <b>1.4.8</b>, release: <b>89</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="cyrus-sasl">cyrus-sasl</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-08</em> by <em>H. İbrahim Güngör</em> to version <b>2.1.23</b>, release: <b>18</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Disable ldap support and remove openldap-client dependency to resolve a circular dependency.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>H. İbrahim Güngör</em> to version <b>2.1.23</b>, release: <b>17</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Enable ldap and krb5 support.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-07-14</em> by <em>H. İbrahim Güngör</em> to version <b>2.1.23</b>, release: <b>16</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">* Version bump and tidy up the patches,<br />* Change the socket directory from /var/lib to /var/run.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="db4-java">db4-java</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-16</em> by <em>Gökhan Özbulak</em> to version <b>5.1.25</b>, release: <b>8</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump. Some changes in this release:<br />* Fix a leak of log file ids when a database is closed before the end of a transaction that references it<br />* A log write failure on a replication master will now cause a panic since the transaction may be committed on some clients<br />* Remove the possibility that checkpoints will overlap in the log, decreasing the time to recover<br />* The database open code will no longer log the open and close of the master database in a file when opening a sub database in that file<br />* Fix a bug where an error during an update to a hash database with DB_NOOVERWRITE set could return DB_KEYEXIST rather than the correct error<br />* Fix a bug where an updater supporting DB_READ_UNCOMMITED might downgrade its lock too soon if there was an error during the update<br />* Fix a bug that could cause the wrong page number to be on a root or metadata page if DB->compact moved the page and the operation was later rolled forward<br />* Change SQL API library build on *nix to link with libpthreads when necessary.<br />* Fix a JDBC error where building would fail on Solaris without the flag "-D_HAVE_SQLITE_CONFIG_H"<br />* Fix a JDBC bug that the configure can not deal with CPPFLAGS</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="dbus-python">dbus-python</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-07-04</em> by <em>Gökçen Eraslan</em> to version <b>0.84.0</b>, release: <b>19</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump to 0.84.0:<br />* fd.o<a href="http://bugs.pardus.org.tr/30812" target="_blank">#30812</a>: add the UnixFd type, and support Unix fd passing if compiled against a new enough libdbus (Elvis Pfützenreuter)<br />* fd.o<a href="http://bugs.pardus.org.tr/34342" target="_blank">#34342</a>: add Connection.set_allow_anonymous(bool) (Scott Tsai)<br />* fd.o<a href="http://bugs.pardus.org.tr/21017" target="_blank">#21017</a>: add configure arguments PYTHON_INCLUDES and PYTHON_LIBS which can be used to override $PYTHON-config (Simon McVittie, based on a patch from Robert Schwebel)<br />* fd.o<a href="http://bugs.pardus.org.tr/35626" target="_blank">#35626</a>: clear ProxyObject's pending introspection queue after execution (Scott Tsai)<br />* fd.o<a href="http://bugs.pardus.org.tr/22560" target="_blank">#22560</a>: remove duplicate code from example-async-client (Simon McVittie)<br />* fd.o<a href="http://bugs.pardus.org.tr/36206" target="_blank">#36206</a>: allow signature='x' among ProxyObject method arguments (Simon McVittie)</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="dhcp">dhcp</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-23</em> by <em>H. İbrahim Güngör</em> to version <b>4.2.1_p1</b>, release: <b>32</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix a pair of denial of service flaws (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2748" target="_blank">CVE-2011-2748</a>, <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2749" target="_blank">CVE-2011-2749</a>), (p<a href="http://bugs.pardus.org.tr/19013" target="_blank">#19013</a>).</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="ffmpeg">ffmpeg</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-14</em> by <em>Çağlar Kilimci</em> to version <b>0.6.1_20110105</b>, release: <b>95</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">cavs: fix oCERT<a href="http://bugs.pardus.org.tr/2011" target="_blank">#2011</a>-002 FFmpeg/libavcodec insufficient boundary check pb<a href="http://bugs.pardus.org.tr/19145" target="_blank">#19145</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="flashplugin">flashplugin</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-06</em> by <em>Fatih Arslan</em> to version <b>10.3.183.7</b>, release: <b>43</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Compability fixes</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-11</em> by <em>Fatih Arslan</em> to version <b>10.3.183.5</b>, release: <b>42</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New security release</div><br />
+<span style="padding: 2px;">Updated on <em>2011-07-15</em> by <em>Fatih Arslan</em> to version <b>10.3.181.34</b>, release: <b>41</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">* New 64bit beta flash plugin<br />* New 32bit stable flash plugin</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="fluidsynth">fluidsynth</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-19</em> by <em>Ozan Çağlayan</em> to version <b>1.1.4</b>, release: <b>8</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="freetype">freetype</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-16</em> by <em>Fatih Arslan</em> to version <b>2.4.6</b>, release: <b>50</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Security release, fixes <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-0226" target="_blank">CVE-2011-0226</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="gimp">gimp</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-09</em> by <em>Ozan Çağlayan</em> to version <b>2.6.11</b>, release: <b>58</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Update translations (p<a href="http://bugs.pardus.org.tr/16887" target="_blank">#16887</a>)</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="glib2">glib2</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-17</em> by <em>Ozan Çağlayan</em> to version <b>2.28.8</b>, release: <b>53</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="glibc">glibc</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-13</em> by <em>Onur Küçük</em> to version <b>2.12_20100706</b>, release: <b>65</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix alignment of AVX safe area on x86-64, fixes p<a href="http://bugs.pardus.org.tr/18943" target="_blank">#18943</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="gst-plugins-bad">gst-plugins-bad</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-15</em> by <em>Gökçen Eraslan</em> to version <b>0.10.21.4</b>, release: <b>23</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add missing deps.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="hal">hal</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-04-05</em> by <em>Ozan Çağlayan</em> to version <b>0.5.14</b>, release: <b>77</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix D-Bus activation</div><br />
+<span style="padding: 2px;">Updated on <em>2011-03-28</em> by <em>Ozan Çağlayan</em> to version <b>0.5.14</b>, release: <b>76</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Use D-Bus activation for start-up</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="kaptan">kaptan</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-06</em> by <em>Gökçen Eraslan</em> to version <b>5.0.5</b>, release: <b>88</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix Turkish translation for 2011.2.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="kde-l10n-tr">kde-l10n-tr</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Gökçen Eraslan</em> to version <b>4.6.5</b>, release: <b>79</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Remove extra minute and second words from ksudoku translations (kd<a href="http://bugs.pardus.org.tr/273403" target="_blank">#273403</a>)</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="kde-wacom-tablet">kde-wacom-tablet</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-12</em> by <em>Metin Akdere</em> to version <b>1.3.3</b>, release: <b>10</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">* Version bump to 1.3.3<br />* Swap cw/ccw tablet rotation when xRandR detects that the screen was rotated<br />* Ignore button1=1 assignment, works around the click error with the stylus/eraser<br />* Remove cursor settings (Cursor prox. didn't work anyway, and applying settings resulted in errors with the wacom device mouse)</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="kdelibs">kdelibs</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-06</em> by <em>Gökçen Eraslan</em> to version <b>4.6.5</b>, release: <b>111</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Change default wallpaper to 2011.2 Cervus elaphus.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-03</em> by <em>Gökçen Eraslan</em> to version <b>4.6.5</b>, release: <b>110</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Enable video and SVG previews by default (p<a href="http://bugs.pardus.org.tr/18857" target="_blank">#18857</a>)</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Gökçen Eraslan</em> to version <b>4.6.5</b>, release: <b>109</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add missing docbook dependencies p<a href="http://bugs.pardus.org.tr/18816" target="_blank">#18816</a></div><br />
+<span style="padding: 2px;">Updated on <em>2011-07-14</em> by <em>Gökçen Eraslan</em> to version <b>4.6.5</b>, release: <b>108</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix default wallpaper suffix.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="kdeutils">kdeutils</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Gökçen Eraslan</em> to version <b>4.6.5</b>, release: <b>54</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Move okteta from kdeutils description to kdesdk's description.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="lapack">lapack</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Metin Akdere</em> to version <b>3.3.1</b>, release: <b>9</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">* Version bump to bugfix release<br />* Use BuildType for multiple compilation process<br />* Switch from autotools to cmake</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="less">less</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-12</em> by <em>Serdar Dalgıç</em> to version <b>444</b>, release: <b>11</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump to bugfix release:<br />* Fix bug in unget handling that can cause strange effects on the command line.<br />* Remove vestiges of obsolete -l option that can cause a crash.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libX11">libX11</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-24</em> by <em>Fatih Arslan</em> to version <b>1.4.3</b>, release: <b>31</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">* Another bug fix release of libX11<br />* Brings another large set of fixes found by static analysis or to ease further static analysis<br />* Many documentation fixes and improvments<br />* Improved assertions to help users and developers figure out why Xlib just crashed on them</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libXaw">libXaw</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-05</em> by <em>Fatih Arslan</em> to version <b>1.0.9</b>, release: <b>16</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add emul32 component</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libXfont">libXfont</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-11</em> by <em>Fatih Arslan</em> to version <b>1.4.4</b>, release: <b>24</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New release which contains security fix (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2895" target="_blank">CVE-2011-2895</a>)</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libXrandr">libXrandr</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-06-30</em> by <em>Fatih Arslan</em> to version <b>1.3.2</b>, release: <b>20</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New maintenance release</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libass">libass</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-15</em> by <em>Gökçen Eraslan</em> to version <b>0.9.13</b>, release: <b>7</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Remove forgotten NoStrip.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-09-15</em> by <em>Gökçen Eraslan</em> to version <b>0.9.13</b>, release: <b>6</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix freetype 2.4.6 related crashes in mplayer.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libechonest">libechonest</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-29</em> by <em>H. İbrahim Güngör</em> to version <b>1.1.9</b>, release: <b>3</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libexif">libexif</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-08</em> by <em>Serdar Dalgıç</em> to version <b>0.6.20</b>, release: <b>11</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump to stability/bugfix release:<br />* New translations: bs, tr<br />* Updated translations: be, cs, da, de, en_GB, en_CA, it, ja, nl, pl, pt_BR, pt, ru, sk, sq, sr, sv, vi, zh_CN<br />* Fixed some problems in the write-exif.c example program<br />* Stop listing -lm as a required library for dynamic linking in libexif.pc<br />* Turned on the --enable-silent-rules configure option<br />* Changed a lot of strings to make the case of the text more consistent<br />* exif_entry_dump() now displays the correct tag name for GPS tags<br />* Fixed some invalid format specifiers that caused problems on some platforms<br />* Display rational numbers with the right number of significant figures</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libgsf">libgsf</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-08</em> by <em>H. İbrahim Güngör</em> to version <b>1.14.21</b>, release: <b>11</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libgssglue">libgssglue</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-12</em> by <em>Fethican Coşkuner</em> to version <b>0.3</b>, release: <b>2</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump;<br />- Modify the gss_acquire_cred() code to accept, and properly handle, an input name of GSS_C_NO_NAME.<br />- Add new typedefs defined in RFC 5587 and used in newer versions of MIT Kerberos.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libidn">libidn</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Anıl Özbek</em> to version <b>1.19</b>, release: <b>14</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add lib32 package for libidn</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libmikmod">libmikmod</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Anıl Özbek</em> to version <b>3.2.0_beta2</b>, release: <b>10</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add lib32 package for libmikmod, fixes p<a href="http://bugs.pardus.org.tr/18839" target="_blank">#18839</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libmodplug">libmodplug</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-10</em> by <em>Onur Küçük</em> to version <b>0.8.8.2</b>, release: <b>9</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix multiple vulnurabilities, fixes pb<a href="http://bugs.pardus.org.tr/18917" target="_blank">#18917</a><a href="http://bugs.pardus.org.tr/18918" target="_blank">#18918</a><a href="http://bugs.pardus.org.tr/18919" target="_blank">#18919</a><a href="http://bugs.pardus.org.tr/18920" target="_blank">#18920</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libpano13">libpano13</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-06-13</em> by <em>Ertuğrul Erata</em> to version <b>2.9.18</b>, release: <b>5</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version Bump.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libpng">libpng</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-07-29</em> by <em>Onur Küçük</em> to version <b>1.4.8</b>, release: <b>30</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Minor bump to fix multiple vulnurabilities<br />buffer overwrite in png_rgb_to_gray, fixes <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2690" target="_blank">CVE-2011-2690</a><br />crash in png_default_error due to use of NULL Pointer, fixes <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2691" target="_blank">CVE-2011-2691</a><br />memory corruption when handling empty sCAL chunks, fixes <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2692" target="_blank">CVE-2011-2692</a><br />fixes p<a href="http://bugs.pardus.org.tr/18699" target="_blank">#18699</a><a href="http://bugs.pardus.org.tr/18700" target="_blank">#18700</a><a href="http://bugs.pardus.org.tr/18701" target="_blank">#18701</a><a href="http://bugs.pardus.org.tr/18702" target="_blank">#18702</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libqalculate">libqalculate</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-07-14</em> by <em>Serdar Dalgıç</em> to version <b>0.9.7</b>, release: <b>11</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add missing cln-devel dependency to libqalculate package. Fixes pb<a href="http://bugs.pardus.org.tr/18718" target="_blank">#18718</a>.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libreoffice">libreoffice</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-12</em> by <em>Bertan Gündoğdu</em> to version <b>3.4.3.2</b>, release: <b>22</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump to 3.4.3.2</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-17</em> by <em>Gökçen Eraslan</em> to version <b>3.4.2.3</b>, release: <b>21</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix splashes.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-16</em> by <em>Gökçen Eraslan</em> to version <b>3.4.2.3</b>, release: <b>20</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Force UI to use Gnome open/save dialogs.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-11</em> by <em>Bertan Gündoğdu</em> to version <b>3.4.2.3</b>, release: <b>19</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix to a horizontal scrollbar issue caused by kde implementation of LibreOffice. (KD<a href="http://bugs.pardus.org.tr/277453" target="_blank">#277453</a>)</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-02</em> by <em>Gökçen Eraslan</em> to version <b>3.4.2.3</b>, release: <b>18</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump to 3.4.2.3</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="librsvg">librsvg</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-12</em> by <em>Serdar Dalgıç</em> to version <b>2.32.1</b>, release: <b>18</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">* Version bump to fix NULL pointer dereference flaw, <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-3146" target="_blank">CVE-2011-3146</a> p<a href="http://bugs.pardus.org.tr/19111" target="_blank">#19111</a>.<br />* gtk-doc is needed to build the package, because of the autoreconf actions. This can be patched later, but as a workaround for now, I am adding gtk-doc as a build dependency.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libsdl">libsdl</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-25</em> by <em>Onur Küçük</em> to version <b>1.2.14</b>, release: <b>23</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix prefix dir in emul32, fixes p<a href="http://bugs.pardus.org.tr/18987" target="_blank">#18987</a></div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-03</em> by <em>Onur Küçük</em> to version <b>1.2.14</b>, release: <b>22</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix a segfault in BlitCopyOverlap</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Anıl Özbek</em> to version <b>1.2.14</b>, release: <b>21</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add lib32 package for libsdl, fixes p<a href="http://bugs.pardus.org.tr/18835" target="_blank">#18835</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libshout">libshout</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-07-29</em> by <em>Serdar Dalgıç</em> to version <b>2.2.2</b>, release: <b>7</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">libshout-devel should depend on libtheora-devel. The bug is similar to gnutls bug reported @ p<a href="http://bugs.pardus.org.tr/18679" target="_blank">#18679</a>.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libsndfile">libsndfile</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-07-17</em> by <em>Onur Küçük</em> to version <b>1.0.25</b>, release: <b>17</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Bump to fix an integer overflow, fixes pb<a href="http://bugs.pardus.org.tr/18724" target="_blank">#18724</a><a href="http://bugs.pardus.org.tr/18725" target="_blank">#18725</a><a href="http://bugs.pardus.org.tr/18726" target="_blank">#18726</a><a href="http://bugs.pardus.org.tr/18727" target="_blank">#18727</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libsoup">libsoup</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-05</em> by <em>Meltem Parmaksız</em> to version <b>2.32.2</b>, release: <b>20</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">fix directory traversal flaw (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2524" target="_blank">CVE-2011-2524</a>) #pb18871</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libtirpc">libtirpc</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-12</em> by <em>Fethican Coşkuner</em> to version <b>0.2.2</b>, release: <b>5</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Bugfix release.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="libxml2">libxml2</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-09</em> by <em>Meltem Parmaksız</em> to version <b>2.7.8</b>, release: <b>24</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">fix integer overflow by adding new namespace node (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1944" target="_blank">CVE-2011-1944</a>) p<a href="http://bugs.pardus.org.tr/19093" target="_blank">#19093</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="lsb-release">lsb-release</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-06</em> by <em>Gökçen Eraslan</em> to version <b>1.4</b>, release: <b>13</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Change version for Pardus 2011.2</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="lzo">lzo</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-12</em> by <em>Serdar Dalgıç</em> to version <b>2.05</b>, release: <b>7</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump:<br />Changes in 2.05 (23 Apr 2011)<br />* Converted the configure system to non-recursive Automake.<br />* Applied some overdue speed optimizations for modern x86/x64 architectures and current compilers like gcc 4.6 and MSVC 2010.<br />Changes in 2.04 (31 Oct 2010)<br />* Fixed a gcc-4.5 aliasing issue in lzo_init().<br />* Updated the configure system.<br />* Assorted cleanups.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="mercurial">mercurial</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-03</em> by <em>Serdar Dalgıç</em> to version <b>1.9.1</b>, release: <b>19</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump to a regular bugfix release. See http://mercurial.selenic.com/wiki/WhatsNew for details.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="mobile-broadband-provider-info">mobile-broadband-provider-info</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-03</em> by <em>Ozan Çağlayan</em> to version <b>20110511</b>, release: <b>5</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="module-broadcom-wl">module-broadcom-wl</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-15</em> by <em>Ozan Çağlayan</em> to version <b>5.100.82.38</b>, release: <b>24</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Conflict to module-compat-wireless</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="module-nvidia-current">module-nvidia-current</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-19</em> by <em>Fatih Arslan</em> to version <b>280.13</b>, release: <b>47</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">* New official release<br />* Fixed a GLX bug that could cause the X server to crash when rendering a display list using GLX indirect rendering.<br />* Fixed a GLX bug that could cause a hang in applications that use X server grabs.<br />* Fixed an X driver bug that caused 16x8 stipple patterns to be rendered incorrectly.<br />* Fixed a GLX_EXT_texture_from_pixmap bug that caused corruption when texturing from sufficiently small pixmaps and, in particular, corruption in the GNOME Shell Message Tray.<br />* Added unofficial GLX protocol support (i.e., for GLX indirect rendering) for the following OpenGL extension: GL_EXT_vertex_attrib_64bit<br />* Added GLX protocol support (i.e., for GLX indirect rendering) for the following OpenGL extensions: GL_ARB_half_float_pixel,  GL_EXT_packed_depth_stencil<br />* Added support for the following GPUs:<br />* GeForce GTX 570M<br />* GeForce GTX 580M</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="module-nvidia173">module-nvidia173</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Fatih Arslan</em> to version <b>173.14.31</b>, release: <b>56</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">* New beta release that adds Xorg 1.10 and Kernel support up trough 2.6.38</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="module-nvidia96">module-nvidia96</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Fatih Arslan</em> to version <b>96.43.20</b>, release: <b>56</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New beta release</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="module-virtualbox-guest">module-virtualbox-guest</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-06-28</em> by <em>Fatih Arslan</em> to version <b>4.0.10</b>, release: <b>40</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New maintenance release</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="mplayer">mplayer</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-15</em> by <em>Gökçen Eraslan</em> to version <b>0.0_20110105</b>, release: <b>148</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Remove forgotten NoStrip.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-09-15</em> by <em>Gökçen Eraslan</em> to version <b>0.0_20110105</b>, release: <b>147</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Internal libass fix for freetype 2.4.6 related crashes: https://code.google.com/p/libass/source/detail?spec=svn0b709a5df697b36a24e4456b24585ec8f0c54b63&r=0b709a5df697b36a24e4456b24585ec8f0c54b63</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="net-tools">net-tools</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-06-01</em> by <em>Ozan Çağlayan</em> to version <b>1.60</b>, release: <b>47</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Clean old, unused COMAR leftovers.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="nvidia-settings">nvidia-settings</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-19</em> by <em>Fatih Arslan</em> to version <b>280.13</b>, release: <b>16</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New stable release for the newest Nvidia 280.13 drivers</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Fatih Arslan</em> to version <b>275.21</b>, release: <b>15</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New stable release for the newest Nvidia 275.21 drivers</div><br />
+<span style="padding: 2px;">Updated on <em>2011-06-20</em> by <em>Fatih Arslan</em> to version <b>275.09.07</b>, release: <b>14</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New stable release for the newest Nvidia 275.09.07 drivers</div><br />
+<span style="padding: 2px;">Updated on <em>2011-05-24</em> by <em>Fatih Arslan</em> to version <b>270.41.19</b>, release: <b>13</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New stable release for the newest Nvidia 270.41.19 drivers</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="nvidia-xconfig">nvidia-xconfig</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-19</em> by <em>Fatih Arslan</em> to version <b>280.13</b>, release: <b>8</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New stable release for the newest Nvidia 280.13 drivers</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Fatih Arslan</em> to version <b>275.21</b>, release: <b>7</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New stable release for the newest Nvidia 275.21 drivers</div><br />
+<span style="padding: 2px;">Updated on <em>2011-06-20</em> by <em>Fatih Arslan</em> to version <b>275.09.07</b>, release: <b>6</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New stable release for the newest Nvidia 275.09.07 drivers</div><br />
+<span style="padding: 2px;">Updated on <em>2011-05-24</em> by <em>Fatih Arslan</em> to version <b>270.41.19</b>, release: <b>5</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">New stable release for the newest Nvidia 270.41.19 release</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="openssl">openssl</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-06</em> by <em>Gökçen Eraslan</em> to version <b>1.0.0d</b>, release: <b>40</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Update Mozilla CA certificate list for protection against fraudulent DigiNotar certificates.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="package-manager">package-manager</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Gökmen Göksel</em> to version <b>3.0.3</b>, release: <b>88</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fixed typo in get_real_paths method p<a href="http://bugs.pardus.org.tr/18782" target="_blank">#18782</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="pciutils">pciutils</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-16</em> by <em>Ozan Çağlayan</em> to version <b>3.1.7</b>, release: <b>21</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Update pci.ids database</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="pcsc-lite">pcsc-lite</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-22</em> by <em>Ozan Çağlayan</em> to version <b>1.7.4</b>, release: <b>18</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump</div><br />
+<span style="padding: 2px;">Updated on <em>2011-03-28</em> by <em>Ozan Çağlayan</em> to version <b>1.7.0</b>, release: <b>17</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Don't start HAL as pcscd now uses udev</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="perl-HTML-Parser">perl-HTML-Parser</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-06</em> by <em>Gökhan Özbulak</em> to version <b>3.68</b>, release: <b>13</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump, change in this release:<br />* Declare the encoding of the POD to be utf8</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="plasma-applet-networkmanagement">plasma-applet-networkmanagement</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-14</em> by <em>Gökçen Eraslan</em> to version <b>0.0_20110804</b>, release: <b>30</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">* Revert ugly shared connection patch.<br />* Sync with upstream git.<br />* Prefer system connections by default.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-11</em> by <em>Gökçen Eraslan</em> to version <b>0.0_20110804</b>, release: <b>29</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Remove obsolete user-name insertion from OpenVPN widget.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-10</em> by <em>Gökçen Eraslan</em> to version <b>0.0_20110804</b>, release: <b>28</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix loading and saving vpn connections and sync with upstream git. p<a href="http://bugs.pardus.org.tr/16436" target="_blank">#16436</a> p<a href="http://bugs.pardus.org.tr/16659" target="_blank">#16659</a></div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-04</em> by <em>Gökçen Eraslan</em> to version <b>0.0_20110804</b>, release: <b>27</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Sync with latest upstream release.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-05-15</em> by <em>Gökçen Eraslan</em> to version <b>1.9_20110504</b>, release: <b>26</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Thinko fix from https://git.reviewboard.kde.org/r/101366/</div><br />
+<span style="padding: 2px;">Updated on <em>2011-05-13</em> by <em>Gökçen Eraslan</em> to version <b>1.9_20110504</b>, release: <b>25</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Sync with latest git and add patch to i18n System and User words.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-05-07</em> by <em>Gökçen Eraslan</em> to version <b>1.9_20110504</b>, release: <b>24</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Sync with git and update translations.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-05-04</em> by <em>Gökçen Eraslan</em> to version <b>1.9_20110504</b>, release: <b>23</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Switch to upstream git. Most of mt patches are in upstream now.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="polkit-kde_1">polkit-kde_1</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-17</em> by <em>Gökçen Eraslan</em> to version <b>0.99.0</b>, release: <b>9</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add missing TR translations.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="polkit-qt_1">polkit-qt_1</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-08</em> by <em>Gökçen Eraslan</em> to version <b>0.99.0</b>, release: <b>11</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Workaround for polkit-kde agent crash kd<a href="http://bugs.pardus.org.tr/257802" target="_blank">#257802</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="python-Twisted">python-Twisted</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-13</em> by <em>Renan Çakırerk</em> to version <b>11.0.0</b>, release: <b>14</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Bump to version 11.0.0</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="qt">qt</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Gökçen Eraslan</em> to version <b>4.7.2</b>, release: <b>88</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Split out build files from qt-webkit to new qt-webkit-devel package. p<a href="http://bugs.pardus.org.tr/18414" target="_blank">#18414</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="qwt">qwt</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-08</em> by <em>H. İbrahim Güngör</em> to version <b>5.2.2</b>, release: <b>18</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="ruby">ruby</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-07-11</em> by <em>Meltem Parmaksız</em> to version <b>1.8.7_p352</b>, release: <b>28</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix random number generator not reseeded after fork (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2686" target="_blank">CVE-2011-2686</a>) p<a href="http://bugs.pardus.org.tr/18697" target="_blank">#18697</a></div><br />
+<span style="padding: 2px;">Updated on <em>2011-04-26</em> by <em>Meltem Parmaksız</em> to version <b>1.8.7_p334</b>, release: <b>27</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">-Obsoleted ruby-mode package, as it's now provided by the emacs package<br />-Disable rpath</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="samba">samba</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-09</em> by <em>Gökhan Özbulak</em> to version <b>3.5.10</b>, release: <b>69</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2724" target="_blank">CVE-2011-2724</a> (p<a href="http://bugs.pardus.org.tr/19099" target="_blank">#19099</a>):<br />* Check return from check_newline() by -1 that leads missing some errors.</div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-02</em> by <em>H. İbrahim Güngör</em> to version <b>3.5.10</b>, release: <b>68</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump to fix multiple vulnerabilities (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2522" target="_blank">CVE-2011-2522</a>, <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2694" target="_blank">CVE-2011-2694</a>), (p<a href="http://bugs.pardus.org.tr/18845" target="_blank">#18845</a>).</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="sdl-gfx">sdl-gfx</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-22</em> by <em>Anıl Özbek</em> to version <b>2.0.22</b>, release: <b>11</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add lib32 package for sdl-gfx and version bump, fixes p<a href="http://bugs.pardus.org.tr/18999" target="_blank">#18999</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="sdl-image">sdl-image</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-28</em> by <em>Onur Küçük</em> to version <b>1.2.10</b>, release: <b>12</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Force using tif jpg and png with SONAME, fixes p<a href="http://bugs.pardus.org.tr/19038" target="_blank">#19038</a></div><br />
+<span style="padding: 2px;">Updated on <em>2011-08-22</em> by <em>Anıl Özbek</em> to version <b>1.2.10</b>, release: <b>11</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add lib32 package for sdl-image, fixes p<a href="http://bugs.pardus.org.tr/18995" target="_blank">#18995</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="sdl-mixer">sdl-mixer</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-22</em> by <em>Anıl Özbek</em> to version <b>1.2.11</b>, release: <b>13</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add lib32 package for sdl-mixer, fixes p<a href="http://bugs.pardus.org.tr/18997" target="_blank">#18997</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="sdl-ttf">sdl-ttf</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-22</em> by <em>Anıl Özbek</em> to version <b>2.0.10</b>, release: <b>10</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add lib32 package and version bump, fixes p<a href="http://bugs.pardus.org.tr/18993" target="_blank">#18993</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="smpeg">smpeg</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Anıl Özbek</em> to version <b>0.4.4</b>, release: <b>7</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add lib32 package for smpeg, fixes p<a href="http://bugs.pardus.org.tr/18834" target="_blank">#18834</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="sqlite">sqlite</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-04</em> by <em>Gökçen Eraslan</em> to version <b>3.7.7.1</b>, release: <b>31</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump to latest release:<br />* Fix a bug causing PRAGMA case_sensitive_like statements compiled using sqlite3_prepare() to fail with an SQLITE_SCHEMA error.<br />* Add support for URI filenames<br />* Add the sqlite3_vtab_config() interface in support of ON CONFLICT clauses with virtual tables.<br />* Add the xSavepoint, xRelease and xRollbackTo methods in virtual tables in support of SAVEPOINT for virtual tables.<br />* Update the built-in FTS3/FTS4 and RTREE virtual tables to support ON CONFLICT clauses and REPLACE.<br />* Avoid unnecessary reparsing of the database schema.<br />* Added support for the FTS4 prefix option and the FTS4 order option.<br />* Allow WAL-mode databases to be opened read-only as long as there is an existing read/write connection.<br />* Added support for short filenames.<br />* Fix a problem with WAL mode which could cause transactions to silently rollback if the cache_size is set very small (less than 10) and SQLite comes under memory pressure.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="subversion">subversion</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-02</em> by <em>Ozan Çağlayan</em> to version <b>1.6.17</b>, release: <b>68</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump to fix CVE-2011-{1752,1783,1921} (p<a href="http://bugs.pardus.org.tr/18849" target="_blank">#18849</a>)</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="syslinux">syslinux</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-08</em> by <em>Antoon Tolboom</em> to version <b>4.04</b>, release: <b>22</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Bump to 4 series, fixes p<a href="http://bugs.pardus.org.tr/18912" target="_blank">#18912</a></div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="tcl">tcl</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Gökhan Özbulak</em> to version <b>8.5.10</b>, release: <b>17</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump, some changes:<br />- DEB_HOST_MULTIARCH handling<br />- Update to platform 1.0.10<br />- Fix disabling of stack checks<br />- Prevent multiple links to a single Tcl variable when calling Tcl_LinkVar()</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="tcltk">tcltk</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-01</em> by <em>Gökhan Özbulak</em> to version <b>8.5.10</b>, release: <b>15</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump, some changes:<br />- Correct some README bitrot<br />- Restore support for values "08" and "09" in a spinbox configuration to use "-from" and "-to" values</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="usb-modeswitch">usb-modeswitch</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-03</em> by <em>Ozan Çağlayan</em> to version <b>1.1.8</b>, release: <b>7</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="usbutils">usbutils</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-09-16</em> by <em>Ozan Çağlayan</em> to version <b>001</b>, release: <b>15</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Update usb.ids database</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="vim">vim</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-19</em> by <em>Fatih Arslan</em> to version <b>7.3.284</b>, release: <b>85</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Add official patches up to 284</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="wget">wget</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-20</em> by <em>Serdar Dalgıç</em> to version <b>1.12</b>, release: <b>16</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix multiple HTTP client download filename vulnerability: <a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2252" target="_blank">CVE-2010-2252</a>.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="whois">whois</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-11</em> by <em>Serdar Dalgıç</em> to version <b>5.0.11</b>, release: <b>21</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Version bump, remove redundant dep libidn, which is in system.base. Add two patches from SuSe. Cosmetic fixes.</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="xorg-video-radeon">xorg-video-radeon</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-05-26</em> by <em>Fatih Arslan</em> to version <b>6.14.2</b>, release: <b>27</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">* New stable release 6.14.2<br />* This adds acceleration support for cayman GPUs along with Fusion tiling fixes, and other misc fixes</div><br />
+</li>
+</ul>
+<ul>
+<li><b><a name="yali">yali</a></b><br /><br />
+<span style="padding: 2px;">Updated on <em>2011-08-17</em> by <em>Renan Çakırerk</em> to version <b>2.4.1_pre20110530</b>, release: <b>183</b></span><br /><div style="border:1px solid #999999; background-color:#DDDDDD; padding:3px; margin-top:2px;">Fix progress panel and takeover yali</div><br />
+</li>
+</ul></li>
+
+<li><h2><a name="bstats">Bugzilla statistics</a> <a style="text-decoration:none;" href="#top">(top)</a></h2>
+<h3>A total of 55 bugs has been fixed between Pardus-2011.1-Dama-Dama-x86_64 and Pardus-2011.2-Cervus-elaphus-x86_64:</h3>
+<ul>
+<li style="padding:3px;"><b>dbus-python</b>
+<ul><li><a href="http://bugs.pardus.org.tr/30812" target="_blank">#30812</a></li>
+<li><a href="http://bugs.pardus.org.tr/34342" target="_blank">#34342</a></li>
+<li><a href="http://bugs.pardus.org.tr/21017" target="_blank">#21017</a></li>
+<li><a href="http://bugs.pardus.org.tr/35626" target="_blank">#35626</a></li>
+<li><a href="http://bugs.pardus.org.tr/22560" target="_blank">#22560</a></li>
+<li><a href="http://bugs.pardus.org.tr/36206" target="_blank">#36206</a></li></ul></li><li style="padding:3px;"><b>libsndfile</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18724" target="_blank">#18724</a></li>
+<li><a href="http://bugs.pardus.org.tr/18725" target="_blank">#18725</a></li>
+<li><a href="http://bugs.pardus.org.tr/18726" target="_blank">#18726</a></li>
+<li><a href="http://bugs.pardus.org.tr/18727" target="_blank">#18727</a></li></ul></li><li style="padding:3px;"><b>libpng</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18699" target="_blank">#18699</a></li>
+<li><a href="http://bugs.pardus.org.tr/18700" target="_blank">#18700</a></li>
+<li><a href="http://bugs.pardus.org.tr/18701" target="_blank">#18701</a></li>
+<li><a href="http://bugs.pardus.org.tr/18702" target="_blank">#18702</a></li></ul></li><li style="padding:3px;"><b>libmodplug</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18917" target="_blank">#18917</a></li>
+<li><a href="http://bugs.pardus.org.tr/18918" target="_blank">#18918</a></li>
+<li><a href="http://bugs.pardus.org.tr/18919" target="_blank">#18919</a></li>
+<li><a href="http://bugs.pardus.org.tr/18920" target="_blank">#18920</a></li></ul></li><li style="padding:3px;"><b>plasma-applet-networkmanagement</b>
+<ul><li><a href="http://bugs.pardus.org.tr/16436" target="_blank">#16436</a></li>
+<li><a href="http://bugs.pardus.org.tr/16659" target="_blank">#16659</a></li></ul></li><li style="padding:3px;"><b>samba</b>
+<ul><li><a href="http://bugs.pardus.org.tr/19099" target="_blank">#19099</a></li>
+<li><a href="http://bugs.pardus.org.tr/18845" target="_blank">#18845</a></li></ul></li><li style="padding:3px;"><b>libsdl</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18987" target="_blank">#18987</a></li>
+<li><a href="http://bugs.pardus.org.tr/18835" target="_blank">#18835</a></li></ul></li><li style="padding:3px;"><b>baselayout</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18754" target="_blank">#18754</a></li>
+<li><a href="http://bugs.pardus.org.tr/18672" target="_blank">#18672</a></li></ul></li><li style="padding:3px;"><b>ffmpeg</b>
+<ul><li><a href="http://bugs.pardus.org.tr/2011" target="_blank">#2011</a></li>
+<li><a href="http://bugs.pardus.org.tr/19145" target="_blank">#19145</a></li></ul></li><li style="padding:3px;"><b>kdelibs</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18857" target="_blank">#18857</a></li>
+<li><a href="http://bugs.pardus.org.tr/18816" target="_blank">#18816</a></li></ul></li><li style="padding:3px;"><b>sdl-image</b>
+<ul><li><a href="http://bugs.pardus.org.tr/19038" target="_blank">#19038</a></li>
+<li><a href="http://bugs.pardus.org.tr/18995" target="_blank">#18995</a></li></ul></li><li style="padding:3px;"><b>smpeg</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18834" target="_blank">#18834</a></li></ul></li><li style="padding:3px;"><b>libxml2</b>
+<ul><li><a href="http://bugs.pardus.org.tr/19093" target="_blank">#19093</a></li></ul></li><li style="padding:3px;"><b>gimp</b>
+<ul><li><a href="http://bugs.pardus.org.tr/16887" target="_blank">#16887</a></li></ul></li><li style="padding:3px;"><b>kde-l10n-tr</b>
+<ul><li><a href="http://bugs.pardus.org.tr/273403" target="_blank">#273403</a></li></ul></li><li style="padding:3px;"><b>glibc</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18943" target="_blank">#18943</a></li></ul></li><li style="padding:3px;"><b>librsvg</b>
+<ul><li><a href="http://bugs.pardus.org.tr/19111" target="_blank">#19111</a></li></ul></li><li style="padding:3px;"><b>subversion</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18849" target="_blank">#18849</a></li></ul></li><li style="padding:3px;"><b>libreoffice</b>
+<ul><li><a href="http://bugs.pardus.org.tr/277453" target="_blank">#277453</a></li></ul></li><li style="padding:3px;"><b>libmikmod</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18839" target="_blank">#18839</a></li></ul></li><li style="padding:3px;"><b>sdl-ttf</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18993" target="_blank">#18993</a></li></ul></li><li style="padding:3px;"><b>package-manager</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18782" target="_blank">#18782</a></li></ul></li><li style="padding:3px;"><b>sdl-mixer</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18997" target="_blank">#18997</a></li></ul></li><li style="padding:3px;"><b>polkit-qt_1</b>
+<ul><li><a href="http://bugs.pardus.org.tr/257802" target="_blank">#257802</a></li></ul></li><li style="padding:3px;"><b>NetworkManager</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18873" target="_blank">#18873</a></li></ul></li><li style="padding:3px;"><b>libshout</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18679" target="_blank">#18679</a></li></ul></li><li style="padding:3px;"><b>syslinux</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18912" target="_blank">#18912</a></li></ul></li><li style="padding:3px;"><b>dhcp</b>
+<ul><li><a href="http://bugs.pardus.org.tr/19013" target="_blank">#19013</a></li></ul></li><li style="padding:3px;"><b>ruby</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18697" target="_blank">#18697</a></li></ul></li><li style="padding:3px;"><b>qt</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18414" target="_blank">#18414</a></li></ul></li><li style="padding:3px;"><b>libqalculate</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18718" target="_blank">#18718</a></li></ul></li><li style="padding:3px;"><b>sdl-gfx</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18999" target="_blank">#18999</a></li></ul></li><li style="padding:3px;"><b>command-not-found</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18342" target="_blank">#18342</a></li></ul></li><li style="padding:3px;"><b>audiofile</b>
+<ul><li><a href="http://bugs.pardus.org.tr/18836" target="_blank">#18836</a></li></ul></li></ul></li></ol>
+</body>
+</html>

@@ -1,0 +1,59 @@
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-09-19T10:47:03\n"
+"PO-Revision-Date: 2011-01-19 16:31+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: None\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Tag: title
+#, no-c-format
+msgid "Overview"
+msgstr "Genel Bakış"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus &PRODVER; contains security, critical fixes and some translation and other improvements over the previous Pardus release &PREVVER;."
+msgstr "Pardus &PRODVER; bir önceki sürüm olan &PREVVER; üzerine çeşitli kritik güncellemeler ve güvenlik güncellemeleri, çeviri düzeltmeleri ve diğer bazı hata düzeltmelerini içermektedir."
+
+#~ msgid "<application>Kernel</application> - &KERNELVER; Linux kernel provides updated hardware support together with a hundred of bug fixes."
+#~ msgstr "<application>Çekirdek</application> - &KERNELVER; Linux çekirdeği yüzlerce hata düzeltmesinin yanında en güncel donanımlara da destek vermektedir."
+
+#~ msgid "<application>YALI</application> - YALI, the installer of Pardus, gained Rescue Mode which provides easy password and bootloader recovery."
+#~ msgstr "<application>YALI</application> - Parola ve sistem önyükleyiciyi kolayca kurtarabilmenizi sağlayacak Kurtarma Ekranı, kurulum aracı olan YALI'ya eklendi."
+
+#~ msgid "<application>KDE SC</application> - Pardus &PRODVER; comes with the latest KDE Software Compilation, KDE SC &KDEVER;. The base packages also contains numerous backports and fixes which will improve the stability of your desktop experience significantly."
+#~ msgstr "<application>KDE SC</application> - Pardus &PRODVER; en güncel ve kararlı KDE Yazılım Seçkisi, KDE SC &KDEVER; ile geliyor. Masaüstü deneyiminizin daha hızlı ve kararlı olması için temel paketlere birçok hata düzeltmesi ve iyileştirmeler yapıldı."
+
+#~ msgid "<application>LibreOffice</application> - LibreOffice, an Open Source personal productivity suite sponsored by the Document Foundation, is updated to the much-awaited &LIBREOFFICEVER; version which brings huge improvements over the older version."
+#~ msgstr "<application>LibreOffice</application> - Document Foundation tarafından geliştirilen açık kaynak kodlu ofis araçları takımı LibreOffice, önceki sürümüne göre önemli değişiklikler içeren &LIBREOFFICEVER; sürümüne güncellendi."
+
+#~ msgid "<application>Firefox</application> - Firefox &FIREFOXVER;, the latest stable version of the most popular Open Source web browser, is now shipped with Pardus &PRODVER;."
+#~ msgstr "<application>Firefox</application> - En yaygın açık kaynak kodlu web tarayıcısı olan Firefox'un en güncel ve kararlı sürümü Firefox &FIREFOXVER;, Pardus &PRODVER; sürümüne dahil edildi."
+
+#~ msgid "Hardware Overview"
+#~ msgstr "Donanım"
+
+#~ msgid "Pardus &PRODVER; now supports 64-bit processor architecture which is supported by many new Intel and AMD processors."
+#~ msgstr "Pardus &PRODVER;, Intel ve AMD işlemcilerinin sağladığı 64-bit işlemci mimarisini desteklemektedir."
+
+#~ msgid "Software Overview"
+#~ msgstr "Yazılım"
+
+#~ msgid "<application>Plymouth</application> - The bootsplash technology used in Pardus &PREVVER; is completely dropped and replaced by the new Plymouth engine."
+#~ msgstr "<application>Plymouth</application> - Pardus &PREVVER; sürümünde kullanılan bootsplash aracının yerine yeni Plymouth teknolojisi geçiyor. "
+
+#~ msgid "<application>Kaptan</application> - Kaptan, the desktop customization tool of Pardus, now optionally captures your picture and sets it as your avatar in KDE."
+#~ msgstr "<application>Kaptan</application> - Masaüstü özelleştirme aracı Kaptan, artık seçimli olarak fotoğrafınızı çekip avatar olarak ayarlayabiliyor."
+
+#~ msgid "<application>NetworkManager</application> - GNOME NetworkManager 0.8.2 is now the default networking backend in Pardus &PRODVER;. Users are now able to set up their HSPA/CDMA/VPN networks together with the already supported Ethernet and 802.11 WLAN networks."
+#~ msgstr "<application>NetworkManager</application> - Pardus &PRODVER; sürümünde öntanımlı ağ altyapısı olarak GNOME NetworkManager 0.8.2 sürüme geçildi. Uzun zamandır desteklenen Ethernet ve 802.11 WLAN ağlarının yanı sıra kullanıcılar artık HSPA/CDMA/VPN ağlarını da ayarlayabilecekler."
+
+#~ msgid "<application>GTK Oxygen style</application> - All GTK applications are now rendered with Oxygen style thanks to the <emphasis>oxygen-gtk</emphasis> project. This brings a huge improvement to the user interface consistency."
+#~ msgstr "<application>GTK Oxygen biçemi</application> - Tüm GTK uygulamaları artık <emphasis>oxygen-gtk</emphasis> projesi sayesinde Oxygen biçemiyle görüntüleniyor. Bu özellik sayesinde kullanıcı arabirimi tutarlılığında büyük bir iyileştirme sağlanmış oluyor."

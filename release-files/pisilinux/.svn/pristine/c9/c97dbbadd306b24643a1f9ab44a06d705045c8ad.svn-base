@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+
+<article>
+    <xi:include href="Article_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <xi:include href="Welcome.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <xi:include href="Overview.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <xi:include href="What_is_New.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+    <xi:include href="Requirements.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</article>

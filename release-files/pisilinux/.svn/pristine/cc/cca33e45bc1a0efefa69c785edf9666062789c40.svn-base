@@ -1,0 +1,42 @@
+README for f11-tx branch
+========================
+
+(This README may have information useful for the 'master' or other
+branches.  Merge if necessary.)
+
+
+Converting PO
+-------------
+
+Once the translation deadline is reached, the PO files must be
+converted into the multiple-PO format required by Publican.  The
+gettext library already has utilities to do this -- in particular,
+msgmerge and msgattrib.  The 'msgmerge' command will be used to
+extract the matching translations from the single, large PO file that
+apply to each separate, smaller PO file for Publican.  The 'msgattrib'
+utility will be used to strip out the many non-applicable
+translations, which otherwise would sit at the end of each separate PO
+file as "obsolete" messages.  (In other words, without 'msgattrib',
+the size of each separate PO file would be about the same as the
+single PO file, which is highly undesirable.)
+
+#!/bin/bash
+#
+# Turn all single PO into separate PO for Publican
+# * Relies on po/LINGUAS to be correct!
+# * Make sure you're in the top of the module with the 'po/' folder.
+
+for LANG in `cat po/LINGUAS`; do
+    for POTFILE in pot/*.pot; do
+    	msgmerge po/${LANG}.po ${POTFILE} | msgattrib --no-obsolete \
+		 > ${LANG}/$(basename ${POTFILE} .pot).po
+    done
+done
+#------------------------------ THE END
+
+Now rename all the language directories to Publican friendly names
+(e.g. "fr" -> "fr-FR").
+
+Then upate the OTHER_LANGS definition in the Makefile to include all
+languages, and remove the '#' comment symbol so that it is read by
+Publican.

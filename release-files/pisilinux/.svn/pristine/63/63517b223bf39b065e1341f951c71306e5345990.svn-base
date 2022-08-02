@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Release_Notes.ent">
+%BOOK_ENTITIES;
+]>
+
+<section id="sect-Release_Notes-Welcome_to_Pardus">
+    <title>Welcome to Pardus &PRODVER; &PRODNAME;</title>
+    <para>
+        Welcome to Pardus &PRODVER; &PRODNAME;, the latest maintenance release of Pardus, a powerful, KDE-focused Linux distribution.
+    </para>
+
+    <section id="sect-Release_Notes-What_is_Pardus">
+        <title>What is Pardus?</title>
+        <para>
+            Pardus is an open-source, freely distributable, GPL (General Public License) licensed user-friendly
+            GNU/Linux distribution with many usability, hardware compatibility, stability and security enhancements.
+        </para>
+        <para>
+            The Pardus project is sponsored by the <emphasis>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</emphasis>,
+            an affiliate of the <emphasis>Scientific and Technological Research Council of Turkey (TUBITAK)</emphasis>.
+        </para>
+        <para>
+            The aim of the Pardus distribution is to offer people a stable, reliable, easy-to-use and
+            feature-rich computer experience by providing modern and popular open-source software. The
+            developers are also putting an additional effort to make Pardus run on a wide range of
+            hardware.
+        </para>
+        <para>
+            The project is named after the latin (and scientific) name for the Anatolian leopard, <emphasis>Panthera pardus tulliana</emphasis>.
+        </para>
+    </section>
+
+    <section id="sect-Release_Notes-How_Can_I_Try_Pardus">
+        <title>How Can I Try Pardus?</title>
+        <para>
+            You can try Pardus either by installing it on your computer or running the Live version
+            without touching your hard disk. You can boot Pardus from an optical drive as well as from
+            USB mass storage devices like external hard drives and USB flash drives.
+        </para>
+        <para>
+            Both the installation and live version images exceeds the size of a regular CD
+            so if you are willing to use an optical drive for booting Pardus, you currently have to
+            use DVD media to burn the images.
+        </para>
+        <para>
+            Note that the boot order in your system's BIOS software should be set with the optical drive
+            or USB mass storage device as the first device in order to boot from the installation or
+            the live medium. On newer systems, the boot order can also be changed by pressing a key
+            (generally F8 on desktop systems) while booting.
+        </para>
+    </section>
+
+    <section id="sect-Release_Notes-More_Information">
+        <title>More Information</title>
+        <para>
+            Visit the official web site <ulink url="http://www.pardus.org.tr/eng">http://www.pardus.org.tr/eng</ulink>
+            for more information.
+        </para>
+    </section>
+
+    <section id="sect-Release_Notes-Feedback">
+        <title>Feedback</title>
+        <para>
+            Visit <ulink url="http://bugs.pardus.org.tr">http://bugs.pardus.org.tr</ulink>
+            to report a bug, send a bug fix or suggest improvements about Pardus.We would
+            like to thank all of our users and community members for their valuable contributions
+            which help improving Pardus, Linux and free software worldwide.
+        </para>
+    </section>
+</section>

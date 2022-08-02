@@ -1,0 +1,4 @@
+[Autorun]
+ICON=cdrom.ico
+OPEN=index.html
+ShellExecute=index.html

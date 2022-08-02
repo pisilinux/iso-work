@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Sürüm Notları</title><link rel="stylesheet" type="text/css" href="Common_Content/css/default.css" /><link rel="stylesheet" media="print" href="Common_Content/css/print.css" type="text/css" /><meta name="generator" content="publican 2.5" /><meta name="package" content="Pardus-Release_Notes-2011.2-tr-TR-1-0" /></head><body><div xml:lang="tr-TR" class="article" id="id766044" lang="tr-TR"><div class="titlepage"><div><div><h1 id="id766044" class="title">Sürüm Notları</h1></div></div><hr /></div><div xml:lang="tr-TR" class="section" id="sect-Release_Notes-Welcome_to_Pardus" lang="tr-TR"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Welcome_to_Pardus">1. Pardus 2011.2 Cervus elaphus Sürümüne Hoş Geldiniz</h2></div></div></div><div class="para">
+		KDE öncelikli, güçlü bir Linux dağıtımı olan Pardus'un en güncel ürünü olan Pardus 2011.2 Cervus elaphus sürümüne hoş geldiniz.
+	</div><div class="section" id="sect-Release_Notes-What_is_Pardus"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-What_is_Pardus">1.1. Pardus Nedir?</h3></div></div></div><div class="para">
+			Pardus açık kaynak kodlu, özgürce dağıtılan, GPL (Genel Kamu Lisansı) ile lisanslanmış; kullanışlılık, donanım uyumluluğu, kararlılık ve güvenlik konularında geniş olanaklar sunan bir GNU/Linux dağıtımıdır.
+		</div><div class="para">
+			Pardus projesi, <span class="emphasis"><em>Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK)</em></span>'na bağlı <span class="emphasis"><em>Bilişim ve Bilgi Güvenliği İleri Teknolojiler Araştırmalar Merkezi (BİLGEM)</em></span> bünyesinde geliştirilmektedir.
+		</div><div class="para">
+			Pardus, kullanıcılarına tanınmış özgür yazılım ürünleri kullanarak kararlı, güvenilir, kolay kullanılır ve bol özellik içeren bir bilgisayar deneyimi sunmayı hedefler. Bunun yanında, geliştirici ekip bu olanakların geniş bir donanım yelpazesinde çalışması için çalışmalar yürütmektedir.
+		</div><div class="para">
+			Projenin ismi Anadolu parsının latince (bilimsel) isminden, <span class="emphasis"><em>Panthera pardus tulliana</em></span>'dan gelmektedir.
+		</div></div><div class="section" id="sect-Release_Notes-How_Can_I_Try_Pardus"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-How_Can_I_Try_Pardus">1.2. Pardus'u Nasıl Deneyebilirim?</h3></div></div></div><div class="para">
+			Pardus'u bilgisayarınıza kurarak ya da Çalışan sürümüyle sabit diskinize hiç dokunmadan deneyebilirsiniz. Pardus hem optik diskler üzerinde hem de USB bellek ve disklerde çalışabilir.
+		</div><div class="para">
+			Hem kurulan hem de çalışan sürümler standart CD'lere sığamayacak kadar büyük olduğu için optik sürücü ile kullanmak istediğiniz takdirde DVD kullanmanız gerekli.
+		</div><div class="para">
+			Sisteminizin BIOS yazılımında belirlenen açılış sırasını Pardus kullanacağınız optik sürücü ya da USB bağlantısı önce olacak şekilde ayarlamanız gereklidir. Yeni bilgisayarların çoğu açılış sırasında bir tuşla (bir çok masaüstü bilgisayarda F8 bu işi görür) bu sırayı değiştirebilmenizi sağlar.
+		</div></div><div class="section" id="sect-Release_Notes-More_Information"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-More_Information">1.3. Daha Fazla Bilgi</h3></div></div></div><div class="para">
+			Daha çok bilgi için lütfen <a href="http://www.pardus.org.tr">http://www.pardus.org.tr</a> adresinden resmi web sitemizi ziyaret edin.
+		</div></div><div class="section" id="sect-Release_Notes-Feedback"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Feedback">1.4. Geri bildirim</h3></div></div></div><div class="para">
+			Karşılaştığınız hataları bildirmek, yeni bir özellik ya da entegre edilmesini istediğiniz bir uygulamayı önermek için lütfen <a href="http://hata.pardus.org.tr">http://hata.pardus.org.tr</a> adresini ziyaret edin. Pardus, özgür yazılım ve Linux topluluklarının tüm üyelerine ve kullanıcılarına değerli katkıları için teşekkür ederiz.
+		</div></div></div><div xml:lang="tr-TR" class="section" id="sect-Release_Notes-Overview" lang="tr-TR"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Overview">2. Genel Bakış</h2></div></div></div><div class="para">
+		Pardus 2011.2 bir önceki sürüm olan 2011.1 üzerine çeşitli kritik güncellemeler ve güvenlik güncellemeleri, çeviri düzeltmeleri ve diğer bazı hata düzeltmelerini içermektedir.
+	</div></div><div xml:lang="tr-TR" class="section" id="sect-Release_Notes-What_is_New" lang="tr-TR"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-What_is_New">3. Yenilikler</h2></div></div></div><div class="para">
+		Pardus 2011.2 sürümünün temel bileşenleri ile ilgili değişiklikleri burada bulabilirsiniz. Yapılan diğer değişiklikler için <a href="stats.html">buraya</a> bakabilirsiniz.
+	</div><div class="section" id="sect-Release_Notes-Updates_in_Core_Components"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Updates_in_Core_Components">3.1. Temel Bileşenlerde Güncellemeler</h3></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+					<span class="application"><strong>NetworkManager</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								NetworkManager 0.8.5.91 sürümüne güncellendi.
+							</div></li><li class="listitem"><div class="para">
+								VPN bağlantısı ekleme ile ilgili sorunlar düzeltildi.
+							</div></li><li class="listitem"><div class="para">
+								Dağıtım güncellemelerinde WLAN güvenlik parolalarını artık daha dikkatli ele alınacak.
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>ModemManager</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								ModemManager 0.5 sürümüne güncellendi.
+							</div></li><li class="listitem"><div class="para">
+								Samsung modemler için çeşitli iyileştirmeler
+							</div></li><li class="listitem"><div class="para">
+								Qualcomm Gobi modemler için erişim teknolojisi raporlama desteği
+							</div></li><li class="listitem"><div class="para">
+								Nokia N900 aygıtlarla iletişim düzeltildi
+							</div></li><li class="listitem"><div class="para">
+								Çoklu CDMA Rm protokolü desteği
+							</div></li><li class="listitem"><div class="para">
+								Option access technology reporting işlemleri düzeltildi
+							</div></li><li class="listitem"><div class="para">
+								CDMA EVDO kayıt durumlarının işlenişi düzeltildi
+							</div></li><li class="listitem"><div class="para">
+								Ericsson F5521gw modemlerin yeniden bağlanma problemleri düzeltildi
+							</div></li><li class="listitem"><div class="para">
+								Bazı Android handset modemlerle ilgili iyileştirmeler
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>cups</strong></span> - cups 1.4.8 sürümüne güncellendi.
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>LibreOffice</strong></span> <div class="itemizedlist"><ul><li class="listitem"><div class="para">
+								LibreOffice 3.4.3 sürümüne güncellendi.
+							</div></li><li class="listitem"><div class="para">
+								Dipnot içeren dokümanların kapanışı sırasında meydana gelen çökme düzeltildi.
+							</div></li><li class="listitem"><div class="para">
+								VBA'dan çoklu aralık kopyalamaya izin verildi (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Veri-&gt;Form yolundaki gizli sütun ile ilgili çökme düzeltildi (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Sütun satır sınırlarındaki çökme düzeltildi (Calc)
+							</div></li><li class="listitem"><div class="para">
+								Presenter Screen eklentisine çeviri desteği eklendi
+							</div></li><li class="listitem"><div class="para">
+								xlk uzantılı dokümanlar olması gerektiği gibi Excel ikilisi olarak sınıflandırıldı
+							</div></li><li class="listitem"><div class="para">
+								Biçemler ve Biçimlendirme ekranındaki eksik simge düzeltildi (Impress)
+							</div></li><li class="listitem"><div class="para">
+								xml biçiminde kaydetme işleminde draw dokümanlarına doğru mimetype atanması sağlandı (Draw)
+							</div></li><li class="listitem"><div class="para">
+								Daha fazla bilgi için LibreOffice web sayfasına bakabilirsiniz.
+							</div></li></ul></div>
+
+				</div></li><li class="listitem"><div class="para">
+					<span class="application"><strong>MPlayer/libass</strong></span>: Altyazılı videoların oynatılması sırasında yaşanan ve freetype 2.4.6 güvenlik güncellemesiyle tetiklenen çökme düzeltildi.
+				</div></li></ul></div></div></div><div xml:lang="tr-TR" class="section" id="sect-Release_Notes-Requirements" lang="tr-TR"><div class="titlepage"><div><div><h2 class="title" id="sect-Release_Notes-Requirements">4. Sistem Gereksinimleri</h2></div></div></div><div class="section" id="sect-Release_Notes-CPU_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-CPU_Requirements">4.1. İşlemci (CPU)</h3></div></div></div><div class="para">
+			Eğer sisteminiz aşağıda listelenen işlemcilerden birine sahipse, Pardus 2011.2 64-bit sürümünü kurmak isteyebilirsiniz.
+		</div><div class="section" id="sect-Release_Notes-x86_64_Intel_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-x86_64_Intel_Requirements">4.1.1. 64-bit mimarisini destekleyen Intel işlemciler</h4></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+						Pentium 4, Celeron D, Xeon ve Pentium Dual-Core işlemcilerinin yeni sürümleri
+					</div></li><li class="listitem"><div class="para">
+						Atom D5xx, N4xx ve N5xx
+					</div></li><li class="listitem"><div class="para">
+						Pentium D, Pentium Extreme Edition, Core 2, Core i7, Core i5 ve Core i3 ailelerinin hepsi
+					</div></li><li class="listitem"><div class="para">
+						Bu belge yazıldıktan sonra üretilen yeni işlemcilerin büyük bir kısmı.
+					</div></li></ul></div></div><div class="section" id="sect-Release_Notes-x86_64_AMD_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-x86_64_AMD_Requirements">4.1.2. 64-bit mimarisini destekleyen AMD işlemciler</h4></div></div></div><div class="itemizedlist"><ul><li class="listitem"><div class="para">
+						AMD Athlon 64, 64 X2, 64 FX
+					</div></li><li class="listitem"><div class="para">
+						AMD Athlon II
+					</div></li><li class="listitem"><div class="para">
+						AMD Opteron
+					</div></li><li class="listitem"><div class="para">
+						AMD Turion 64
+					</div></li><li class="listitem"><div class="para">
+						AMD Turion 64 X2
+					</div></li><li class="listitem"><div class="para">
+						AMD Sempron
+					</div></li><li class="listitem"><div class="para">
+						AMD Phenom
+					</div></li><li class="listitem"><div class="para">
+						AMD Phenom II
+					</div></li><li class="listitem"><div class="para">
+						Bu belge yazıldıktan sonra üretilen yeni işlemcilerin büyük bir kısmı.
+					</div></li></ul></div></div></div><div class="section" id="sect-Release_Notes-Memory_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Memory_Requirements">4.2. Sistem Belleği (RAM)</h3></div></div></div><div class="para">
+			Pardus 2011.2 sistem belleği (RAM) gereksinimi günlük kullanıma bağlı olarak değişebileceği için asgari ya da yeterli miktarı belirlemek zor. Yine de rahat bir masaüstü deneyimi için 1GB değerinin altına inilmemesini öneriyoruz.
+		</div></div><div class="section" id="sect-Release_Notes-Harddisk_Requirements"><div class="titlepage"><div><div><h3 class="title" id="sect-Release_Notes-Harddisk_Requirements">4.3. Sabit disk</h3></div></div></div><div class="section" id="sect-Release_Notes-Harddisk_Minimum_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Minimum_Requirements">4.3.1. Minimum gereksinimler</h4></div></div></div><div class="para">
+				Pardus, 2011.2 kurulmak için en az 4GB boş disk alanına ihtiyaç duyar. Kurulum sırasında paket seçimi sunulmadığı için bu değer her kurulum için aynıdır.
+			</div></div><div class="section" id="sect-Release_Notes-Harddisk_Recommended_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Recommended_Requirements">4.3.2. Önerilen gereksinimler</h4></div></div></div><div class="para">
+				Pardus 2011.2 sürümünde günlük kullanım ihtiyaçlarının rahatça karşılanması için en az 10GB boş disk alanı bulunmasını öneririz.
+			</div></div><div class="section" id="sect-Release_Notes-Harddisk_Swap_Requirements"><div class="titlepage"><div><div><h4 class="title" id="sect-Release_Notes-Harddisk_Swap_Requirements">4.3.3. Takas alanı hakkında</h4></div></div></div><div class="para">
+				Takas alanı, fiziksel belleğin yetersiz kaldığı durumlarda kullanılır. Eğer fiziksel belleğinizin gündelik kullanımınız için yeterli olduğundan eminseniz kurulum sırasında takas alanı oluşturmamayı tercih edebilirsiniz.
+			</div><div class="para">
+				<span class="emphasis"><em>Lütfen</em></span> Pardus'un kış uykusuna (disk kullanarak askıya alma) yatmasını istiyorsanız takas alanı kullanmanız <span class="emphasis"><em>gerektiğini</em></span> unutmayın. Takas alanı olmadığında bu özellik devre dışı kalacaktır.
+			</div></div></div></div></div></body></html>
+

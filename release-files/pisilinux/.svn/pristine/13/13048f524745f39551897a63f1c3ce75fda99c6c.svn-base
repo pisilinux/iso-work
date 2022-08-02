@@ -1,0 +1,92 @@
+#
+#
+# AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Attila Siposs <sipiatti@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: 0\n"
+"POT-Creation-Date: 2011-07-11T21:41:06\n"
+"PO-Revision-Date: 2011-01-20 12:07+0100\n"
+"Last-Translator: Attila Siposs <sipiatti@gmail.com>\n"
+"Language-Team: Hungarian <pardus-translators@pardus.org.tr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Tag: title
+#, fuzzy, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;"
+msgstr "Üdvözöljük a Pardus &PRODVER;-ben"
+
+#. Tag: para
+#, fuzzy, no-c-format
+msgid "Welcome to Pardus &PRODVER; &PRODNAME;, the latest maintenance release of Pardus, a powerful, KDE-focused Linux distribution."
+msgstr "Üdvözöljük a Pardus &PRODVER;-ben, a Pardus legfrissebb kiadásában, ami egy hatékony KDE-re fókuszáló linux disztribúció."
+
+#. Tag: title
+#, no-c-format
+msgid "What is Pardus?"
+msgstr "Mi a Pardus?"
+
+#. Tag: para
+#, no-c-format
+msgid "Pardus is an open-source, freely distributable, GPL (General Public License) licensed user-friendly GNU/Linux distribution with many usability, hardware compatibility, stability and security enhancements."
+msgstr "A Pardus egy nyílt forrású, ingyenesen terjeszthető, GPL licenszelésű barátságod GNU/Linux disztribúció számos hardver kompatibilitási, stabilitási, biztonsági és felhasználhatósági fejlesztéssel."
+
+#. Tag: para
+#, no-c-format
+msgid "The Pardus project is sponsored by the <emphasis>Center of Research for Advanced Technologies of Informatics and Information Security (BILGEM)</emphasis>, an affiliate of the <emphasis>Scientific and Technological Research Council of Turkey (TUBITAK)</emphasis>."
+msgstr "A Pardus project támogatója a törökországi <emphasis>Informatikai Technológia Fejlesztési és Információs Biztonságtechnikai Kutatóközpont (BILGEM)</emphasis>, a <emphasis>Törökországi Tudományos és Technológiai Kutatótanács (TÜBİTAK)</emphasis> tagja."
+
+#. Tag: para
+#, no-c-format
+msgid "The aim of the Pardus distribution is to offer people a stable, reliable, easy-to-use and feature-rich computer experience by providing modern and popular open-source software. The developers are also putting an additional effort to make Pardus run on a wide range of hardware."
+msgstr "A Pardus célja, hogy az emberek számára egy stabil, megbízható, könnyen használható és funkciógazdag számítógép felhasználási élményt nyújtson nyílt forrású szoftverek segítségével. A fejlesztők jelentős erőfeszítést tesznek azért, hogy a Pardus a lehető legtöbb hardveren tudjon működni."
+
+#. Tag: para
+#, no-c-format
+msgid "The project is named after the latin (and scientific) name for the Anatolian leopard, <emphasis>Panthera pardus tulliana</emphasis>."
+msgstr "A prodzsekt nevét az Anatóliai leopárd latin nevéről kapta, <emphasis>Panthera pardus tulliana</emphasis>."
+
+#. Tag: title
+#, no-c-format
+msgid "How Can I Try Pardus?"
+msgstr "Hogyan próbálhatom ki a Pardus-t?"
+
+#. Tag: para
+#, no-c-format
+msgid "You can try Pardus either by installing it on your computer or running the Live version without touching your hard disk. You can boot Pardus from an optical drive as well as from USB mass storage devices like external hard drives and USB flash drives."
+msgstr "Kipróbálhatja a Pardust a számítógépére telepítve, de telepítés nélkül is lehetősége van rá a Live verzió használatával. Bootolhat optikai meghajtóról, vagy USB tárolóról mint a külső merevlemez vagy pendrive."
+
+#. Tag: para
+#, no-c-format
+msgid "Both the installation and live version images exceeds the size of a regular CD so if you are willing to use an optical drive for booting Pardus, you currently have to use DVD media to burn the images."
+msgstr "A telepíthető és live verziók mindegyike meghaladja egy hagyományos CD méretét, így optikai meghajtó választása esetén DVD lemezt kell használnia."
+
+#. Tag: para
+#, no-c-format
+msgid "Note that the boot order in your system's BIOS software should be set with the optical drive or USB mass storage device as the first device in order to boot from the installation or the live medium. On newer systems, the boot order can also be changed by pressing a key (generally F8 on desktop systems) while booting."
+msgstr "Figyeljen arra hogy a rendszere BIOS-ában a boot sorrend megfelelő legyen, az optikai meghajtó vagy az USB tároló legyen az első helyen. Újabb rendszereken a bootolási sorrend induláskor módosítható egy gomb lenyomásával (általában F8 az asztali rendszereken)."
+
+#. Tag: title
+#, no-c-format
+msgid "More Information"
+msgstr "További információ"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit the official web site <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> for more information."
+msgstr "További információkért látogassa meg a <ulink url=\"http://www.pardus.org.tr/eng\">http://www.pardus.org.tr/eng</ulink> webhelyet."
+
+#. Tag: title
+#, no-c-format
+msgid "Feedback"
+msgstr "Visszajelzés"
+
+#. Tag: para
+#, no-c-format
+msgid "Visit <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink> to report a bug, send a bug fix or suggest improvements about Pardus.We would like to thank all of our users and community members for their valuable contributions which help improving Pardus, Linux and free software worldwide."
+msgstr "Hibákat, vagy fejlesztési javaslatokat a <ulink url=\"http://bugs.pardus.org.tr\">http://bugs.pardus.org.tr</ulink> tud tenni. Köszönjük minden felhasználónknak és közösségi tagunknak értékes részvételét, amivel világszerte segítenek jobbá tenni a Pardust, a Linuxot és a szabad szoftvereket."

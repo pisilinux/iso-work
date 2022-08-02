@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=YALI Rescue
+Name[tr]=YALI - Kurtarıcı
+GenericName=Bootloader rescue
+GenericName[tr]=Önyükleyici Kurtarma Aracı
+Comment=
+Comment[tr]=
+Exec=pkexec yali-bin --rescue
+Icon=/usr/share/about-distro/pisilinux.svg
+Terminal=false
+Categories=Qt;Utility;
+StartupNotify=true
