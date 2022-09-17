@@ -523,6 +523,8 @@ def setup_live_lxdm(project):
                     lines.append("session=/usr/bin/startxfce4\n")
                 elif os.path.exists("%s/usr/bin/startlxqt" % image_dir):
                     lines.append("session=/usr/bin/startlxqt\n")
+                elif os.path.exists("%s/usr/bin/startlxde" % image_dir):
+                    lines.append("session=/usr/bin/startlxde\n")
             else:
                 lines.append(line)
         open(lxdmconf_path, "w").write("".join(lines))
