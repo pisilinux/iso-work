@@ -67,7 +67,7 @@ submenu "Türkçe" --class lang_tr {
   insmod gzio
   insmod part_msdos
   insmod ext2
-    #terminal_input at_keyboard
+  #terminal_input at_keyboard
 
     set menu_color_normal=white/black
     set menu_color_highlight=white/red
@@ -81,11 +81,13 @@ submenu "Türkçe" --class lang_tr {
         linux /pisi/boot/kernel %(initcpio)s mudur="language:tr,live" quiet splash ---
         initrd /pisi/boot/initrd
     }
-    menuentry "PisiLinux %(version)s AMD UEFI - GPT Kurucusu" --class pisilinux{
-        load_video
-        linux /pisi/boot/kernel %(initcpio)s mudur="language:tr,live" quiet splash ---
-        initrd /pisi/boot/amd-ucode.img /pisi/boot/initrd
-    }
+    #18-08-2022 tarihinde kapatıldı
+    #menuentry "PisiLinux %(version)s AMD UEFI - GPT Kurucusu" --class pisilinux{
+    #    load_video
+    #    linux /pisi/boot/kernel %(initcpio)s mudur="language:tr,live" quiet splash ---
+    #    initrd /pisi/boot/amd-ucode.img /pisi/boot/initrd
+    #}
+
     menuentry "PisiLinux %(version)s UEFI - Güvenli Mod"  --class pisilinux {
         load_video
         linux /pisi/boot/kernel %(initcpio)s mudur="language:tr,live,safe" quiet splash ---
@@ -122,7 +124,7 @@ submenu "English" --class lang_en_us {
         initrd /pisi/boot/initrd
     }
     %(rescue_eng)s
-    menuentry "PisiLinux %(version)s AMD UEFI - GPT Installing" {
+    #menuentry "PisiLinux %(version)s AMD UEFI - GPT Installing" {
         load_video
         linux /pisi/boot/kernel %(initcpio)s kms quiet amdgpu.vm_fragment_size=9 acpi=no iommu=pt pci=noaer rcu_nocbs=0-7 ivrs_ioapic[4]=00:14.0 ivrs_ioapic[5]=00:00.2 idle=nomwait psmouse.proto=imps quiet ---
         initrd /pisi/boot/initrd

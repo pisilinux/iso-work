@@ -8,7 +8,8 @@ Theme=maia
 
 [KDE]
 ChangeCursor=true
-LookAndFeelPackage=org.kde.pisidefault.desktop
+#LookAndFeelPackage=org.kde.pisidefault.desktop
+LookAndFeelPackage=Nar23
 contrast=4
 widgetStyle=Breeze
 SingleClick=true

@@ -1,12 +1,12 @@
 <PardusmanProject type="live" compression="xz">
-    <Title>Pisi-Linux-2.3-KDE5-Nar-x86_64</Title>
-    <WorkDir>/home/erkanisik/isoKDE-nar</WorkDir>
+    <Title>Pisi-Linux-2.3-KDE5-Nar-NoUcode-x86_64</Title>
+    <WorkDir>/home/erkanisik/isoKDE-nar-noucode</WorkDir>
     <ReleaseFiles>/home/erkanisik/iso-work/release-files/pisilinux/media-content-template</ReleaseFiles>
     <LiveRepo>https://stable2.pisilinux.org/pisi-index.xml.xz</LiveRepo>
     <IsoOutputDir use-project-dir="True"></IsoOutputDir>
     <PackageCollections>
         <PackageCollection default="True">
-            <Id>b1wd7xGqa</Id>
+            <Id>OfzlBHYcHedGnT</Id>
             <Icon>kde-desktop-collection-icon.png</Icon>
             <Translations>
                 <Translation language="ru_RU">
@@ -75,7 +75,6 @@
                 <SelectedPackage>acpi</SelectedPackage>
                 <SelectedPackage>acpid</SelectedPackage>
                 <SelectedPackage>alsa-firmware</SelectedPackage>
-                <SelectedPackage>amd-ucode</SelectedPackage>
                 <SelectedPackage>ark</SelectedPackage>
                 <SelectedPackage>artwork-pisilinux-release</SelectedPackage>
                 <SelectedPackage>aufs-util</SelectedPackage>
@@ -108,7 +107,6 @@
                 <SelectedPackage>gnupg</SelectedPackage>
                 <SelectedPackage>grub2-editor</SelectedPackage>
                 <SelectedPackage>gwenview</SelectedPackage>
-                <SelectedPackage>intel-ucode</SelectedPackage>
                 <SelectedPackage>jre-openjdk</SelectedPackage>
                 <SelectedPackage>kactivitymanagerd</SelectedPackage>
                 <SelectedPackage>kaptan</SelectedPackage>
@@ -347,6 +345,7 @@
                 <Package>dhcpcd</Package>
                 <Package>diffutils</Package>
                 <Package>DirectFB</Package>
+                <Package>DirectX-headers</Package>
                 <Package>discount</Package>
                 <Package>discover</Package>
                 <Package>disktype</Package>
@@ -1191,7 +1190,6 @@
         <SelectedPackage>acpi</SelectedPackage>
         <SelectedPackage>acpid</SelectedPackage>
         <SelectedPackage>alsa-firmware</SelectedPackage>
-        <SelectedPackage>amd-ucode</SelectedPackage>
         <SelectedPackage>ark</SelectedPackage>
         <SelectedPackage>artwork-pisilinux-release</SelectedPackage>
         <SelectedPackage>aufs-util</SelectedPackage>
@@ -1224,7 +1222,6 @@
         <SelectedPackage>gnupg</SelectedPackage>
         <SelectedPackage>grub2-editor</SelectedPackage>
         <SelectedPackage>gwenview</SelectedPackage>
-        <SelectedPackage>intel-ucode</SelectedPackage>
         <SelectedPackage>jre-openjdk</SelectedPackage>
         <SelectedPackage>kactivitymanagerd</SelectedPackage>
         <SelectedPackage>kaptan</SelectedPackage>
@@ -1463,6 +1460,7 @@
         <Package>dhcpcd</Package>
         <Package>diffutils</Package>
         <Package>DirectFB</Package>
+        <Package>DirectX-headers</Package>
         <Package>discount</Package>
         <Package>discover</Package>
         <Package>disktype</Package>
@@ -2305,6 +2303,7 @@
         <SelectedPackage>acpi</SelectedPackage>
         <SelectedPackage>acpid</SelectedPackage>
         <SelectedPackage>alsa-firmware</SelectedPackage>
+        <SelectedPackage>amd-ucode</SelectedPackage>
         <SelectedPackage>ark</SelectedPackage>
         <SelectedPackage>artwork-pisilinux-release</SelectedPackage>
         <SelectedPackage>aufs-util</SelectedPackage>
@@ -2337,6 +2336,7 @@
         <SelectedPackage>gnupg</SelectedPackage>
         <SelectedPackage>grub2-editor</SelectedPackage>
         <SelectedPackage>gwenview</SelectedPackage>
+        <SelectedPackage>intel-ucode</SelectedPackage>
         <SelectedPackage>jre-openjdk</SelectedPackage>
         <SelectedPackage>kactivitymanagerd</SelectedPackage>
         <SelectedPackage>kaptan</SelectedPackage>
@@ -2494,6 +2494,7 @@
         <SelectedPackage>xvba-video</SelectedPackage>
         <SelectedPackage>yali</SelectedPackage>
         <Package>DirectFB</Package>
+        <Package>DirectX-headers</Package>
         <Package>GraphicsMagick</Package>
         <Package>ModemManager</Package>
         <Package>NetworkManager</Package>
@@ -2507,6 +2508,7 @@
         <Package>aha</Package>
         <Package>alsa-firmware</Package>
         <Package>alsa-lib</Package>
+        <Package>amd-ucode</Package>
         <Package>aom</Package>
         <Package>appstream</Package>
         <Package>appstream-glib</Package>
@@ -2746,6 +2748,7 @@
         <Package>imath</Package>
         <Package>imlib2</Package>
         <Package>intel-tbb</Package>
+        <Package>intel-ucode</Package>
         <Package>iproute2</Package>
         <Package>iptables</Package>
         <Package>iso-codes</Package>

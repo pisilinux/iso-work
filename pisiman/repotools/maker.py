@@ -257,7 +257,8 @@ def setup_grub(project):
     # Copy the kernel and initramfs
     path = os.path.join(image_dir, "boot")
     for name in os.listdir(path):
-        if name.startswith("kernel") or name.startswith("initramfs") or name.startswith("initrd") or name.endswith(".bin") or name.find("ucode"):
+        #if name.startswith("kernel") or name.startswith("initramfs") or name.startswith("initrd") or name.endswith(".bin") or name.find("ucode"):
+        if name.startswith("kernel") or name.startswith("initramfs") or name.startswith("initrd") or name.endswith(".bin"):
             if name.startswith("kernel"):
                 kernel = name
             elif name.startswith("initramfs"):
@@ -389,7 +390,8 @@ def setup_isolinux(project):
     path = os.path.join(image_dir, "boot")
     for name in os.listdir(path):
         print(name)
-        if name.startswith("kernel") or name.startswith("initr") or name.endswith(".bin") or name.find("ucode"):
+        #if name.startswith("kernel") or name.startswith("initr") or name.endswith(".bin") or name.find("ucode"):
+        if name.startswith("kernel") or name.startswith("initr") or name.endswith(".bin"):
         # if name.startswith("kernel") or name == "initrd":
             if name.startswith("kernel"):
                 copy(os.path.join(path, name), "pisi/boot/kernel")
@@ -487,14 +489,16 @@ def setup_live_kdm(project):
 # FIXME: bu yapıandırma liveconfig isinli sqfs dosyasına aktarılacak!
 def setup_live_sddm(project):
     image_dir = project.image_dir()
-    #22052022 tarihinde değiştirilmiştir.
+    #22-05-2022 tarihinde değiştirilmiştir.
     #sddmconf_path = os.path.join(image_dir, "etc/sddm.conf")
     sddmconf_path = os.path.join(image_dir, "usr/lib/sddm/sddm.conf.d/sddm.conf")
     if os.path.exists(sddmconf_path):
         lines = []
         for line in open(sddmconf_path, "r").readlines():
             if line.startswith("User="):
-                lines.append("User=pisi\n")
+                #25-09-2022 tarihinde değişti
+                #lines.append("User=pisi\n")
+                lines.append("User=root\n")
             elif line.startswith("Session="):
                 # lines.append("Session=/usr/share/xsessions/plasma-mediacenter\n") #this code may be have an error
                 lines.append("Session=plasma.desktop\n")
@@ -523,6 +527,8 @@ def setup_live_lxdm(project):
                     lines.append("session=/usr/bin/startxfce4\n")
                 elif os.path.exists("%s/usr/bin/startlxqt" % image_dir):
                     lines.append("session=/usr/bin/startlxqt\n")
+                elif os.path.exists("%s/usr/bin/startlxde" % image_dir):
+                    lines.append("session=/usr/bin/startlxde\n")
             else:
                 lines.append(line)
         open(lxdmconf_path, "w").write("".join(lines))
@@ -725,6 +731,7 @@ def squash_live_config_image(project):
         # cp2skel("./data/yali/yali.desktop", ".config/autostart")
         shutil.copy("./data/yali/yali.desktop",
                     "{}/usr/share/applications/".format(config_image_dir))
+     
         # shutil.copy("./data/yali/yali.desktop",
         #             "{}/home/pisi/.config/autostart/".format(config_image_dir))
         shutil.copy("./data/yali/org.pisilinux.yali.policy",
@@ -756,7 +763,7 @@ def squash_live_config_image(project):
         if 'plasma-workspace' in project.all_install_image_packages:
             os.system("cp -rf ./data/kde_conf/skel/.config {}/home/pisi".format(config_image_dir))
             os.system("cp -rf ./data/kde_conf/.local {}/home/pisi".format(config_image_dir))
-
+         
             # bu kısım kullanıcı oluşturulmadan önce eklenmeli
             os.system("cp -rf ./data/kde_conf/skel/ {}/etc/".format(config_image_dir))
             os.system("cp -rf ./data/kde_conf/xdg/ {}/etc/".format(config_image_dir))
@@ -861,11 +868,14 @@ def squash_image(project):
             # varayılan olacağından kurulumda olmalı
             # os.system("cp -rf ./data/kde_conf/skel/.config {}/home/pisi".format(image_dir))
 
-            # yeni kullanıcıda sıkkullanılarlar için skel e eklenmeli
+            # yeni kullanıcıda sık kullanılarlar için skel e eklenmeli
             # os.system("cp -rf ./data/kde_conf/.local {}/home/pisi".format(image_dir))
             # os.system("cp -rf ./data/kde_conf/skel/ {}/etc/".format(image_dir))
             os.system("cp -rf ./data/kde_conf/xdg/ {}/etc/".format(image_dir))
             os.system("cp -rf ./data/kde_conf/usr {}/".format(image_dir))
+            #erkan
+            os.system("cp -rf ./data/kde_conf/wallpapers {}/usr/share".format(image_dir))
+            os.system("cp -rf ./data/etc {}/etc".format(image_dir))
             # os.system("cp -rf ./data/kde_config/.config {}/home/pisi".format(image_dir))
             # os.system("cp -rf ./data/kde_config/.local {}/home/pisi".format(image_dir))
             chrun("chown -R pisi:wheel /home/pisi/.config")
@@ -1526,7 +1536,7 @@ def make_iso(project, toUSB=False, dev="/dev/sdc1"):
         #     run('ln -s "%s" "%s"' % (
         #         project.install_repo_dir(), os.path.join(iso_dir, "repo")))
 
-        publisher = "Pisi GNU/Linux http://www.pisilinux.org"
+        publisher = "Pisi GNU/Linux https://pisilinux.org"
         application = "Pisi GNU/Linux Live Media"
         label = "PisiLive"
 

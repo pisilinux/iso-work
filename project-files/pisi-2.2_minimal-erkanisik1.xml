@@ -165,9 +165,7 @@
                 <Package>acl</Package>
                 <Package>alsa-firmware</Package>
                 <Package>alsa-lib</Package>
-                <!-- 
                 <Package>amd-ucode</Package>
-                 -->
                 <Package>aom</Package>
                 <Package>at-spi2-atk</Package>
                 <Package>at-spi2-core</Package>
@@ -867,9 +865,7 @@
                 <Package>acl</Package>
                 <Package>alsa-firmware</Package>
                 <Package>alsa-lib</Package>
-                <!-- 
                 <Package>amd-ucode</Package>
-                 -->
                 <Package>aom</Package>
                 <Package>at-spi2-atk</Package>
                 <Package>at-spi2-core</Package>
